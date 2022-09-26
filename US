@@ -4,4 +4,42 @@ ej “#US01 Como usuario quiero ingresar al carrito para poder comprar”
 Guía de cómo hacerlo:
 https://asana.com/es/resources/software-requirement-document-template
 
-#US01 
+Las historias de usuarios son requerimientos funcionales del sitio web/app 
+desde la perspectiva de los usuarios. Estas se redactan en una oración y 
+con lenguaje informal.
+
+Para enterArte se proponen dividir las historias según el tipo de usuario
+con una pregunta de referencia:
+
+1 - Como usuario/visitante que busca eventos(Mati, Georgi):
+
+¿Qué espera encontrar al ingresar al sitio web?
+
+#US01 Como visitante quisiera encontrar los tipos de eventos de entretenimiento para asistir
+  #TK01 Crear el botón eventos en un menú desde el que se desplegará las distintos tipos
+
+2 - Como usuario/visitante que busca eventos(German, Tay):
+
+¿Cómo comprar/reservar la entrada a un evento?
+
+3 - Como usuario que publica su evento (Orne, Daro):
+
+¿Cómo registrarse al sitio web?
+
+4 - Como usuario que publica su evento (Fran, cami):
+
+¿Cómo publicar?
+
+5 - Como usuarios administrador del sitio (Karen, David):
+
+¿Cómo aceptar a usuarios que publican eventos?
+
+¿Cómo controlar publicaciones?
+
+Forumlario de requerimientos IEEE830:
+
+Parte 1 Introducción (Daro, Georgi, Mati)
+
+Parte 2 Descripción general (Fran, Cami, Orne, karen)
+
+Parte 3 Requisitos específicos (Tay, David)
