@@ -8,8 +8,7 @@ Las historias de usuarios son requerimientos funcionales del sitio web/app
 desde la perspectiva de los usuarios. Estas se redactan en una oración y 
 con lenguaje informal.
 
-Para enterArte se proponen dividir las historias según el tipo de usuario
-con una pregunta de referencia:
+Para enterArte se proponen dividir las historias según el tipo de usuario (la pregunta es a modo de referencia):
 
 1 - Como usuario/visitante que busca eventos(Mati, Georgi):
 
