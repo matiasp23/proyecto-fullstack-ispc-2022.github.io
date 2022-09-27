@@ -38,7 +38,7 @@ a cabo (#TK):
 ¿Cómo controlar publicaciones?
 
 #US Como administrador quiero ordenar las publicaciones por secciones para facilitar la búsqueda del usuario.
-TK#05.1:
+TK#05.1: Utilizar métodos de JS para filtrar y ordenar las publicaciones a medida que se actualicen en el sitio. 
 
 #US Como administrador quiero verificar la identidad de quienes publican sus eventos para asegurar la integridad del sitio web.
 TK#05.2: Validar mendiante formularios de registro con Bootstrap y JavaScript.
