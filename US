@@ -18,6 +18,11 @@ a cabo (#TK):
 
 #US01 Como visitante quisiera encontrar los tipos de eventos de entretenimiento para asistir
   #TK01 Crear el botón eventos en un menú desde el que se desplegará las distintos tipos
+*#US02 Como visitante quiero saber qué eventos están cerca de mi casa
+#US03 Como visitante quiero poder ver qué eventos habrá un día en particular
+#US04 Como visitante quiero saber el valor de los eventos
+#US05 Como visitante quiero poder contactarme con la/el organizador@ del evento
+#US06 Como visitante quiero saber con qué fin se crea la página* BORRADOR
 
 2 - Como usuario/visitante que busca eventos(German, Tay):
 
