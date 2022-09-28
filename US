@@ -68,7 +68,7 @@ a cabo (#TK):
    el segundo boton que permita editarla y tambien sea enviada a revision.
 #US04 Como organizador seria importante poder saber en que estado se encuentra mi evento, luego de enviar la informacion del mismo
    #TK04 Emitir un anuncio de "EVENTO EN REVISION" mientras  el administrador no lo haya aceptado. Una vez revisado el evento, y en caso de ser aceptado, notificar "TU EVENTO HA SIDO PUBLICADO"
-   En caso contrario, notificar "TU EVENTO NO CUMPLE CON NUESTRAS NORMAS, REVISALO"
+   En caso contrario, notificar "TU EVENTO NO CUMPLE CON NUESTRAS NORMAS, REVISALO."
      
 
 5 - Como usuarios administrador del sitio (Karen, David):
