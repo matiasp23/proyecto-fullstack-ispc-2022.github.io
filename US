@@ -28,6 +28,26 @@ a cabo (#TK):
 
 ¿Cómo comprar/reservar la entrada a un evento?
 
+ ( En Elaboración )
+ 
+#US01: Como usuario quiero poder ver los eventos/actividades más próximas a mi domicilio.
+#TK01: Los eventos /actividades deben ordenarse geográficamente mediante un filtro de búsqueda que permita seleccionar la zona de interés, priorizando los más cercanos. 
+
+#US02: Como usuario quisiera poder distinguir/diferenciar fácilmente los eventos gratuitos de los pagos, como así también el tipo de eventos disponibles.
+#TK02: Entre las opciones de búsqueda/preferencias se debe colocar un filtro/buscador con la opción de visualizar los eventos/actividades tanto públicas como privadas. 
+
+#US03: Como usuario me gustaría poder saber fecha y hora, desde y hasta, la cual puedo acceder a comprar o reservar lugares en los distintos eventos en caso de ser necesario. 
+#TK03: Cada evento deberá contar con apertura y cierre de ventas/reservas (establecidas por el organizador) en las cuales estará habilitada la opción de acceder a lugares. También debe especificarse el límite de lugares (en el caso de haber uno) que se irán agotando a medida avancen las reservaciones. 
+
+#US04: Como usuario me gustaría poder contar con variedad a la hora de realizar los pagos sin que esto requiera demasiados pasos También el poder linkear mi usuario a una forma de para para acceder a ella directamente en futuras compras. 
+#TK04:
+
+#US05: Como usuario me gustaría acceder a una breve reseña del evento o actividad junto con imagenes y ubicación de la misma que se puedan pre visualizar sin tener que acceder al evento en particular. 
+#TK05: gfdstfdst xdth xsdth s serth s rt hs rth dsth
+
+. . .
+
+
 3 - Como usuario que publica su evento (Orne, Daro):
 
 ¿Cómo registrarse al sitio web?
