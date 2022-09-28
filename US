@@ -30,8 +30,8 @@ a cabo (#TK):
 
  ( En Elaboración )
  
-#US01: Como usuario quiero poder ver los eventos/actividades más próximas a mi domicilio.
-#TK01: Los eventos /actividades deben ordenarse geográficamente mediante un filtro de búsqueda que permita seleccionar la zona de interés, priorizando los más cercanos. 
+**#US01:** Como usuario quiero poder ver los eventos/actividades más próximas a mi domicilio.
+**#TK01:** Los eventos /actividades deben ordenarse geográficamente mediante un filtro de búsqueda que permita seleccionar la zona de interés, priorizando los más cercanos. 
 
 #US02: Como usuario quisiera poder distinguir/diferenciar fácilmente los eventos gratuitos de los pagos, como así también el tipo de eventos disponibles.
 #TK02: Entre las opciones de búsqueda/preferencias se debe colocar un filtro/buscador con la opción de visualizar los eventos/actividades tanto públicas como privadas. 
