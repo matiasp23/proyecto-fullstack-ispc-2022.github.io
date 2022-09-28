@@ -49,6 +49,20 @@ a cabo (#TK):
 #US05: Como usuario me gustaría acceder a una breve reseña del evento o actividad junto con imagenes y ubicación de la misma que se puedan pre visualizar sin tener que acceder al evento en particular. 
 #TK05: gfdstfdst xdth xsdth s serth s rt hs rth dsth
 
+#US06: Como usuario me gustaría poder seleccionar la entrada de un evento y verla reflejadas en alguna parte de la pagina.
+#TK06: La aplicación deberá contar con un carrito de compras en la que se puedan guardar una o más entradas seleccionadas.
+
+#US07: Como usuario me gustaría poder comprar una o mas entradas de un mismo evento en una sola compra
+#TK07: En la descripción del producto deberá contar con la opción de sumar o restar entradas y se deberá ver reflejado en el carrito de compras.
+
+#US08: Cómo usuario me gustaría poder eliminar todas las entradas que se encuentren en el carrito de compras sin tener que eliminarlas de una en una.
+#TK08:El carrito de compras deberá contar con una opción de limpiar carrito.
+
+#US09: Cómo usuario me gustaría saber el monto total de ñas entradas seleccionadas.
+#TK09: El carrito de compras deberá contar con el monto total de la cantidad de entradas seleccionadas. 
+
+#US010:Como usuario me gustaría saber si mi compra fue realizada con éxito.
+#TK010: Una vez finalizada la compra el usuario deberá recibir una confirmación por email en caso de haber realizado la compra con éxito, en caso contrario le llegara un email avisando en el error de compra. 
 . . .
 
 
