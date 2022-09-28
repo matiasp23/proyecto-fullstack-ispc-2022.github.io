@@ -1,0 +1,121 @@
+Historias de Usuarios
+
+ej “#US01 Como usuario quiero ingresar al carrito para poder comprar”
+Guía de cómo hacerlo:
+https://asana.com/es/resources/software-requirement-document-template
+
+Las historias de usuarios son requerimientos funcionales del sitio web/app 
+desde la perspectiva de los usuarios. Estas se redactan en una oración y 
+con lenguaje informal.
+
+Para enterArte se proponen dividir las historias según el tipo de usuario (la pregunta es a modo de referencia).
+Indicar de 2 a 5 historias de usuarios (#US) por persona y las tareas que crean necesarias para llevarlas
+a cabo (#TK):
+
+1 - Como usuario/visitante que busca eventos(Mati, Georgi):
+
+¿Qué espera encontrar al ingresar al sitio web?
+
+#US01 Como visitante quiero encontrar eventos de entretenimiento para asistir clasificados en categorías
+  #TK01 Crear el botón eventos en un menú desde el que se desplegará las distintas categorías
+#US02 Como visitante quiero saber qué eventos están cerca de mi
+#US03 Como visitante quiero poder ver qué eventos habrá un día en particular
+#US04 Como visitante quiero saber el valor de los eventos
+#US05 Como visitante quiero poder contactarme vía redes sociales con la/el organizador@ del evento para buscar más información al respecto.
+#US06 Como visitante quiero conocer el objetivo del proyecto "EnterArte"
+#US07 Como visitante quiero poder dejar una reseña del evento al que asistí para que otras personas puedan ver la recomendación.
+#US08 Como visitante quiero ver eventos recomendados segun mis intereses de búsqueda
+#US09 Como visitante quiero poder compartir en mis redes sociales el evento.
+#US10 Como visitante quiero visualizar un mapa con la ubicación del evento sin salir del sitio.
+
+2 - Como usuario/visitante que busca eventos(German, Tay):
+
+¿Cómo comprar/reservar la entrada a un evento?
+
+ ( En Elaboración )
+ 
+**#US01:** Como usuario quiero poder ver los eventos/actividades más próximas a mi domicilio.
+**#TK01:** Los eventos /actividades deben ordenarse geográficamente mediante un filtro de búsqueda que permita seleccionar la zona de interés, priorizando los más cercanos. 
+
+#US02: Como usuario quisiera poder distinguir/diferenciar fácilmente los eventos gratuitos de los pagos, como así también el tipo de eventos disponibles.
+#TK02: Entre las opciones de búsqueda/preferencias se debe colocar un filtro/buscador con la opción de visualizar los eventos/actividades tanto públicas como privadas. 
+
+#US03: Como usuario me gustaría poder saber fecha y hora, desde y hasta, la cual puedo acceder a comprar o reservar lugares en los distintos eventos en caso de ser necesario. 
+#TK03: Cada evento deberá contar con apertura y cierre de ventas/reservas (establecidas por el organizador) en las cuales estará habilitada la opción de acceder a lugares. También debe especificarse el límite de lugares (en el caso de haber uno) que se irán agotando a medida avancen las reservaciones. 
+
+#US04: Como usuario me gustaría poder contar con variedad a la hora de realizar los pagos sin que esto requiera demasiados pasos También el poder linkear mi usuario a una forma de para para acceder a ella directamente en futuras compras. 
+#TK04:
+
+#US05: Como usuario me gustaría acceder a una breve reseña del evento o actividad junto con imagenes y ubicación de la misma que se puedan pre visualizar sin tener que acceder al evento en particular. 
+#TK05: gfdstfdst xdth xsdth s serth s rt hs rth dsth
+
+#US06: Como usuario me gustaría poder seleccionar la entrada de un evento y verla reflejadas en alguna parte de la pagina.
+#TK06: La aplicación deberá contar con un carrito de compras en la que se puedan guardar una o más entradas seleccionadas.
+
+#US07: Como usuario me gustaría poder comprar una o mas entradas de un mismo evento en una sola compra
+#TK07: En la descripción del producto deberá contar con la opción de sumar o restar entradas y se deberá ver reflejado en el carrito de compras.
+
+#US08: Cómo usuario me gustaría poder eliminar todas las entradas que se encuentren en el carrito de compras sin tener que eliminarlas de una en una.
+#TK08:El carrito de compras deberá contar con una opción de limpiar carrito.
+
+#US09: Cómo usuario me gustaría saber el monto total de ñas entradas seleccionadas.
+#TK09: El carrito de compras deberá contar con el monto total de la cantidad de entradas seleccionadas. 
+
+#US010:Como usuario me gustaría saber si mi compra fue realizada con éxito.
+#TK010: Una vez finalizada la compra el usuario deberá recibir una confirmación por email en caso de haber realizado la compra con éxito, en caso contrario le llegara un email avisando en el error de compra. 
+. . .
+
+
+3 - Como usuario que publica su evento (Orne, Daro):
+
+#US01 Como usuario publicante, quiero acceso visual facil e intuitivo al formulario para loguearme o crear mi cuenta. 
+  #TK01 Crear un botón "Login" con buena visibilidad, en el lugar mas intuitivo del index.
+#US02 Como usuario publicante, quiero poder publicar nuevos eventos con facilidad.
+  #TK02 Desarrollar una página de carga de eventos intuitiva y visualmente amigable.
+#US03 Como usuario publicante, quiero tener la posibilidad de que mi publicación se promocione más, para mejorar mi alcance. 
+  #TK03 Desarrollar un sistema de pautas pagas, al que se accede mediante la cuenta personal del publicante.
+#US04 Como usuario publicante, quiero tener acceso a las interacciones que tiene mi publicación para llevar un control.
+  #TK04 Desarrollar un sistema de control de interacciones.
+#US05 Como usuario publicante, quiero que mi evento se pueda compartir en las redes sociales.
+  #TK05 Agregar boton de compartir con link a las diferentes redes sociales bajo cada evento.
+#US06 Como usuario publicante, quiero mi publicación muestre un mapa con la ubicación del evento.
+  #TK05 Agregar mapa con plugin de google maps.
+#US07 Como usuario publicante, quiero que el sitio divida los eventos por franja etarea, zona, horario y tipo de evento para permitir filtrar y ordenar.
+  #TK07 Pedir datos obligatorios (franja etarea, zona, horario y tipo de evento) en el formulario de carga de evento y permitir filtrar en donde se los muestre.
+#US08 Como usuario publicante, quiero que se me notifique si algun interesado confirma asistencia al evento.
+  #TK08 Permitir a los visitantes del sitio confirmar asistencia y notificar a los usuarios publicantes mediante mail. 
+
+4 - Como usuario que publica su evento (Fran, cami):
+
+#US01  Como organizador que publica su evento quiero que exista  una opcion  "PUBLICA TU EVENTO".
+   #TK01  Crear  un boton  "PUBLICA TU EVENTO" que derive en un login que le solicite al organizador generar una cuenta.
+#US02  Como organizador quisiera encontrar una seccion para describir el evento a publicar.
+   #TK02  Crear  una seccion que permita introducir datos del evento tales como:
+   Descripcion del evento, Categoria de evento, Flayer, Ubicacion, Lugar, Fecha, y Precio
+#US03 Como organizador luego de completar la informacion del evento, me gustaria encontrar facilmente un boton para "PUBLICAR MI EVENTO" y otro para "EDITAR EVENTO" en caso de que lo necesite.
+   #TK03 crear dos botones: uno para publicar el evento que guarde la informacion completada y sea enviada a revision para los administradores y
+   el segundo boton que permita editarla y tambien sea enviada a revision.
+#US04 Como organizador seria importante poder saber en que estado se encuentra mi evento, luego de enviar la informacion del mismo
+   #TK04 Emitir un anuncio de "EVENTO EN REVISION" mientras  el administrador no lo haya aceptado. Una vez revisado el evento, y en caso de ser aceptado, notificar "TU EVENTO HA SIDO PUBLICADO"
+   En caso contrario, notificar "TU EVENTO NO CUMPLE CON NUESTRAS NORMAS, REVISALO"
+     
+
+5 - Como usuarios administrador del sitio (Karen, David):
+
+¿Cómo aceptar a usuarios que publican eventos?
+
+¿Cómo controlar publicaciones?
+
+#US Como administrador quiero ordenar las publicaciones por secciones para facilitar la búsqueda del usuario.
+TK#05.1: Utilizar métodos de JS para filtrar y ordenar las publicaciones a medida que se actualicen en el sitio. 
+
+#US Como administrador quiero verificar la identidad de quienes publican sus eventos para asegurar la integridad del sitio web.
+TK#05.2: Validar mendiante formularios de registro con Bootstrap y JavaScript.
+
+Forumlario de requerimientos IEEE830:
+
+Parte 1 Introducción (Daro, Georgi, Mati, Orne)
+
+Parte 2 Descripción general (Fran, Cami, karen)
+
+Parte 3 Requisitos específicos (Tay, David, German)
