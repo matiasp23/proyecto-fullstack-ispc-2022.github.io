@@ -35,11 +35,11 @@ a cabo (#TK):
 4 - Como usuario que publica su evento (Fran, cami):
 
 #US01  Como organizador que publica su evento quiero que exista  una opcion  "PUBLICA TU EVENTO".
-   #TK01  Crear  un boton  "PUBLICA TU EVENTO" que derive en un login que solicite generar una cuenta.
+   #TK01  Crear  un boton  "PUBLICA TU EVENTO" que derive en un login que le solicite al organizador generar una cuenta.
 #US02  Como organizador quisiera encontrar una seccion para describir el evento a publicar.
    #TK02  Crear  una seccion que permita introducir datos del evento tales como:
    Descripcion del evento, Categoria de evento, Flayer, Ubicacion, Lugar, Fecha, y Precio
-#US03 Como organizador me gustaria encontrar un boton para "PUBLICAR MI EVENTO" y otro para "EDITAR EVENTO".
+#US03 Como organizador luego de completar la informacion del evento, me gustaria encontrar facilmente un boton para "PUBLICAR MI EVENTO" y otro para "EDITAR EVENTO" en caso de que lo necesite.
    #TK03 crear dos botones: uno para publicar el evento que guarde la informacion completada y sea enviada a revision para los administradores y
    el segundo boton que permita editarla y tambien sea enviada a revision.
 #US04 Como organizador seria importante poder saber en que estado se encuentra mi evento, luego de enviar la informacion del mismo
