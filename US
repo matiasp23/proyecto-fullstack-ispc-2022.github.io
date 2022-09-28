@@ -68,7 +68,22 @@ a cabo (#TK):
 
 3 - Como usuario que publica su evento (Orne, Daro):
 
-¿Cómo registrarse al sitio web?
+#US01 Como usuario publicante, quiero acceso visual facil e intuitivo al formulario para loguearme o crear mi cuenta. 
+  #TK01 Crear un botón "Login" con buena visibilidad, en el lugar mas intuitivo del index.
+#US02 Como usuario publicante, quiero poder publicar nuevos eventos con facilidad.
+  #TK02 Desarrollar una página de carga de eventos intuitiva y visualmente amigable.
+#US03 Como usuario publicante, quiero tener la posibilidad de que mi publicación se promocione más, para mejorar mi alcance. 
+  #TK03 Desarrollar un sistema de pautas pagas, al que se accede mediante la cuenta personal del publicante.
+#US04 Como usuario publicante, quiero tener acceso a las interacciones que tiene mi publicación para llevar un control.
+  #TK04 Desarrollar un sistema de control de interacciones.
+#US05 Como usuario publicante, quiero que mi evento se pueda compartir en las redes sociales.
+  #TK05 Agregar boton de compartir con link a las diferentes redes sociales bajo cada evento.
+#US06 Como usuario publicante, quiero mi publicación muestre un mapa con la ubicación del evento.
+  #TK05 Agregar mapa con plugin de google maps.
+#US07 Como usuario publicante, quiero que el sitio divida los eventos por franja etarea, zona, horario y tipo de evento para permitir filtrar y ordenar.
+  #TK07 Pedir datos obligatorios (franja etarea, zona, horario y tipo de evento) en el formulario de carga de evento y permitir filtrar en donde se los muestre.
+#US08 Como usuario publicante, quiero que se me notifique si algun interesado confirma asistencia al evento.
+  #TK08 Permitir a los visitantes del sitio confirmar asistencia y notificar a los usuarios publicantes mediante mail. 
 
 4 - Como usuario que publica su evento (Fran, cami):
 
