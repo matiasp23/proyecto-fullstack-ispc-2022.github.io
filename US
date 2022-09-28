@@ -106,11 +106,23 @@ a cabo (#TK):
 
 ¿Cómo controlar publicaciones?
 
-#US Como administrador quiero ordenar las publicaciones por secciones para facilitar la búsqueda del usuario.
+#US05.1 Como administrador quiero ordenar las publicaciones por secciones para facilitar la búsqueda del usuario.
 TK#05.1: Utilizar métodos de JS para filtrar y ordenar las publicaciones a medida que se actualicen en el sitio. 
 
-#US Como administrador quiero verificar la identidad de quienes publican sus eventos para asegurar la integridad del sitio web.
+#US05.2 Como administrador quiero verificar la identidad de quienes publican sus eventos para asegurar la integridad del sitio web.
 TK#05.2: Validar mendiante formularios de registro con Bootstrap y JavaScript.
+
+#US05.3 Como administrador quiero proporcionar por defecto, a quien publica, un estilo de descripción del evento para seguir un mismo formato en toda la pagina web.
+TK#05.3 Crear una formulario en JS el cual requiere de un formato específico con CSS y será publicado en una sección del sitio. 
+
+#US05.4 Como administrador quiero brindar a los usuarios la seguridad y el manejo responsables de sus datos para respetar las leyes correspondientes.
+TK#05.4 Generar una alerta de checkbox sobre "terminos y condiciones" al final del formulario del registro del usuario, en el cual se asegurarán los datos ingresados.
+
+#US05.5 Como administrador quiero crear una página que sea fácil de usar para brindarle la mejor experiencia al usuario.
+TK#05.5 Crear Dashboard (escritorio) para administrar usuarios, eventos, publicaciones. (CRUD o ABM)
+
+#US05.6 Como administrador quiero limitar la cantidad de fotos y videos que pueda subir quien publica, para no sobrellenar el almacenamiento.
+TK#05.6 Normalizacion y armado de Tablas con limite de almacenamiento.
 
 Forumlario de requerimientos IEEE830:
 
