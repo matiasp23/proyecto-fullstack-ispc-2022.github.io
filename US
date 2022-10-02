@@ -17,16 +17,26 @@ a cabo (#TK):
 ¿Qué espera encontrar al ingresar al sitio web?
 
 #US01 Como visitante quiero encontrar eventos de entretenimiento para asistir clasificados en categorías
-  #TK01 Crear el botón eventos en un menú desde el que se desplegará las distintas categorías
+#TK01 Crear el botón eventos en un menú desde el que se desplegará las distintas categorías
+
 #US02 Como visitante quiero saber qué eventos están cerca de mi
 #US03 Como visitante quiero poder ver qué eventos habrá un día en particular
 #US04 Como visitante quiero saber el valor de los eventos
 #US05 Como visitante quiero poder contactarme vía redes sociales con la/el organizador@ del evento para buscar más información al respecto.
 #US06 Como visitante quiero conocer el objetivo del proyecto "EnterArte"
+
 #US07 Como visitante quiero poder dejar una reseña del evento al que asistí para que otras personas puedan ver la recomendación.
-#US08 Como visitante quiero ver eventos recomendados segun mis intereses de búsqueda
+#TK07 incluir caja de comentario para publicar en la pagina de cada evento.
+
+#US08 Como visitante quiero ver eventos recomendados segun mis intereses de búsqueda.
+#TK08a asignar tags id tematica/lugar/tipo por evento.
+#TK08b Mostar eventos relacionados en aside de la web (mismos tags).
+
 #US09 Como visitante quiero poder compartir en mis redes sociales el evento.
+#TK09 incorporar botón compartir en la distintas plataformas sociales.
+
 #US10 Como visitante quiero visualizar un mapa con la ubicación del evento sin salir del sitio.
+#TK10 Incorporar botón que desplegará google maps con ubicación del evento.
 
 2 - Como usuario/visitante que busca eventos(German, Tay):
 
