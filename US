@@ -1,5 +1,5 @@
 Historias de Usuarios
-PROBANDO PUSH
+
 ej “#US01 Como usuario quiero ingresar al carrito para poder comprar”
 Guía de cómo hacerlo:
 https://asana.com/es/resources/software-requirement-document-template
@@ -16,26 +16,31 @@ a cabo (#TK):
 
 ¿Qué espera encontrar al ingresar al sitio web?
 
-#US01 Como visitante quiero encontrar eventos de entretenimiento para asistir clasificados en categorías
-  #TK01 Crear el botón eventos en un menú desde el que se desplegará las distintas categorías
-#US02 Como visitante quiero saber qué eventos están cerca de mi
-#US03 Como visitante quiero poder ver qué eventos habrá un día en particular
-#US04 Como visitante quiero saber el valor de los eventos
-#US05 Como visitante quiero poder contactarme vía redes sociales con la/el organizador@ del evento para buscar más información al respecto.
-#US06 Como visitante quiero conocer el objetivo del proyecto "EnterArte"
-#US07 Como visitante quiero poder dejar una reseña del evento al que asistí para que otras personas puedan ver la recomendación.
-#US08 Como visitante quiero ver eventos recomendados segun mis intereses de búsqueda
-#US09 Como visitante quiero poder compartir en mis redes sociales el evento.
-#US10 Como visitante quiero visualizar un mapa con la ubicación del evento sin salir del sitio.
+#US.01: Como visitante quiero poder ver qué eventos habrá ordenados por día, semana o mes. 
+  #TK.01: Crear una sección de calendario.
+#US.02: Como visitante quiero poder contactarme vía redes sociales con quien organiza el evento para buscar más información al respecto.
+  #TK.02: Crear botón de contacto debajo de cada publicación.
+#US.03: Como visitante quiero conocer el objetivo del proyecto "EnterArte"
+  #TK.03: A. Crear sección “nuestro proyecto”. 
+          B. Escribir un breve resumen de “EnterArte”.
+#US.04: Como visitante quiero poder dejar una reseña del evento al que asistí para que otras personas puedan ver la recomendación.
+  #TK.04: A. Incluir caja de comentario para publicar en la página de cada evento.
+	        B. Agregar botón de reacción. 
+#US.05: Como visitante quiero ver eventos recomendados según mis intereses de búsqueda.
+  #TK.05: A. Asignar tags id temática/lugar/tipo por evento.
+          B. Mostar eventos relacionados en aside de la web (mismos tags).
+#US.06: Como visitante quiero poder compartir en mis redes sociales el evento.
+  #TK.06: Incorporar botón compartir en las distintas plataformas sociales.
+#US.07: Como visitante quiero visualizar un mapa con la ubicación del evento sin salir del sitio.
+  #TK.07: Incorporar botón que desplegará google maps con ubicación del evento.
 
 2 - Como usuario/visitante que busca eventos(German, Tay):
 
 ¿Cómo comprar/reservar la entrada a un evento?
 
- ( En Elaboración )
- 
-**#US01:** Como usuario quiero poder ver los eventos/actividades más próximas a mi domicilio.
-**#TK01:** Los eventos /actividades deben ordenarse geográficamente mediante un filtro de búsqueda que permita seleccionar la zona de interés, priorizando los más cercanos. 
+
+#US01: Como usuario quiero poder ver los eventos/actividades más próximas a mi domicilio.
+#TK01: Los eventos /actividades deben ordenarse geográficamente mediante un filtro de búsqueda que permita seleccionar la zona de interés, priorizando los más cercanos. 
 
 #US02: Como usuario quisiera poder distinguir/diferenciar fácilmente los eventos gratuitos de los pagos, como así también el tipo de eventos disponibles.
 #TK02: Entre las opciones de búsqueda/preferencias se debe colocar un filtro/buscador con la opción de visualizar los eventos/actividades tanto públicas como privadas. 
@@ -44,10 +49,10 @@ a cabo (#TK):
 #TK03: Cada evento deberá contar con apertura y cierre de ventas/reservas (establecidas por el organizador) en las cuales estará habilitada la opción de acceder a lugares. También debe especificarse el límite de lugares (en el caso de haber uno) que se irán agotando a medida avancen las reservaciones. 
 
 #US04: Como usuario me gustaría poder contar con variedad a la hora de realizar los pagos sin que esto requiera demasiados pasos También el poder linkear mi usuario a una forma de para para acceder a ella directamente en futuras compras. 
-#TK04:
+#TK04: El carrito de compra debe tener la posibilidad de seleccionar el medio de pago sin presentar mayores complicaciones almacenando también la forma de pago para así simplificar aún más próximos pagos. 
 
 #US05: Como usuario me gustaría acceder a una breve reseña del evento o actividad junto con imagenes y ubicación de la misma que se puedan pre visualizar sin tener que acceder al evento en particular. 
-#TK05: gfdstfdst xdth xsdth s serth s rt hs rth dsth
+#TK05: Cada evento debe contar con dos visualizaciones: una general de tamaño reducido y una de mayor tamaño que permita ampliar la imagen y descripción, al que se acceda posicionándose con el cursor sobre el evento en particular, sin la necesidad de ingresar al mismo. 
 
 #US06: Como usuario me gustaría poder seleccionar la entrada de un evento y verla reflejadas en alguna parte de la pagina.
 #TK06: La aplicación deberá contar con un carrito de compras en la que se puedan guardar una o más entradas seleccionadas.
@@ -63,7 +68,7 @@ a cabo (#TK):
 
 #US010:Como usuario me gustaría saber si mi compra fue realizada con éxito.
 #TK010: Una vez finalizada la compra el usuario deberá recibir una confirmación por email en caso de haber realizado la compra con éxito, en caso contrario le llegara un email avisando en el error de compra. 
-. . .
+
 
 
 3 - Como usuario que publica su evento (Orne, Daro):
@@ -97,7 +102,7 @@ a cabo (#TK):
    el segundo boton que permita editarla y tambien sea enviada a revision.
 #US04 Como organizador seria importante poder saber en que estado se encuentra mi evento, luego de enviar la informacion del mismo
    #TK04 Emitir un anuncio de "EVENTO EN REVISION" mientras  el administrador no lo haya aceptado. Una vez revisado el evento, y en caso de ser aceptado, notificar "TU EVENTO HA SIDO PUBLICADO"
-   En caso contrario, notificar "TU EVENTO NO CUMPLE CON NUESTRAS NORMAS, REVISALO"
+   En caso contrario, notificar "TU EVENTO NO CUMPLE CON NUESTRAS NORMAS, REVISALO."
      
 
 5 - Como usuarios administrador del sitio (Karen, David):
