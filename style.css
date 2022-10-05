@@ -1,0 +1,17 @@
+#carouselExampleCaptions {
+    display: flex;
+    width: 80vh;
+    height: 45vh;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#carouselExampleCaptions img{
+    max-width: 80vh;
+    max-height: 45vh;
+}
+
+.prox-eventos{
+    text-align: center;
+}
