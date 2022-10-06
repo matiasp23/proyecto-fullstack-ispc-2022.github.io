@@ -15,47 +15,85 @@
 .prox-eventos{
     text-align: center;
 }
+/*-----------------------------------------------------------------------------------------*/
+                                        /*GeR y DaviD*/
 
-.publicidades{
-    background-color: dimgray;
+aside{
+    float: right;
+    width: 26rem;
+    height: 20rem;    
+    background-color: transparent;
     text-align: center;
-    margin-top: 3rem;
-    margin-bottom: 20rem;
-    padding-bottom: 3rem;
-    border: 5rem;
+    /*position: relative;
+    left: 74%;*/
+    margin: 20px auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+                                       
+#Titulo_Anuncio{
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+   
+      
+}  
+
+
+.Publi_1{
+
+    width: 26rem;
+    height: 50%;      
+    background-color: green;
+    background-image: url(Img_Publicidad/Ghost.jpg);
+    background-size: 100%;
+    background-repeat:no-repeat;
+    color: azure;
+
+    margin-block: 10px;   
+    
 }
 
-.card{
+
+.Publi_2{
+    width: 26rem;
+    height:35rem; 
+    color: azure;
+    background-size: cover;    
+    background-image: url(Img_Publicidad/Violín.png);
+    background-repeat:no-repeat;
+    text-align-last: auto;
+          
+
+}
+
+#Txt_separador{
+
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: auto;
+   
+}
+#violin{
+    float:inline-end;
     
+}
+
+
+
+/*.card{
+    position: absolute;
+    left: 50%;
     margin-top: 3rem;
     margin-bottom: 3rem;
-}
+}*/
 
-.publicidad_1  { 
-    /*xdsfrtsxdtsxnxsdtgnsdxgnxgtfdnxgn*/
-    background-image:url(img_Publicidad/Jarrones-en-ceramica.png);
-    justify-content: right;
-    padding: 10rem;
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: x-large;
-     
 
-}
 
-.publicidad_2 {
-    padding: 10rem;
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: x-large;
-    background-image:url(img_Publicidad/Violín.png)
-   
-    
-}
 
-.letras {   
-    color: whitesmoke;
-    font-size: larger;
-    font-style: italic;
-    text-align: center;
-}
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------*/
