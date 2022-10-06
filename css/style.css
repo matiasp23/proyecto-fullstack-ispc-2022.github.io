@@ -7,11 +7,20 @@
     align-items: center;
 }
 
-#carouselExampleCaptions img{
+#carouselExampleCaptions img {
     max-width: 80vh;
     max-height: 45vh;
 }
 
-.prox-eventos{
+.prox-eventos {
+    text-align: center;
+}
+
+.calendario-cont {
+    width: 35vh;
+    height: 45vh;
+}
+
+.calendario {
     text-align: center;
 }
