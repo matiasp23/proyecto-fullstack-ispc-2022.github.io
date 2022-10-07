@@ -1,0 +1,121 @@
+#carouselExampleCaptions {
+    display: flex;
+    width: 80vh;
+    height: 45vh;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#carouselExampleCaptions img {
+    max-width: 80vh;
+    max-height: 45vh;
+}
+
+.prox-eventos {
+    text-align: center;
+}
+
+.calendario-cont {
+    width: 35vh;
+    height: 45vh;
+}
+
+.calendario {
+    text-align: center;
+}
+
+
+/*-----------------------------------------------------------------------------------------*/
+
+
+/*GeR y DaviD*/
+
+aside {
+    float: right;
+    width: 26rem;
+    height: 20rem;
+    background-color: transparent;
+    text-align: center;
+    margin: 20px auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#Titulo_Anuncio {
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.Publi_1 {
+    width: 26rem;
+    height: 80%;
+    background-color: green;
+    background-image: url(img/Poesía.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: black;
+    margin-block: 10px;
+    font-family: cursive;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    padding-left: 1rem;
+    padding-top: 0.3rem;
+    padding-right: 1rem;
+}
+
+#TallerPoesia {
+    padding-top: 1rem;
+}
+
+#wsp {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+.Publi_2 {
+    width: 26rem;
+    height: 35rem;
+    color: azure;
+    background-size: cover;
+    background-image: url(img/Violín.png);
+    background-repeat: no-repeat;
+    text-align-last: auto;
+    padding-top: 0.5rem;
+}
+
+#Lutheria {
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 24rem;
+}
+
+#Txt_separador {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#violin {
+    float: inline-end;
+}
+
+#DivBootstrap {
+    float: left;
+    max-width: auto;
+    max-height: auto;
+}
+
+.card {
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+.card-Curso {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+/*-----------------------------------------------------------------------------------------*/
