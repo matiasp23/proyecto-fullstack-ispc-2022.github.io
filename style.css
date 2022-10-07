@@ -1,3 +1,38 @@
+
+
+
+/*PALETA DE COLORES*/
+
+/* 1- PAPAYA: #E24E42
+   2- MUSTARD: #E9B000
+   3- BLUSH: #EB6E80
+   4- AQUA: #008F95 */
+
+
+
+body{
+    background-color: whitesmoke ;
+}
+
+
+.section1{
+background-color:#E24E42 ;
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+
+
+
+h3{
+    background-color: black;
+    color: #008F95;
+
+
+}
+
+
 #carouselExampleCaptions {
     display: flex;
     width: 80vh;
