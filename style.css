@@ -24,8 +24,7 @@ aside{
     height: 20rem;    
     background-color: transparent;
     text-align: center;
-    /*position: relative;
-    left: 74%;*/
+   
     margin: 20px auto;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
@@ -35,25 +34,41 @@ aside{
     text-align: center;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-   
-      
+         
 }  
 
 
 .Publi_1{
 
     width: 26rem;
-    height: 50%;      
+    height: 80%;      
     background-color: green;
-    background-image: url(Img_Publicidad/Ghost.jpg);
-    background-size: 100%;
+    background-image: url(Img_Publicidad/Poesía.jpg);
+    background-size:100%;
     background-repeat:no-repeat;
-    color: azure;
-
-    margin-block: 10px;   
+    color: black;
+    margin-block: 10px; 
+    font-family: cursive;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    padding-left: 1rem;
+    padding-top: 0.3rem;
+    padding-right: 1rem;
     
+   }
+
+
+#TallerPoesia{
+
+    padding-top: 1rem;
+
 }
 
+#wsp{
+    text-align: right;
+    padding-right: 1rem;
+}
 
 .Publi_2{
     width: 26rem;
@@ -63,15 +78,21 @@ aside{
     background-image: url(Img_Publicidad/Violín.png);
     background-repeat:no-repeat;
     text-align-last: auto;
+    padding-top: 0.5rem;
           
 
+}
+#Lutheria{
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 24rem;
 }
 
 #Txt_separador{
 
     text-align: center;
-    padding-top: 5rem;
-    padding-bottom: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
    
 }
 #violin{
@@ -79,21 +100,28 @@ aside{
     
 }
 
+#DivBootstrap{
+    
+    float: left;
+    max-width:auto;
+    max-height:auto;
 
+}
 
-/*.card{
-    position: absolute;
-    left: 50%;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-}*/
-
-
-
-
-
-
-
+.card{
+    
+    
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+        
+}
+.card-Curso{
+    
+   
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+}
 
 
 /*-----------------------------------------------------------------------------------------*/
