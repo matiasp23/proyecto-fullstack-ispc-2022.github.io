@@ -1,20 +1,9 @@
-* {
-    margin: 0px;
-    /* margin-right: 20px; */
-    /* padding: 0px; */
-    /* box-sizing: border-box; */
-    /* font-family: sans-serif; */
-    /* justify-content: space-between; */
-    /* position: relative;
-    bottom: 0;
-    left: 0;
-    width: 100% */
-}
 
-*/ #carouselExampleCaptions {
+
+ #carouselExampleCaptions {
     display: flex;
-    width: 80vh;
-    height: 45vh;
+    width: 90vh;
+    height: 55vh;
     margin: auto;
     justify-content: center;
     align-items: center;
@@ -22,13 +11,13 @@
 
 .section1 {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-bottom: 60rem;
 }
 
 #carouselExampleCaptions img {
-    max-width: 80vh;
-    max-height: 45vh;
+    max-width: 90vh;
+    max-height: 55vh;
 }
 
 .prox-eventos {
@@ -36,7 +25,8 @@
 }
 
 .calendario-cont {
-    width: 35vh;
+    margin-top:15px;
+    width: 37vh;
     height: 45vh;
 }
 
@@ -51,15 +41,11 @@
 /*GeR y DaviD*/
 
 aside {
-    float: right;
-    width: 26rem;
-    height: 20rem;
-    background-color: transparent;
     text-align: center;
-    margin: 20px auto;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+    width: 50vh;
+    margin:5px;
 
+}
 #Titulo_Anuncio {
     text-align: center;
     padding-top: 0.5rem;
@@ -67,21 +53,11 @@ aside {
 }
 
 .Publi_1 {
-    width: 26rem;
-    height: 80%;
-    background-color: green;
-    background-image: url(img/Poesía.jpg);
-    background-size: 100%;
+    background-image: url(../img/Poesía.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
-    color: black;
-    margin-block: 10px;
-    font-family: cursive;
-    text-align: center;
-    font-size: large;
-    font-weight: bolder;
-    padding-left: 1rem;
-    padding-top: 0.3rem;
-    padding-right: 1rem;
+    background-position: center;
+    
 }
 
 #TallerPoesia {
@@ -94,14 +70,10 @@ aside {
 }
 
 .Publi_2 {
-    width: 26rem;
-    height: 35rem;
     color: azure;
-    background-size: cover;
-    background-image: url(img/Violín.png);
+    background-image: url(../img/Violín.png);
     background-repeat: no-repeat;
-    text-align-last: auto;
-    padding-top: 0.5rem;
+    background-size: cover;
 }
 
 #Lutheria {
@@ -110,25 +82,15 @@ aside {
     padding-top: 24rem;
 }
 
-#Txt_separador {
-    text-align: center;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-
 #violin {
     float: inline-end;
 }
-
-#DivBootstrap {
-    float: left;
-    max-width: auto;
-    max-height: auto;
+.DivBoostrap{
+    
 }
-
 .card {
-    margin-top: 5rem;
-    margin-bottom: 1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .card-Curso {
@@ -143,6 +105,7 @@ footer {
     width: 100%;
     background-color: black;
     color: white;
+    
 }
 
 .container-footer-all {
