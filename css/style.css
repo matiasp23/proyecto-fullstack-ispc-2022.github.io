@@ -1,0 +1,226 @@
+* {
+    margin: 0px;
+    /* margin-right: 20px; */
+    /* padding: 0px; */
+    /* box-sizing: border-box; */
+    /* font-family: sans-serif; */
+    /* justify-content: space-between; */
+    /* position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100% */
+}
+
+*/ #carouselExampleCaptions {
+    display: flex;
+    width: 80vh;
+    height: 45vh;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#carouselExampleCaptions img {
+    max-width: 80vh;
+    max-height: 45vh;
+}
+
+.prox-eventos {
+    text-align: center;
+}
+
+.calendario-cont {
+    width: 35vh;
+    height: 45vh;
+}
+
+.calendario {
+    text-align: center;
+}
+
+
+/*-----------------------------------------------------------------------------------------*/
+
+
+/*GeR y DaviD*/
+
+aside {
+    float: right;
+    width: 26rem;
+    height: 20rem;
+    background-color: transparent;
+    text-align: center;
+    margin: 20px auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#Titulo_Anuncio {
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.Publi_1 {
+    width: 26rem;
+    height: 80%;
+    background-color: green;
+    background-image: url(img/Poesía.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: black;
+    margin-block: 10px;
+    font-family: cursive;
+    text-align: center;
+    font-size: large;
+    font-weight: bolder;
+    padding-left: 1rem;
+    padding-top: 0.3rem;
+    padding-right: 1rem;
+}
+
+#TallerPoesia {
+    padding-top: 1rem;
+}
+
+#wsp {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+.Publi_2 {
+    width: 26rem;
+    height: 35rem;
+    color: azure;
+    background-size: cover;
+    background-image: url(img/Violín.png);
+    background-repeat: no-repeat;
+    text-align-last: auto;
+    padding-top: 0.5rem;
+}
+
+#Lutheria {
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 24rem;
+}
+
+#Txt_separador {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#violin {
+    float: inline-end;
+}
+
+#DivBootstrap {
+    float: left;
+    max-width: auto;
+    max-height: auto;
+}
+
+.card {
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+.card-Curso {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+/*------------------------------------FOOTER-----------------------------------------------------*/
+
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.container-footer-all {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.container-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column1 {
+    max-width: 400px;
+}
+
+.column1 h1 {
+    font-size: 22px;
+}
+
+.column1 p {
+    font-size: 14px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+
+.column2 {
+    max-width: 400px;
+}
+
+.column2 h1 {
+    font-size: 22px;
+}
+
+.column2 .row {
+    margin-top: 20px;
+    display: flex;
+}
+
+.row img {
+    width: 36px;
+    height: 36px;
+}
+
+.row label {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7C7C7;
+}
+
+.column3 {
+    max-width: 400px;
+}
+
+.column3 h1 {
+    font-size: 22px;
+}
+
+.row2 {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7C7C7;
+}
+
+.row2 img {
+    width: 36px;
+    height: 36px;
+}
+
+.container-footer img {
+    width: 36px;
+    height: 36px;
+}
+
+.container-footer {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7C7C7;
+}
