@@ -1,0 +1,260 @@
+/*Colores
+#E24E42 Papaya
+#E9B000 Mustard
+#EB6E80 Blush
+#008F95 aqua
+*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+.section{
+    display: flex;
+    justify-content:space-around;
+    width:100%;
+    background-color:#E24E42;
+    margin-bottom: 12vh;
+
+}
+#carouselExampleCaptions {
+    padding-bottom: 15vh;
+    display: flex;
+    width: 100vh;
+    height: 75vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#carouselExampleCaptions img {
+    max-width: 100vh;
+    max-height: 75vh;
+}
+
+.prox-eventos {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 2px;  
+
+}
+
+.calendario-cont {
+    margin-top:15px;
+    width: 37vh;
+    height: 45vh;
+}
+
+.calendario {
+    text-align: center;
+}
+
+
+/*/-----------------------------------------------------------------------------------------/
+
+
+/GeR y DaviD/*/
+
+
+.divbootstrap div{
+    width:30vh;
+    height: 30vh;
+    font-size: 10px;
+}
+ .divbootstrap div a{
+     height: 3vh;
+     font-size: 10px;
+}
+ .divbootstrap div h5{
+     font-size: 10px;
+}
+ .divbootstrap div img{
+     height: 15vh;
+     width:30vh;
+}
+
+ /*#carouselExampleCaptions {
+    display: flex;
+    width: 90vh;
+    height: 55vh;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#carouselExampleCaptions p{
+    font-size: xx-large;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20rem;
+    background-color:orange;
+}
+
+#carouselExampleCaptions img {
+    max-width: 90vh;
+    max-height: 55vh;
+}
+
+.prox-eventos {
+    text-align: center;
+}
+
+.calendario-cont {
+    margin-top:15px;
+    width: 37vh;
+    height: 45vh;
+}
+
+.calendario {
+    text-align: center;
+}
+
+
+/*-----------------------------------------------------------------------------------------*/
+
+
+/*GeR y DaviD*/
+
+/*.publigeneral {
+    text-align: center;
+    width: 50vh;
+    margin:6px;
+
+}
+.publigeneral div{
+    height: 40vh;
+}
+
+#Titulo_Anuncio {
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.Publi_2 {
+    color: azure;
+    background-image: url(../img/Violín.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.ayuda div{
+    width:30vh ;
+    height: 10vh;
+    font-size: 10px;
+}
+
+.ayuda div a {
+    width: 3vh;
+    font-size: 10px;
+}
+
+.ayuda div h5{
+    font-size: 10px;
+}
+
+.ayuda div img{
+    height: 15vh;
+    width: 30vh;
+}
+*/
+
+   
+
+
+/*------------------------------------FOOTER-----------------------------------------------------*/
+
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    
+}
+
+.container-footer-all {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.container-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column1 {
+    max-width: 400px;
+}
+
+.column1 h1 {
+    font-size: 22px;
+}
+
+.column1 p {
+    font-size: 14px;
+    color: #C7C7C7;
+    margin-top: 20px;
+}
+
+.column2 {
+    max-width: 400px;
+}
+
+.column2 h1 {
+    font-size: 22px;
+}
+
+.column2 .row {
+    margin-top: 20px;
+    display: flex;
+}
+
+.row img {
+    width: 36px;
+    height: 36px;
+}
+
+.row label {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7C7C7;
+}
+
+.column3 {
+    max-width: 400px;
+}
+
+.column3 h1 {
+    font-size: 22px;
+}
+
+.row2 {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7C7C7;
+}
+
+.row2 img {
+    width: 36px;
+    height: 36px;
+}
+
+.container-footer img {
+    width: 36px;
+    height: 36px;
+}
+
+.container-footer {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #C7C7C7;
+}
