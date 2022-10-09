@@ -17,7 +17,7 @@
     justify-content:space-around;
     width:100%;
     background-color:#E24E42;
-    margin-bottom: 30vh;
+    margin-bottom: 12vh;
 
 }
 #carouselExampleCaptions {
@@ -57,27 +57,6 @@
 
 /GeR y DaviD/*/
 
-
-
-#Titulo_Anuncio {
-    text-align: center;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-}
-
-
-
-#Lutheria {
-    font-size: medium;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-top: 24rem;
-}
-
-#Txt_separador {
-    text-align: center;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
 
 .divbootstrap div{
     width:30vh;
