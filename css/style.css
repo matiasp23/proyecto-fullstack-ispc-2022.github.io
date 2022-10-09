@@ -1,34 +1,105 @@
-* {
-    margin: 0px;
-    /* margin-right: 20px; */
-    /* padding: 0px; */
-    /* box-sizing: border-box; */
-    /* font-family: sans-serif; */
-    /* justify-content: space-between; */
-    /* position: relative;
-    bottom: 0;
-    left: 0;
-    width: 100% */
+/*Colores
+#E24E42 Papaya
+#E9B000 Mustard
+#EB6E80 Blush
+#008F95 aqua
+*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+.section{
+    display: flex;
+    justify-content:space-around;
+    width:100%;
+    background-color:#E24E42;
+    margin-bottom: 12vh;
+
+}
+#carouselExampleCaptions {
+    padding-bottom: 15vh;
+    display: flex;
+    width: 100vh;
+    height: 75vh;
+    justify-content: center;
+    align-items: center;
 }
 
-*/ #carouselExampleCaptions {
-    display: flex;
-    width: 80vh;
+#carouselExampleCaptions img {
+    max-width: 100vh;
+    max-height: 75vh;
+}
+
+.prox-eventos {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 2px;  
+
+}
+
+.calendario-cont {
+    margin-top:15px;
+    width: 37vh;
     height: 45vh;
+}
+
+.calendario {
+    text-align: center;
+}
+
+
+/*/-----------------------------------------------------------------------------------------/
+
+
+/GeR y DaviD/*/
+
+
+.divbootstrap div{
+    width:30vh;
+    height: 30vh;
+    font-size: 10px;
+}
+ .divbootstrap div a{
+     height: 3vh;
+     font-size: 10px;
+}
+ .divbootstrap div h5{
+     font-size: 10px;
+}
+ .divbootstrap div img{
+     height: 15vh;
+     width:30vh;
+}
+
+ /*#carouselExampleCaptions {
+    display: flex;
+    width: 90vh;
+    height: 55vh;
     margin: auto;
     justify-content: center;
     align-items: center;
 }
 
+#carouselExampleCaptions p{
+    font-size: xx-large;
+    background-color: black;
+    color: whitesmoke;
+}
+
 .section1 {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    margin-bottom: 20rem;
+    background-color:orange;
 }
 
 #carouselExampleCaptions img {
-    max-width: 80vh;
-    max-height: 45vh;
+    max-width: 90vh;
+    max-height: 55vh;
 }
 
 .prox-eventos {
@@ -36,7 +107,8 @@
 }
 
 .calendario-cont {
-    width: 35vh;
+    margin-top:15px;
+    width: 37vh;
     height: 45vh;
 }
 
@@ -50,14 +122,14 @@
 
 /*GeR y DaviD*/
 
-aside {
-    float: right;
-    width: 26rem;
-    height: 20rem;
-    background-color: transparent;
+/*.publigeneral {
     text-align: center;
-    margin: 20px auto;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 50vh;
+    margin:6px;
+
+}
+.publigeneral div{
+    height: 40vh;
 }
 
 #Titulo_Anuncio {
@@ -66,75 +138,36 @@ aside {
     padding-bottom: 0.5rem;
 }
 
-.Publi_1 {
-    width: 26rem;
-    height: 80%;
-    background-color: green;
-    background-image: url(img/Poesía.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    color: black;
-    margin-block: 10px;
-    font-family: cursive;
-    text-align: center;
-    font-size: large;
-    font-weight: bolder;
-    padding-left: 1rem;
-    padding-top: 0.3rem;
-    padding-right: 1rem;
-}
-
-#TallerPoesia {
-    padding-top: 1rem;
-}
-
-#wsp {
-    text-align: right;
-    padding-right: 1rem;
-}
-
 .Publi_2 {
-    width: 26rem;
-    height: 35rem;
     color: azure;
-    background-size: cover;
-    background-image: url(img/Violín.png);
+    background-image: url(../img/Violín.png);
     background-repeat: no-repeat;
-    text-align-last: auto;
-    padding-top: 0.5rem;
+    background-size: cover;
 }
 
-#Lutheria {
-    font-size: medium;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-top: 24rem;
+
+.ayuda div{
+    width:30vh ;
+    height: 10vh;
+    font-size: 10px;
 }
 
-#Txt_separador {
-    text-align: center;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+.ayuda div a {
+    width: 3vh;
+    font-size: 10px;
 }
 
-#violin {
-    float: inline-end;
+.ayuda div h5{
+    font-size: 10px;
 }
 
-#DivBootstrap {
-    float: left;
-    max-width: auto;
-    max-height: auto;
+.ayuda div img{
+    height: 15vh;
+    width: 30vh;
 }
+*/
 
-.card {
-    margin-top: 5rem;
-    margin-bottom: 1rem;
-}
-
-.card-Curso {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
+   
 
 
 /*------------------------------------FOOTER-----------------------------------------------------*/
@@ -143,6 +176,7 @@ footer {
     width: 100%;
     background-color: black;
     color: white;
+    
 }
 
 .container-footer-all {
