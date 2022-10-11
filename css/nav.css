@@ -10,6 +10,7 @@ nav a {
     display: inline-block;
     margin-top: -5px;
     transition: all 300ms;
+    
 }
 
 nav a:hover {
@@ -19,7 +20,7 @@ nav a:hover {
 }
 
 nav {
-    background: orangered;
+    background:rgba(230, 153, 176, 0.5);;
     height: 80px;
     width: 100%;
     position: fixed;
