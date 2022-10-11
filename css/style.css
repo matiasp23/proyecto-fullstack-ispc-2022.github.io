@@ -24,6 +24,7 @@
 <<<<<<< HEAD
     font-family: 'Averta', sans-serif;
 }
+<<<<<<< HEAD
 =======
     font-family: 'averta', sans-serif;
 =======
@@ -62,22 +63,57 @@
     margin-top: 25px;
     width: 95vh;
     height: 55vh;
+=======
+
+
+.section{
+   
+    background-color:white;
+    display: flex;
+    justify-content:space-around;
+    width:100%;
+    margin-bottom: 30vh;
+}
+#carouselExampleCaptions {
+    margin-top: 25px;
+    width: 95vh;
+    height:55vh; 
+>>>>>>> 0a59189 (calendario cuadrado y buscador)
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-#carouselExampleCaptions img {
+#carouselExampleCaptions img{
     max-width: 100vh;
     max-height: 75vh;
+   
 }
 
+<<<<<<< HEAD
 #colorFondo {
     margin-top: 15px;
     border-radius: 15px;
     margin-bottom: 10px;
     background-color: #E9B000;
 }
+=======
+
+#colorFondo {
+    margin-top: 15px;
+    border-radius: 15px;
+    margin-bottom:10px;
+    background-color:#E9B000 ;
+}
+
+.banner{
+    margin-top: 3vh;
+}
+
+.calendariotitulo {
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; 
+>>>>>>> 0a59189 (calendario cuadrado y buscador)
 
 .banner {
     margin-top: 3vh;
@@ -97,16 +133,29 @@
 .calendario {
     padding-top: 10px;
     text-align: center;
+<<<<<<< HEAD
     background-color: #E9B000;
 }
 
 #tituloCarousel {
+=======
+    background-color:#E9B000 ;
+}
+
+#tituloCarousel{
+    
+>>>>>>> 0a59189 (calendario cuadrado y buscador)
     margin-top: 15px;
     text-align: center;
     margin-left: 22vh;
     margin-right: 22vh;
     padding-top: 0.5rem;
+<<<<<<< HEAD
     padding-bottom: 0.5rem;
+=======
+    padding-bottom: 0.5rem; 
+    
+>>>>>>> 0a59189 (calendario cuadrado y buscador)
 }
 
 
@@ -115,6 +164,7 @@
 
 /GeR y DaviD/*/
 
+<<<<<<< HEAD
 .divbootstrap div {
     width: 30vh;
     height: 30vh;
@@ -125,6 +175,33 @@
     margin-bottom: 15px;  
 
         
+=======
+
+
+#Titulo_Anuncio {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 0.5rem;
+}
+
+.divbootstrap{
+    border-radius: 15px;
+    padding-top: 30px;
+    background-color:#E9B000;
+    text-align: center; 
+}
+
+
+.card {
+   margin-top: 60px;
+}
+.divbootstrap div{
+    width:30vh;
+    height: 30vh;
+    font-size: 10px;
+    margin: auto;
+    margin-bottom: 15px;
+>>>>>>> 0a59189 (calendario cuadrado y buscador)
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -133,7 +210,13 @@
     height: 3vh;
     font-size: 10px;
 }
+.divbootstrap h4,
+.calendariotitulo{
+    font-size:20px;
+    
+}
 
+<<<<<<< HEAD
 .divbootstrap div h5 {
     font-size: 10px;
 }
@@ -176,6 +259,10 @@
  #carouselExampleCaptions {
 
 >>>>>>> c6d821d (Martes noche)
+=======
+/*#carouselExampleCaptions {
+    
+>>>>>>> 0a59189 (calendario cuadrado y buscador)
     display: flex;
     width: 90vh;
     height: 55vh;
@@ -382,8 +469,12 @@ footer {
     color: #C7C7C7;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
 =======
 >>>>>>> 723a493 (cambios fran y mati)
+=======
+
+>>>>>>> 0a59189 (calendario cuadrado y buscador)
