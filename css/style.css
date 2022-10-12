@@ -13,64 +13,86 @@
     font-family: 'Averta', sans-serif;
 }
 
+
 .section {
+    background-color: white;
     display: flex;
     justify-content: space-around;
     width: 100%;
-    background-color: #E24E42;
-    margin-bottom: 12vh;
+    margin-bottom: 30vh;
 }
 
 #carouselExampleCaptions {
-    padding-bottom: 15vh;
+    margin-top: 25px;
+    width: 95vh;
     display: flex;
-    width: 100vh;
-    height: 75vh;
     justify-content: center;
     align-items: center;
 }
-
-#carouselExampleCaptions img {
+#carouselExampleCaptions img{
     max-width: 100vh;
     max-height: 75vh;
-}
-.carousel-indicators {
-    margin-bottom: 100px;
+   
 }
 
-.prox-eventos {
+#colorFondo {
+    margin-top: 15px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    background-color: #E9B000;
+}
+
+.banner {
+    margin-top: 3vh;
+}
+
+.calendariotitulo {
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 2px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .calendario-cont {
-    margin-top: 15px;
     width: 37vh;
-    height: 45vh;
+    height: 30vh;
 }
 
 .calendario {
+    padding-top: 10px;
     text-align: center;
-    margin-top: 25px;
+    background-color: #E9B000;
 }
 
-
+#tituloCarousel{
+    
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 22vh;
+    margin-right: 22vh;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; 
+    
 /*-----------------------------------------------------------------------------------------*/
 
 
 /*GeR y DaviD*/
 
+.divbootstrap {
+    border-radius: 15px;
+    padding-top: 30px;
+    background-color: #E9B000;
+    text-align: center;
+}
+
+.card {
+    margin-top: 60px;
+}
+
 .divbootstrap div {
     width: 30vh;
     height: 30vh;
     font-size: 10px;
-    background-color: whitesmoke;
-    text-align: center;
-    margin: auto; 
-    margin-bottom: 15px;        
 }
-
 
  .divbootstrap div a{
      height: 3vh;
@@ -90,8 +112,13 @@
     padding-top: 10px;
     text-align: center;
 }
+.divbootstrap h4,
+.calendariotitulo{
+    font-size:20px;
+ }
 
- #carouselExampleCaptions {
+/*#carouselExampleCaptions {
+
     display: flex;
     width: 90vh;
     height: 55vh;
@@ -289,6 +316,3 @@ footer {
     margin-left: 20px;
     color: #C7C7C7;
 }
-
-
-
