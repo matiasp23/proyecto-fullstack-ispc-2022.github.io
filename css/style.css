@@ -5,23 +5,38 @@
 #008F95 aqua
 */
 
+<<<<<<< HEAD
+=======
+/*Colores
+#E24E42 Papaya
+#E9B000 Mustard
+#EB6E80 Blush
+#008F95 aqua
+*/
+
+>>>>>>> c6d821d (Martes noche)
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
 <<<<<<< HEAD
+<<<<<<< HEAD
     font-family: 'Averta', sans-serif;
 }
 =======
     font-family: 'averta', sans-serif;
+=======
+    font-family: 'Averta', sans-serif;
+>>>>>>> c6d821d (Martes noche)
 }
 
-body{
-    background-color:#E9B000 ;
-}
+
+
+
 
 .section{
+<<<<<<< HEAD
     display: flex;
     justify-content:space-around;
     width:100%;
@@ -30,6 +45,9 @@ body{
 >>>>>>> 8d22359 (Últimos cambios 11/10)
 
 .section {
+=======
+
+>>>>>>> c6d821d (Martes noche)
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -89,6 +107,7 @@ body{
         
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 .divbootstrap div a {
     height: 3vh;
@@ -107,16 +126,22 @@ body{
 
 /*#carouselExampleCaptions {
 =======
+=======
+
+>>>>>>> c6d821d (Martes noche)
  .divbootstrap div a{
      height: 3vh;
      font-size: 12px;
+
 }
- .divbootstrap div h5{
-     font-size: 10px;
+
+.divbootstrap div h5 {
+    font-size: 10px;
 }
- .divbootstrap div img{
-     height: 15vh;
-     width:30vh;
+
+.divbootstrap div img {
+    height: 15vh;
+    width: 30vh;
 }
 
 #Titulo_Anuncio{
@@ -124,8 +149,13 @@ body{
     text-align: center;
 }
 
+<<<<<<< HEAD
  /*#carouselExampleCaptions {
 >>>>>>> 8d22359 (Últimos cambios 11/10)
+=======
+ #carouselExampleCaptions {
+
+>>>>>>> c6d821d (Martes noche)
     display: flex;
     width: 90vh;
     height: 55vh;
@@ -173,7 +203,11 @@ body{
 /*GeR y DaviD*/
 
 
+<<<<<<< HEAD
 /*.publigeneral {
+=======
+.publigeneral {
+>>>>>>> c6d821d (Martes noche)
     text-align: center;
     width: 50vh;
     margin:6px;
@@ -216,8 +250,11 @@ body{
     height: 15vh;
     width: 30vh;
 }
-*/
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> c6d821d (Martes noche)
 
 /*------------------------------------FOOTER-----------------------------------------------------*/
 
