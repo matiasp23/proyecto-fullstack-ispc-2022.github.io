@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)https://getbootstrap.com/docs/4.3/examples/album/ -->
+<html lang="en-es">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>ENTERarte</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/album/">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+    <!--CARRITO-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="css/carrito.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!--CSS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/nav.css">
+
+    <!--JS del HEADER-->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo"><span style="font-weight: normal;">ENTER</span>arte</label>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="event.html">Eventos</a></li>
+                <li><a href="post.html">Publicar</a></li>
+                <li><a href="about.html">Quienes somos</a></li>
+                <li><a href="login.html">Mi Cuenta</a></li>
+                <ul class="navbar-right">
+                    <!--PC-->
+                    <li id="pc"><a href="cart.html" id="cart"><i class="fa fa-shopping-cart"></i> Carrito <span class="badge"></span></a></li>
+                    <!--MOVIL-->
+                    <li id="movil"><a href="cart.html"><i class="fa fa-shopping-cart"></i> Carrito <span class="badge"></span></a></li>
+                    <!--</ul>-->
+                </ul>
+                <!-- <li><a href="./login.html">Login</a></li> -->
+            </ul>
+        </nav>
+
+        <div class="conteiner">
+            <div class="shopping-cart">
+                <div class="shopping-cart-header">
+                    <i class="fa fa-shopping-cart cart-icon"></i><span class="badge">0</span>
+                    <div class="shopping-cart-total">
+                    </div>
+                </div>
+
+                <ul class="shopping-cart-items">
+                </ul>
+
+                <a href="cart.html" class="button">Checkout</a>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Login y Registro -->
+    <section class="contenedorTodo">
+        <div class="cajaTrasera">
+            <div class="cajaTraseraLogin">
+                <h3>¿Ya tienes una cuenta?</h3>
+                <p>Inicia sesión para entrar en tu cuenta</p>
+                <button id="iniciarSesion">Iniciar Sesión</button>
+            </div>
+            <div class="cajaTraseraRegister">
+                <h3>¿Aún no tienes una cuenta?</h3>
+                <p>Inicia sesión para entrar en tu cuenta</p>
+                <button id="register">Registrarse</button>
+            </div>
+        </div>
+        <div class="contenedorLoginRegister">
+            <form action="" class="formularioLogin">
+                <h2>Iniciar Sesión</h2>
+                <input type="text" placeholder="Correo Electronico">
+                <input type="password" placeholder="Contraseña">
+                <button>Entrar</button>
+            </form>
+            <form action="" class="formularioRegister">
+                <h2>Regístrarse</h2>
+                <input type="text" placeholder="Nombre Completo">
+                <input type="text" placeholder="Correo Electronico">
+                <input type="text" placeholder="Usuario">
+                <input type="password" placeholder="Contraseña">
+                <button>Registrarse</button>
+            </form>
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <!-- FOOTER -->
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/category-info.js"></script>
+    <script src="js/carrito.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/login.js"></script>
+</body>
+
+</html>

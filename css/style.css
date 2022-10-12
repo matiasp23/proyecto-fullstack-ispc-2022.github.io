@@ -5,13 +5,6 @@
 #008F95 aqua
 */
 
-/*Colores
-#E24E42 Papaya
-#E9B000 Mustard
-#EB6E80 Blush
-#008F95 aqua
-*/
-
 * {
     margin: 0;
     padding: 0;
@@ -20,12 +13,7 @@
     font-family: 'Averta', sans-serif;
 }
 
-
-
-
-
-.section{
-
+.section {
     display: flex;
     justify-content: space-around;
     width: 100%;
@@ -68,10 +56,10 @@
 }
 
 
-/*/-----------------------------------------------------------------------------------------/
+/*-----------------------------------------------------------------------------------------*/
 
 
-/GeR y DaviD/*/
+/*GeR y DaviD*/
 
 .divbootstrap div {
     width: 30vh;
@@ -80,15 +68,13 @@
     background-color: whitesmoke;
     text-align: center;
     margin: auto; 
-    margin-bottom: 15px;  
-
-        
+    margin-bottom: 15px;        
 }
+
 
  .divbootstrap div a{
      height: 3vh;
      font-size: 12px;
-
 }
 
 .divbootstrap div h5 {
@@ -106,7 +92,6 @@
 }
 
  #carouselExampleCaptions {
-
     display: flex;
     width: 90vh;
     height: 55vh;
@@ -153,8 +138,8 @@
 
 /*GeR y DaviD*/
 
-
 .publigeneral {
+
     text-align: center;
     width: 50vh;
     margin:6px;
@@ -197,7 +182,6 @@
     height: 15vh;
     width: 30vh;
 }
-
 
 
 /*------------------------------------FOOTER-----------------------------------------------------*/
