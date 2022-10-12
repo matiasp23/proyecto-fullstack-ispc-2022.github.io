@@ -34,6 +34,9 @@
     max-width: 100vh;
     max-height: 75vh;
 }
+.carousel-indicators {
+    margin-bottom: 100px;
+}
 
 .prox-eventos {
     text-align: center;
@@ -49,23 +52,29 @@
 
 .calendario {
     text-align: center;
+    margin-top: 25px;
 }
 
 
-/*/-----------------------------------------------------------------------------------------/
+/*-----------------------------------------------------------------------------------------*/
 
 
-/GeR y DaviD/*/
+/*GeR y DaviD*/
 
 .divbootstrap div {
     width: 30vh;
     height: 30vh;
     font-size: 10px;
+    background-color: whitesmoke;
+    text-align: center;
+    margin: auto; 
+    margin-bottom: 15px;        
 }
 
-.divbootstrap div a {
-    height: 3vh;
-    font-size: 10px;
+
+ .divbootstrap div a{
+     height: 3vh;
+     font-size: 12px;
 }
 
 .divbootstrap div h5 {
@@ -77,8 +86,12 @@
     width: 30vh;
 }
 
+#Titulo_Anuncio{
+    padding-top: 10px;
+    text-align: center;
+}
 
-/*#carouselExampleCaptions {
+ #carouselExampleCaptions {
     display: flex;
     width: 90vh;
     height: 55vh;
@@ -125,8 +138,8 @@
 
 /*GeR y DaviD*/
 
+.publigeneral {
 
-/*.publigeneral {
     text-align: center;
     width: 50vh;
     margin:6px;
@@ -169,7 +182,6 @@
     height: 15vh;
     width: 30vh;
 }
-*/
 
 
 /*------------------------------------FOOTER-----------------------------------------------------*/
