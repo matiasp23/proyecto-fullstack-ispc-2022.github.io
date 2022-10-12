@@ -24,7 +24,6 @@ section{
 .contenedor{
    display: flex;
    align-items:center;
-
 }
 .titleUser{
     margin: auto;
@@ -46,6 +45,7 @@ section{
     background:#fff;
     position: absolute;
     border-radius: 20px;
+    transition:all 300ms;
 }
 .user p{
     border-bottom: 1px solid gray;
