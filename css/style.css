@@ -14,18 +14,18 @@
 }
 
 .section {
+    background-color: white;
     display: flex;
     justify-content: space-around;
     width: 100%;
-    background-color: #E24E42;
-    margin-bottom: 12vh;
+    margin-bottom: 30vh;
 }
 
 #carouselExampleCaptions {
-    padding-bottom: 15vh;
+    margin-top: 25px;
+    width: 95vh;
+    height: 55vh;
     display: flex;
-    width: 100vh;
-    height: 75vh;
     justify-content: center;
     align-items: center;
 }
@@ -34,25 +34,42 @@
     max-width: 100vh;
     max-height: 75vh;
 }
-.carousel-indicators {
-    margin-bottom: 100px;
+
+#colorFondo {
+    margin-top: 15px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    background-color: #E9B000;
 }
 
-.prox-eventos {
+.banner {
+    margin-top: 3vh;
+}
+
+.calendariotitulo {
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 2px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .calendario-cont {
-    margin-top: 15px;
     width: 37vh;
-    height: 45vh;
+    height: 30vh;
 }
 
 .calendario {
+    padding-top: 10px;
     text-align: center;
-    margin-top: 25px;
+    background-color: #E9B000;
+}
+
+#tituloCarousel {
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 22vh;
+    margin-right: 22vh;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 
