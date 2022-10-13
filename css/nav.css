@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+
 nav a {
     display: inline-block;
     margin-top: -5px;
@@ -14,13 +15,13 @@ nav a {
 }
 
 nav a:hover {
-    color: white;
+    color:black;
     transform: scale(1.1, 1.1);
     text-decoration: none;
 }
 
 nav {
-    background:rgba(230, 153, 176, 0.5);;
+    background:rgba(230, 153, 176, 0.5);
     height: 80px;
     width: 100%;
     position: fixed;
@@ -28,7 +29,7 @@ nav {
 }
 
 label.logo {
-    color: white;
+    color:#008F95;
     font-size: 35px;
     line-height: 80px;
     padding: 0 100px;
@@ -52,7 +53,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: black;
     font-size: 17px;
     padding: 7px 13px;
     border-radius: 3px;
