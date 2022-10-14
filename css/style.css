@@ -6,6 +6,7 @@
 */
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /*Colores
 #E24E42 Papaya
@@ -15,11 +16,14 @@
 */
 
 >>>>>>> c6d821d (Martes noche)
+=======
+>>>>>>> main
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     font-family: 'Averta', sans-serif;
@@ -168,6 +172,70 @@
 }
 
 
+=======
+    font-family: 'Averta', sans-serif;
+}
+
+.section {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 30vh;
+}
+
+#carouselExampleCaptions {
+    margin-top: 25px;
+    width: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#carouselExampleCaptions img {
+    max-width: 100vh;
+    max-height: 75vh;
+}
+
+#colorFondo {
+    margin-top: 15px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    background-color: #E9B000;
+}
+
+.banner {
+    margin-top: 3vh;
+}
+
+.calendariotitulo {
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.calendario-cont {
+    width: 37vh;
+    height: 30vh;
+}
+
+.calendario {
+    padding-top: 10px;
+    text-align: center;
+    background-color: #E9B000;
+}
+
+#tituloCarousel {
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 22vh;
+    margin-right: 22vh;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+
+>>>>>>> main
 /*-----------------------------------------------------------------------------------------*/
 
 
@@ -178,6 +246,7 @@
     padding-top: 30px;
     background-color: #E9B000;
     text-align: center;
+<<<<<<< HEAD
 >>>>>>> 5ba3fbc (acomodando css)
 }
 
@@ -188,10 +257,19 @@
 /GeR y DaviD/*/
 
 <<<<<<< HEAD
+=======
+}
+
+.card {
+    margin-top: 60px;
+}
+
+>>>>>>> main
 .divbootstrap div {
     width: 30vh;
     height: 30vh;
     font-size: 10px;
+<<<<<<< HEAD
     background-color: whitesmoke;
     text-align: center;
     margin: auto; 
@@ -265,6 +343,13 @@
     height: 3vh;
     font-size: 12px;
 >>>>>>> 5ba3fbc (acomodando css)
+=======
+}
+
+.divbootstrap div a {
+    height: 3vh;
+    font-size: 12px;
+>>>>>>> main
 }
 
 .divbootstrap div h5 {
@@ -281,13 +366,17 @@
     text-align: center;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> main
 
 .divbootstrap h4,
 .calendariotitulo {
     font-size: 20px;
 }
 
+<<<<<<< HEAD
 >>>>>>> 5ba3fbc (acomodando css)
 
 <<<<<<< HEAD
@@ -301,6 +390,11 @@
 /*#carouselExampleCaptions {
     
 >>>>>>> 0a59189 (calendario cuadrado y buscador)
+=======
+
+/*#carouselExampleCaptions {
+
+>>>>>>> main
     display: flex;
     width: 90vh;
     height: 55vh;
@@ -348,6 +442,7 @@
 /*GeR y DaviD*/
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 /*.publigeneral {
@@ -357,6 +452,9 @@
 =======
 .publigeneral {
 >>>>>>> 5ba3fbc (acomodando css)
+=======
+.publigeneral {
+>>>>>>> main
     text-align: center;
     width: 50vh;
     margin: 6px;
@@ -397,6 +495,7 @@
 .ayuda div img {
     height: 15vh;
     width: 30vh;
+<<<<<<< HEAD
 <<<<<<< HEAD
 }
 
@@ -527,3 +626,6 @@ footer {
 =======
 }
 >>>>>>> 143a052 (nuevo formato)
+=======
+}
+>>>>>>> main
