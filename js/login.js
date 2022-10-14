@@ -1,7 +1,22 @@
+<<<<<<< HEAD
 document.getElementById("register").addEventListener("click", register);
 document.getElementById("iniciarSesion").addEventListener("click", iniciarSesion);
 window.addEventListener("resize", anchoPagina);
 
+=======
+<<<<<<< HEAD
+//Función que se ejecuta una vez que se haya lanzado el evento de
+//que el documento se encuentra cargado, es decir, se encuentran todos los
+//elementos HTML presentes.
+document.addEventListener("DOMContentLoaded", function(e){
+
+});
+=======
+document.getElementById("register").addEventListener("click", register);
+document.getElementById("iniciarSesion").addEventListener("click", iniciarSesion);
+window.addEventListener("resize", anchoPagina);
+
+>>>>>>> 7304389 (actualizando remoto)
 // Declaración de variables
 var contenedorLoginRegister = document.querySelector(".contenedorLoginRegister")
 var formularioLogin = document.querySelector(".formularioLogin")
@@ -54,4 +69,9 @@ function register(){
         cajaTraseraLogin.style.display = "none"
         cajaTraseraLogin.style.opacity = "1";
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> b522029 (realizando cambios)
+>>>>>>> 7304389 (actualizando remoto)

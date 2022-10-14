@@ -7,9 +7,15 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /*nuevo comentario*/
 >>>>>>> 36aeb1d (cambios para geogi)
+=======
+/*nuevo comentario*/
+=======
+>>>>>>> b522029 (realizando cambios)
+>>>>>>> 7304389 (actualizando remoto)
 
 nav a {
     display: inline-block;
@@ -18,13 +24,29 @@ nav a {
 }
 
 nav a:hover {
+<<<<<<< HEAD
     color:black;
+=======
+<<<<<<< HEAD
+    color: white;
+=======
+    color:black;
+>>>>>>> b522029 (realizando cambios)
+>>>>>>> 7304389 (actualizando remoto)
     transform: scale(1.1, 1.1);
     text-decoration: none;
 }
 
 nav {
+<<<<<<< HEAD
     background: white;
+=======
+<<<<<<< HEAD
+    background: orangered;
+=======
+    background: white;
+>>>>>>> b522029 (realizando cambios)
+>>>>>>> 7304389 (actualizando remoto)
     height: 80px;
     width: 100%;
     position: fixed;
@@ -32,7 +54,15 @@ nav {
 }
 
 label.logo {
+<<<<<<< HEAD
     color:#008F95;
+=======
+<<<<<<< HEAD
+    color: white;
+=======
+    color:#008F95;
+>>>>>>> b522029 (realizando cambios)
+>>>>>>> 7304389 (actualizando remoto)
     font-size: 35px;
     line-height: 80px;
     padding: 0 100px;
@@ -56,7 +86,15 @@ nav ul li {
 }
 
 nav ul li a {
+<<<<<<< HEAD
     color: black;
+=======
+<<<<<<< HEAD
+    color: white;
+=======
+    color: black;
+>>>>>>> b522029 (realizando cambios)
+>>>>>>> 7304389 (actualizando remoto)
     font-size: 17px;
     padding: 7px 13px;
     border-radius: 3px;
