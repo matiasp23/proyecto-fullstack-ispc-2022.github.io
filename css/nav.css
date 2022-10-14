@@ -6,7 +6,10 @@
     box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 /*nuevo comentario*/
+=======
+>>>>>>> b522029 (realizando cambios)
 
 nav a {
     display: inline-block;
@@ -15,13 +18,21 @@ nav a {
 }
 
 nav a:hover {
+<<<<<<< HEAD
     color: white;
+=======
+    color:black;
+>>>>>>> b522029 (realizando cambios)
     transform: scale(1.1, 1.1);
     text-decoration: none;
 }
 
 nav {
+<<<<<<< HEAD
     background: orangered;
+=======
+    background: white;
+>>>>>>> b522029 (realizando cambios)
     height: 80px;
     width: 100%;
     position: fixed;
@@ -29,7 +40,11 @@ nav {
 }
 
 label.logo {
+<<<<<<< HEAD
     color: white;
+=======
+    color:#008F95;
+>>>>>>> b522029 (realizando cambios)
     font-size: 35px;
     line-height: 80px;
     padding: 0 100px;
@@ -53,7 +68,11 @@ nav ul li {
 }
 
 nav ul li a {
+<<<<<<< HEAD
     color: white;
+=======
+    color: black;
+>>>>>>> b522029 (realizando cambios)
     font-size: 17px;
     padding: 7px 13px;
     border-radius: 3px;
