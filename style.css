@@ -1,0 +1,61 @@
+#carouselExampleCaptions {
+    display: flex;
+    width: 80vh;
+    height: 45vh;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#carouselExampleCaptions img{
+    max-width: 80vh;
+    max-height: 45vh;
+}
+
+.prox-eventos{
+    text-align: center;
+}
+
+.publicidades{
+    background-color: dimgray;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 20rem;
+    padding-bottom: 3rem;
+    border: 5rem;
+}
+
+.card{
+    
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.publicidad_1  { 
+    /*xdsfrtsxdtsxnxsdtgnsdxgnxgtfdnxgn*/
+    background-image:url(img_Publicidad/Jarrones-en-ceramica.png);
+    justify-content: right;
+    padding: 10rem;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+     
+
+}
+
+.publicidad_2 {
+    padding: 10rem;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    background-image:url(img_Publicidad/Violín.png)
+   
+    
+}
+
+.letras {   
+    color: whitesmoke;
+    font-size: larger;
+    font-style: italic;
+    text-align: center;
+}
