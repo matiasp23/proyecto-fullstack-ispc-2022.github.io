@@ -23,6 +23,9 @@
     <!--CSS-->
     <link href="css/style.css" rel="stylesheet">
 
+    <!--FOOTER-->
+    <link rel="stylesheet" href="css/footer.css">
+
     <!-- Bootstrap core CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
@@ -34,25 +37,26 @@
 <body>
     <!-- HEADER -->
     <header>
-        <nav class="Navegador">
+        <nav>
             <input type="checkbox" id="check">
             <label for="check" class="checkbtn">
-            <i class="fas fa-bars"></i>
-            </label>
+                <i class="fas fa-bars"></i>
+                </label>
             <label class="logo"><span style="font-weight: normal;">ENTER</span>arte</label>
             <ul>
-                <li><a class="active" href="index.html">Inicio</a></li>
-                <li><a href="event.html">Eventos</a></li>
-                <li><a href="post.html">Publicar</a></li>
-                <li><a href="about.html">Quienes somos</a></li>
-                <li><a href="login.html">Mi Cuenta</a></li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="pages/event.html">Eventos</a></li>
+                <li><a href="pages/post.html">Publicar</a></li>
+                <li><a href="pages/about.html">Quienes somos</a></li>
+                <li><a href="pages/login.html">Mi Cuenta</a></li>
                 <ul class="navbar-right">
                     <!--PC-->
-                    <li id="pc"><a href="cart.html" id="cart"><i class="fa fa-shopping-cart"></i> Carrito <span class="badge"></span></a></li>
+                    <li id="pc"><a href="./cart.html" id="cart"><i class="fa fa-shopping-cart"></i> Carrito <span class="badge"></span></a></li>
                     <!--MOVIL-->
-                    <!-- <li id="movil"><a href="cart.html"><i class="fa fa-shopping-cart"></i> Carrito <span class="badge"></span></a></li> -->
+                    <!-- <li id="movil"><a href="./cart.html"><i class="fa fa-shopping-cart"></i> Carrito <span class="badge"></span></a></li> -->
                     <!--</ul>-->
                 </ul>
+                <!-- <li><a href="./login.html">Login</a></li> -->
             </ul>
         </nav>
 
@@ -86,9 +90,9 @@
 
     </main>
     <section class="section">
-    
+
         <!--DIV AGENDA-->
-        
+
         <div id="colorFondo">
             <div class="banner">
                 <div class="container">
@@ -105,9 +109,9 @@
                 </div>
             </div>
         </div>
-        
+
         <!--DIV CAROUSEL-->
-        
+
         <div>
             <div>
                 <h2 class="prox-eventos">Proximos Eventos</h2>
@@ -155,33 +159,33 @@
             </div>
         </div>
 
-            <!--DIV PUBLICIDAD-->
+        <!--DIV PUBLICIDAD-->
 
-            <!--GeR y David -->
-    
-             <div class="divbootstrap">
-                <h4 id="Titulo_Anuncio">ANUNCIOS PUBLICITARIOS</h4>
+        <!--GeR y David -->
 
-                <div class="card">
-                    <img src="img/Jarrones-en-ceramica.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">TeBaS (tu cerámica)</h5>
-                        <p class="card-text">La mejor relación precio-calidad la encontras en <em>TeBaS</em>.</p>
-                        <a href="#" class="btn btn-primary">Ver Catálogo</a>
-                    </div>
+        <div class="divbootstrap">
+            <h4 id="Titulo_Anuncio">ANUNCIOS PUBLICITARIOS</h4>
+
+            <div class="card">
+                <img src="img/Jarrones-en-ceramica.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">TeBaS (tu cerámica)</h5>
+                    <p class="card-text">La mejor relación precio-calidad la encontras en <em>TeBaS</em>.</p>
+                    <a href="#" class="btn btn-primary">Ver Catálogo</a>
                 </div>
-                <div class="card">
-                    <img src="img/Ghost.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Curso de Cerámica</h5>
-                        <p class="card-text">Aprende el milenario arte de la alfarería . . . Balato Balato</p>
-                        <a href="#" class="btn btn-primary">Recibir Información</a>
-                    </div>
+            </div>
+            <div class="card">
+                <img src="img/Ghost.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Curso de Cerámica</h5>
+                    <p class="card-text">Aprende el milenario arte de la alfarería . . . Balato Balato</p>
+                    <a href="#" class="btn btn-primary">Recibir Información</a>
                 </div>
             </div>
         </div>
+
     </section>
-    
+
     <!-- FOOTER -->
     <footer>
         <div class="container-footer-all">
@@ -248,5 +252,3 @@
 </body>
 
 </html>
-
-
