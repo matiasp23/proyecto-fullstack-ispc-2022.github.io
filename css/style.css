@@ -5,174 +5,11 @@
 #008F95 aqua (Turquesa)
 */
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-/*Colores
-#E24E42 Papaya
-#E9B000 Mustard
-#EB6E80 Blush
-#008F95 aqua
-*/
-
->>>>>>> c6d821d (Martes noche)
-=======
->>>>>>> main
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-    font-family: 'Averta', sans-serif;
-}
-<<<<<<< HEAD
-=======
-    font-family: 'averta', sans-serif;
-=======
-    font-family: 'Averta', sans-serif;
->>>>>>> c6d821d (Martes noche)
-}
-
-<<<<<<< HEAD
-
-
-
-
-.section{
-<<<<<<< HEAD
-    display: flex;
-    justify-content:space-around;
-    width:100%;
-    background-color:#E24E42;
-    margin-bottom: 12vh;
->>>>>>> 8d22359 (Últimos cambios 11/10)
-
-=======
->>>>>>> 5ba3fbc (acomodando css)
-.section {
-<<<<<<< HEAD
-=======
-
->>>>>>> c6d821d (Martes noche)
-=======
-    background-color: white;
->>>>>>> 723a493 (cambios fran y mati)
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    margin-bottom: 30vh;
-}
-
-#carouselExampleCaptions {
-    margin-top: 25px;
-    width: 95vh;
-    height: 55vh;
-=======
-
-
-.section{
-   
-    background-color:white;
-    display: flex;
-    justify-content:space-around;
-    width:100%;
-    margin-bottom: 30vh;
-}
-#carouselExampleCaptions {
-    margin-top: 25px;
-    width: 95vh;
-    height:55vh; 
->>>>>>> 0a59189 (calendario cuadrado y buscador)
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#carouselExampleCaptions img {
-    max-width: 100vh;
-    max-height: 75vh;
-}
-
-<<<<<<< HEAD
-#colorFondo {
-    margin-top: 15px;
-    border-radius: 15px;
-    margin-bottom: 10px;
-    background-color: #E9B000;
-}
-=======
-
-#colorFondo {
-    margin-top: 15px;
-    border-radius: 15px;
-    margin-bottom:10px;
-    background-color:#E9B000 ;
-}
-
-.banner{
-    margin-top: 3vh;
-}
-
-.calendariotitulo {
-    text-align: center;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem; 
->>>>>>> 0a59189 (calendario cuadrado y buscador)
-
-.banner {
-    margin-top: 3vh;
-}
-
-.calendariotitulo {
-    text-align: center;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-}
-
-.calendario-cont {
-    width: 37vh;
-    height: 30vh;
-}
-
-.calendario {
-    padding-top: 10px;
-    text-align: center;
-<<<<<<< HEAD
-    background-color: #E9B000;
-}
-
-#tituloCarousel {
-<<<<<<< HEAD
-=======
-    background-color:#E9B000 ;
-}
-
-#tituloCarousel{
-    
->>>>>>> 0a59189 (calendario cuadrado y buscador)
-=======
->>>>>>> 5ba3fbc (acomodando css)
-    margin-top: 15px;
-    text-align: center;
-    margin-left: 22vh;
-    margin-right: 22vh;
-    padding-top: 0.5rem;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    padding-bottom: 0.5rem;
-=======
-    padding-bottom: 0.5rem; 
-    
->>>>>>> 0a59189 (calendario cuadrado y buscador)
-=======
-    padding-bottom: 0.5rem;
-}
-
-
-=======
     font-family: 'Averta', sans-serif;
 }
 
@@ -235,7 +72,6 @@
 }
 
 
->>>>>>> main
 /*-----------------------------------------------------------------------------------------*/
 
 
@@ -246,110 +82,21 @@
     padding-top: 30px;
     background-color: #E9B000;
     text-align: center;
-<<<<<<< HEAD
->>>>>>> 5ba3fbc (acomodando css)
-}
-
-
-/*/-----------------------------------------------------------------------------------------/
-
-
-/GeR y DaviD/*/
-
-<<<<<<< HEAD
-=======
 }
 
 .card {
     margin-top: 60px;
 }
 
->>>>>>> main
 .divbootstrap div {
     width: 30vh;
     height: 30vh;
     font-size: 10px;
-<<<<<<< HEAD
-    background-color: whitesmoke;
-    text-align: center;
-    margin: auto; 
-    margin-bottom: 15px;  
-
-        
-=======
-
-
-#Titulo_Anuncio {
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 0.5rem;
-}
-
-<<<<<<< HEAD
-.divbootstrap{
-    border-radius: 15px;
-    padding-top: 30px;
-    background-color:#E9B000;
-    text-align: center; 
-}
-
-
-.card {
-   margin-top: 60px;
-}
-.divbootstrap div{
-    width:30vh;
-    height: 30vh;
-    font-size: 10px;
-    margin: auto;
-    margin-bottom: 15px;
->>>>>>> 0a59189 (calendario cuadrado y buscador)
-}
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-.divbootstrap div a {
-    height: 3vh;
-    font-size: 10px;
-}
-.divbootstrap h4,
-.calendariotitulo{
-    font-size:20px;
-    
-}
-
-<<<<<<< HEAD
-.divbootstrap div h5 {
-    font-size: 10px;
-}
-
-.divbootstrap div img {
-    height: 15vh;
-    width: 30vh;
-}
-
-
-/*#carouselExampleCaptions {
-=======
-=======
-
->>>>>>> c6d821d (Martes noche)
- .divbootstrap div a{
-     height: 3vh;
-     font-size: 12px;
-
-=======
-.divbootstrap div a {
-    height: 3vh;
-    font-size: 12px;
->>>>>>> 5ba3fbc (acomodando css)
-=======
 }
 
 .divbootstrap div a {
     height: 3vh;
     font-size: 12px;
->>>>>>> main
 }
 
 .divbootstrap div h5 {
@@ -365,36 +112,15 @@
     padding-top: 10px;
     text-align: center;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> main
 
 .divbootstrap h4,
 .calendariotitulo {
     font-size: 20px;
 }
 
-<<<<<<< HEAD
->>>>>>> 5ba3fbc (acomodando css)
-
-<<<<<<< HEAD
- /*#carouselExampleCaptions {
->>>>>>> 8d22359 (Últimos cambios 11/10)
-=======
- #carouselExampleCaptions {
-
->>>>>>> c6d821d (Martes noche)
-=======
-/*#carouselExampleCaptions {
-    
->>>>>>> 0a59189 (calendario cuadrado y buscador)
-=======
 
 /*#carouselExampleCaptions {
 
->>>>>>> main
     display: flex;
     width: 90vh;
     height: 55vh;
@@ -441,20 +167,7 @@
 
 /*GeR y DaviD*/
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-<<<<<<< HEAD
-/*.publigeneral {
-=======
 .publigeneral {
->>>>>>> c6d821d (Martes noche)
-=======
-.publigeneral {
->>>>>>> 5ba3fbc (acomodando css)
-=======
-.publigeneral {
->>>>>>> main
     text-align: center;
     width: 50vh;
     margin: 6px;
@@ -495,137 +208,4 @@
 .ayuda div img {
     height: 15vh;
     width: 30vh;
-<<<<<<< HEAD
-<<<<<<< HEAD
 }
-
-<<<<<<< HEAD
-=======
-
->>>>>>> c6d821d (Martes noche)
-
-/*------------------------------------FOOTER-----------------------------------------------------*/
-
-@font-face {
-    font-weight: 500;
-    font-family: Averta;
-    src: url(/currency-converter-assets/fonts/TW-Averta-Regular.woff2);
-}
-
-@font-face {
-    font-weight: 600;
-    font-family: Averta;
-    src: url(/currency-converter-assets/fonts/TW-Averta-Semibold.woff2);
-}
-
-@font-face {
-    font-weight: 800;
-    font-family: Averta;
-    src: url(/currency-converter-assets/fonts/TW-Averta-Bold.woff2);
-}
-
-footer {
-    width: 100%;
-    background-color: black;
-    color: white;
-}
-
-.container-footer-all {
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    justify-content: space-between;
-}
-
-.container-body {
-    display: flex;
-    justify-content: space-between;
-}
-
-.column1 {
-    max-width: 400px;
-}
-
-.column1 h1 {
-    font-size: 22px;
-}
-
-.column1 p {
-    font-size: 14px;
-    color: #C7C7C7;
-    margin-top: 20px;
-}
-
-.column2 {
-    max-width: 400px;
-}
-
-.column2 h1 {
-    font-size: 22px;
-}
-
-.column2 .row {
-    margin-top: 20px;
-    display: flex;
-}
-
-.row img {
-    width: 36px;
-    height: 36px;
-}
-
-.row label {
-    margin-top: 10px;
-    margin-left: 20px;
-    color: #C7C7C7;
-}
-
-.column3 {
-    max-width: 400px;
-}
-
-.column3 h1 {
-    font-size: 22px;
-}
-
-.row2 {
-    margin-top: 10px;
-    margin-left: 20px;
-    color: #C7C7C7;
-}
-
-.row2 img {
-    width: 36px;
-    height: 36px;
-}
-
-.container-footer img {
-    width: 36px;
-    height: 36px;
-}
-
-.container-footer {
-    margin-top: 10px;
-    margin-left: 20px;
-    color: #C7C7C7;
-<<<<<<< HEAD
-}
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 723a493 (cambios fran y mati)
-=======
-
->>>>>>> 0a59189 (calendario cuadrado y buscador)
-=======
-}
->>>>>>> 5ba3fbc (acomodando css)
-=======
-}
->>>>>>> 143a052 (nuevo formato)
-=======
-}
->>>>>>> main
