@@ -1,0 +1,99 @@
+#carouselExampleCaptions {
+    display: flex;
+    width: 80vh;
+    height: 45vh;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#carouselExampleCaptions img{
+    max-width: 80vh;
+    max-height: 45vh;
+}
+
+.prox-eventos{
+    text-align: center;
+}
+/*-----------------------------------------------------------------------------------------*/
+                                        /*GeR y DaviD*/
+
+aside{
+    float: right;
+    width: 26rem;
+    height: 20rem;    
+    background-color: transparent;
+    text-align: center;
+    /*position: relative;
+    left: 74%;*/
+    margin: 20px auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+                                       
+#Titulo_Anuncio{
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+   
+      
+}  
+
+
+.Publi_1{
+
+    width: 26rem;
+    height: 50%;      
+    background-color: green;
+    background-image: url(Img_Publicidad/Ghost.jpg);
+    background-size: 100%;
+    background-repeat:no-repeat;
+    color: azure;
+
+    margin-block: 10px;   
+    
+}
+
+
+.Publi_2{
+    width: 26rem;
+    height:35rem; 
+    color: azure;
+    background-size: cover;    
+    background-image: url(Img_Publicidad/Violín.png);
+    background-repeat:no-repeat;
+    text-align-last: auto;
+          
+
+}
+
+#Txt_separador{
+
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: auto;
+   
+}
+#violin{
+    float:inline-end;
+    
+}
+
+
+
+/*.card{
+    position: absolute;
+    left: 50%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}*/
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------*/
