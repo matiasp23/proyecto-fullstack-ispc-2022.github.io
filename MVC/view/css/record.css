@@ -1,0 +1,67 @@
+
+/*Colores
+
+*/
+
+/*----------------------- Terms -----------------------*/
+
+body{
+    background-image: url(../img/login.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.record{     
+    width: 60%;
+    background-color: none;
+    margin: 50px auto;    
+}
+
+.terms h2 {
+
+    text-align: center; 
+    padding-top: 5vh;
+    color:#022323;
+}
+
+table{
+
+    width: 100%;
+    background-color: white;
+    text-align: left;
+    border: colapse;
+    border-radius: 15px;
+
+}
+
+th, td{
+    padding: 20px;
+}
+
+
+th:first-child{
+    border-top-left-radius: 15px;
+}
+
+th:last-child{
+    border-top-right-radius: 15px;
+}
+
+thead{
+    background-color: #16711E;
+    color: white;
+    border-bottom: solid 5px #0F362D;
+}
+
+
+tr:nth-child(even){
+    background-color: #ddd;
+}
+
+tr:hover td{
+    background-color: #369681;
+    color: white;
+}
