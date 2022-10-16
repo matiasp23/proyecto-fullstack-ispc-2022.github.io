@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todos los eventos</title>
+    <!--CSS-->
+    <link href="css/allevents.css" rel="stylesheet"> 
+    <!--CARRITO-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+
+    <!--FONT-->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!--NAV-->
+    <link rel="stylesheet" href="css/nav.css">
+    
+    <!--CSS-->
+    <link href="css/style.css" rel="stylesheet">
+    
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!--JS del HEADER-->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+            </label>
+            <label class="logo"><span style="font-weight: normal;">ENTER</span>arte</label>
+            <ul>
+                <li><a class="active" href="index.html">Inicio</a></li>
+                <li><a href="#">Eventos</a></li>
+                <li><a href="#">Publicar</a></li>
+                <li><a href="about.html">Quienes somos</a></li>
+                <li><a href="#">Mi Cuenta</a></li>
+                <ul class="navbar-right">
+                    <!--PC-->
+                    <li id="pc"><a href="cart.html" id="cart"><i class="fa fa-shopping-cart"></i> Carrito <span class="badge"></span></a></li>
+                    <!--MOVIL-->
+                    <li id="movil"><a href="cart.html"><i class="fa fa-shopping-cart"></i> Carrito <span class="badge"></span></a></li>
+                    <!--</ul>-->
+                </ul>
+        </nav>
+
+        <div class="conteiner">
+            <div class="shopping-cart">
+                <div class="shopping-cart-header">
+                    <i class="fa fa-shopping-cart cart-icon"></i><span class="badge">0</span>
+                    <div class="shopping-cart-total">
+                    </div>
+                </div>
+
+                <ul class="shopping-cart-items">
+                </ul>
+
+                <a href="cart.html" class="button">Checkout</a>
+            </div>
+        </div>
+    </header>
+    <br><br>
+    
+    <!-- MAIN -->
+    <main role="main">
+        <h1 style="display: none;">ENTERarte</h1>
+        <h2> Todos los eventos</h2>
+        <br><br>
+    
+    <div class="botonera">
+        <button type="button" class="boton teatro">Teatro</button>
+        <button type="button" class="boton musica">Musica</button>
+        <button type="button" class="boton arte">Artes visuales</button>
+        <button type="button" class="boton infantiles"> Infantiles</button>
+    </div>
+    <div class="botonsolo">
+        <button type="button" class="botontodos">Todos los eventos</button>
+    </div>
+
+    
+</body>
+</html>

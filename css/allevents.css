@@ -1,0 +1,76 @@
+/*Colores
+#E24E42 Papaya
+#E9B000 Mustard
+#EB6E80 Blush
+#008F95 aqua
+*/
+.botonera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.botonsolo{
+    margin-top:3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.botontodos{
+    height: 15vh;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 6vh;
+    background-color: white;
+    color: #008F95 ;
+    border-color: #008F95;
+}
+
+.boton{
+    height: 15vh;
+    width: auto;
+    padding-left: 4vh;
+    padding-right: 4vh;
+    border-radius: 10px;
+    font-size: 6vh;
+    background-color: white;
+}
+.boton.teatro {
+    color: black;
+    border-color: black ;
+}
+
+.boton.musica {
+    color:#E9B000;
+    border-color: #E9B000;
+}
+
+.boton.arte {
+    color: #EB6E80;
+    border-color: #EB6E80;
+}
+.boton.infantiles{
+    color:#E24E42;
+    border-color: #E24E42;
+}
+
+.boton.teatro:hover{
+    background-color: black;
+    color: white;
+}
+.boton.musica:hover{
+    background-color: #E9B000;
+    color: white;
+}
+.boton.arte:hover{
+    background-color: #EB6E80;
+    color: white;
+}
+.botontodos:hover{
+    background-color: #008F95 ;
+    color:white;
+}
+.boton.infantiles:hover{
+    background-color: #E24E42;
+    color:white;
+}
