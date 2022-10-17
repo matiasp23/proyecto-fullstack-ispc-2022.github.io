@@ -38,7 +38,8 @@ section{
     color: #EB6E80;
 }
 
-.formularioEvent form input{
+.formularioEvent form input,
+.formularioEvent form textarea{
     width: 100%;
     margin-top: 20px;
     padding:10px;
