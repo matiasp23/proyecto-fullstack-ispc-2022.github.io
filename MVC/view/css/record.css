@@ -1,6 +1,9 @@
 
 /*Colores
-
+#E24E42 Papaya
+#E9B000 Mustard
+#EB6E80 Blush
+#008F95 aqua
 */
 
 /*----------------------- Terms -----------------------*/
@@ -17,7 +20,8 @@ body{
 .record{     
     width: 60%;
     background-color: none;
-    margin: 50px auto;    
+    margin: 50px auto;
+    padding-bottom: 50px;   
 }
 
 .terms h2 {
@@ -34,7 +38,6 @@ table{
     text-align: left;
     border: colapse;
     border-radius: 15px;
-
 }
 
 th, td{
@@ -51,17 +54,17 @@ th:last-child{
 }
 
 thead{
-    background-color: #16711E;
+    background-color: #008F95;
     color: white;
-    border-bottom: solid 5px #0F362D;
+    border-bottom: solid 5px #333333;
 }
 
 
 tr:nth-child(even){
-    background-color: #ddd;
+    background-color: #008F95;
 }
 
 tr:hover td{
-    background-color: #369681;
+    background-color: #EB6E80;
     color: white;
 }
