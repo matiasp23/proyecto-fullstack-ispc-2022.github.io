@@ -1,6 +1,13 @@
 
 /*Colores
+<<<<<<< HEAD
 
+=======
+#E24E42 Papaya
+#E9B000 Mustard
+#EB6E80 Blush
+#008F95 aqua
+>>>>>>> main
 */
 
 /*----------------------- Terms -----------------------*/
@@ -17,7 +24,12 @@ body{
 .record{     
     width: 60%;
     background-color: none;
+<<<<<<< HEAD
     margin: 50px auto;    
+=======
+    margin: 50px auto;
+    padding-bottom: 50px;   
+>>>>>>> main
 }
 
 .terms h2 {
@@ -34,7 +46,10 @@ table{
     text-align: left;
     border: colapse;
     border-radius: 15px;
+<<<<<<< HEAD
 
+=======
+>>>>>>> main
 }
 
 th, td{
@@ -51,17 +66,31 @@ th:last-child{
 }
 
 thead{
+<<<<<<< HEAD
     background-color: #16711E;
     color: white;
     border-bottom: solid 5px #0F362D;
+=======
+    background-color: #008F95;
+    color: white;
+    border-bottom: solid 5px #333333;
+>>>>>>> main
 }
 
 
 tr:nth-child(even){
+<<<<<<< HEAD
     background-color: #ddd;
 }
 
 tr:hover td{
     background-color: #369681;
+=======
+    background-color: #008F95;
+}
+
+tr:hover td{
+    background-color: #EB6E80;
+>>>>>>> main
     color: white;
 }
