@@ -11,6 +11,11 @@ nav a {
     display: inline-block;
     margin-top: -5px;
     transition: all 300ms;
+<<<<<<< HEAD
+   
+=======
+    
+>>>>>>> 3b54a6ff92234258d5b03fe6fb530413286a76dc
 }
 
 nav a:hover {
@@ -20,7 +25,7 @@ nav a:hover {
 }
 
 nav {
-    background: white;
+    background:rgba(230, 153, 176, 0.5);
     height: 80px;
     width: 100%;
     position: fixed;
@@ -52,7 +57,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: black;
+    color:black ;
     font-size: 17px;
     padding: 7px 13px;
     border-radius: 3px;
