@@ -3,308 +3,216 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <title>ENTERarte - Todo lo que busques está aquí</title>
-
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/album/">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
-    <!-- Bootstrap core CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-    <!--CARRITO-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-    <link rel="stylesheet" href="../css/carrito.css">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información</title>
     <!--CSS-->
-    <link href="css/styles.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/cart.css">
-
-    <!--FOOTER-->
-    <link rel="stylesheet" href="../css/footer.css">
-
-    <!--FONT-->
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
-
-    <!--NAV-->
     <link rel="stylesheet" href="../css/nav.css">
-
-
-    <!--JS del HEADER-->
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.2.4/css/simple-line-icons.min.css'>
-    <link rel="stylesheet" href="../style.css">
-
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/mycart.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 </head>
 
-
-<body style="font-family: sans-serif;">
-    <!-- partial:index.partial.html -->
-    <nav>
-        <div class='mini'>
-            <p class='products'>Vacío</p>
-            <p class='names'></p>
-            <p class='miniprice'></p>
-        </div>
+<body>
+    <!--HEADER-->
+    <header>
         <nav>
             <input type="checkbox" id="check">
             <label for="check" class="checkbtn">
-    <i class="fas fa-bars"></i>
-    </label>
+                <i class="fas fa-bars"></i>
+                </label>
             <label class="logo"><span style="font-weight: normal;">ENTER</span>arte</label>
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
-                <li><a href="event.html">Eventos</a></li>
-                <li><a href="post.html">Publicar</a></li>
-                <li><a href="about.html">Quienes somos</a></li>
-                <li><a href="login.html">Mi Cuenta</a></li>
+                <li><a href="./event.html">Eventos</a></li>
+                <li><a href="./post.html">Publicar</a></li>
+                <li><a href="./about.html">Quienes somos</a></li>
+                <li><a href="./profileUser.html">Mi Cuenta</a></li>
                 <ul class="navbar-right">
                     <!--PC-->
-                    <li id="pc">
-                        <a href="#" id="cart">
-                            <i class="fa"></i>
-                            <div class='cart icon-basket'>
-                                <span class='number'>0</span>
-                            </div>
-                        </a>
-                    </li>
+                    <!-- <li id="pc"><a href="./cart.html" id="cart"><i class="fa fa-shopping-cart"></i> Carrito <span class="badge"></span></a></li> -->
                     <!--MOVIL-->
-                    <li id="movil">
-                        <a href="cart.html" class="active">
-                            <i class="fa"></i>
-                            <div class='cart icon-basket'>
-                                <span class='number'>0</span>
-                            </div>
-                        </a>
-                    </li>
+                    <li id="movil"><a href="./cart.html"><i class="fa fa-shopping-cart"></i> Carrito <span class="badge"></span></a></li>
                     <!--</ul>-->
                 </ul>
+                <li><a href="./login.html">Login</a></li>
+            </ul>
         </nav>
-
 
         <!-- <div class="conteiner">
             <div class="shopping-cart">
                 <div class="shopping-cart-header">
-                    <i class="fa fa-shopping-cart cart-icon"></i><span class="badge">0</span>
+                    <i class="fa fa-shopping-cart cart-icon"></i><span class="badge"></span>
                     <div class="shopping-cart-total">
                     </div>
                 </div>
-
-                <ul class="shopping-cart-items">
-                </ul>
-
-                <a href="cart.html" class="button">Checkout</a>
             </div>
         </div> -->
-        </header>
-        <br><br>
-        <div class="banner">
-            <div class="container">
-                <p style="margin-bottom: 0px;" class="texto-derecha floatR desaparece"><input type="text" name="buscador" placeholder="Buscar..." class="buscador" id="buscador"><button class="btn-search" id="buttonSearch"><i class="material-icons">Buscar</i></button></p>
-                <div class="clearfix"></div>
-                <br>
-            </div>
-        </div>
-    </nav>
-    <div class='containerCarrito' id="arriba">
-        <br><br><br><br>
+    </header>
+    <!--SECTION-->
 
-        <!--EVENTOS-->
-        <h1>EVENTOS</h1>
-        <h2 style="font-size: 2rem; font-family: sans-serif;">PRÓXIMOS</h2>
-        <div class='product'>
-            <img src='https://binaries.templates.cdn.office.net/support/templates/en-us/lt16412134_quantized.png'>
-            <h2 class='header'>Evento 1</h2>
-            <p class='description' style="font-size:13px;">Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
-            <p class='price' style="margin-top: 45px;"> 178,-</p>
-            <div class='quickview' style="top:265px;">Info</div>
-            <div class='btn btn_comprar'>Comprar</div>
-            <div class='btn btn_agregar' style="left:10px;">Agregar al Carrito</div>
+    <div id="container">
+        <table>
+            <tr style="text-align:center;">
+                <td>Image</td>
+                <td>Name</td>
+                <td>Price</td>
+                <td>Amount</td>
+                <td>Subtotal</td>
+                <td> </td>
+            </tr>
+            <tr class="p">
+                <td class="image"><img src="https://binaries.templates.cdn.office.net/support/templates/en-us/lt16412134_quantized.png" /></td>
+                <td class="name">Evento 1</td>
+                <td class="price">$299.99</td>
+                <td class="amount"><input type="number" value="1" min="0" /></td>
+                <td class="pricesubtotal"></td>
+                <td class="remove">
+                    <div>&times</div>
+                </td>
+            </tr>
+            <tr class="p">
+                <td class="image"><img src="https://binaries.templates.cdn.office.net/support/templates/en-us/lt16412134_quantized.png" /></td>
+                <td class="name">Evento 2</td>
+                <td class="price">$4.99</td>
+                <td class="amount"><input type="number" value="3" min="0" /></td>
+                <td class="pricesubtotal"></td>
+                <td class="remove">
+                    <div>&times</div>
+                </td>
+            </tr>
+            <tr class="p">
+                <td class="image"><img src="https://binaries.templates.cdn.office.net/support/templates/en-us/lt16412134_quantized.png" /></td>
+                <td class="name">Evento 3</td>
+                <td class="price">$599.99</td>
+                <td class="amount">
+                    <input type="number" value="1" min="0" />
+                </td>
+                <td class="pricesubtotal"></td>
+                <td class="remove">
+                    <div>&times</div>
+                </td>
+            </tr>
+            <tr class="p">
+                <td class="image"><img src="https://binaries.templates.cdn.office.net/support/templates/en-us/lt16412134_quantized.png" /></td>
+                <td class="name">Evento 4</td>
+                <td class="price">$29.99</td>
+                <td class="amount"><input type="number" value="5" min="0" /></td>
+                <td class="pricesubtotal"></td>
+                <td class="remove">
+                    <div>&times</div>
+                </td>
+            </tr>
+            <tr class="p">
+                <td class="image"><img src="https://binaries.templates.cdn.office.net/support/templates/en-us/lt16412134_quantized.png" /></td>
+                <td class="name">Evento 5</td>
+                <td class="price">$0.99</td>
+                <td class="amount"><input type="number" value="20" min="0" /></td>
+                <td class="pricesubtotal"></td>
+                <td class="remove">
+                    <div>&times</div>
+                </td>
+            </tr>
+            <tr class="p">
+                <td class="image"><img src="https://binaries.templates.cdn.office.net/support/templates/en-us/lt16412134_quantized.png" /></td>
+                <td class="name">Evento 6</td>
+                <td class="price">$49.99</td>
+                <td class="amount"><input type="number" value="2" min="0" /></td>
+                <td class="pricesubtotal"></td>
+                <td class="remove">
+                    <div>&times</div>
+                </td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td>Subtotal:</td>
+                <td class="totalpricesubtotal"></td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td style="border-top:1px solid white" colspan="6">$ shipping:<br />
+                    <span class="big">Total: $<span class="realtotal">0</span></span>
+                </td>
+            </tr>
+        </table>
+        <div id="checkout">Checkout<span> &rarr;</span></div>
+        <div id="footer">
+            <ul>
+                <li>Cambie la cantidad de cosas y vea el cambio total y subtotal</li>
+                <li>Intente cambiar la cantidad de artículos a cantidades negativas o 0</li>
+                <li>Eliminar elementos y ver cómo cambian los totales</li>
+            </ul>
         </div>
-        <div class='product'>
-            <img src='https://binaries.templates.cdn.office.net/support/templates/en-us/lt16412134_quantized.png'>
-            <h2 class='header'>Evento 2</h2>
-            <p class='description' style="font-size:13px;">Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
-            <p class='price' style="margin-top: 45px;"> 523,-</p>
-            <div class='quickview' style="top:265px;">Info</div>
-            <div class='btn btn_comprar'>Comprar</div>
-            <div class='btn btn_agregar' style="left:10px;">Agregar al Carrito</div>
-        </div>
-        <div class='product'>
-            <img src='https://binaries.templates.cdn.office.net/support/templates/en-us/lt16412134_quantized.png'>
-            <h2 class='header'>Evento 3</h2>
-            <p class='description' style="font-size:13px;">Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
-            <p class='price' style="margin-top: 45px;"> 223,-</p>
-            <div class='quickview' style="top:265px;">Info</div>
-            <div class='btn btn_comprar'>Comprar</div>
-            <div class='btn btn_agregar' style="left:10px;">Agregar al Carrito</div>
-        </div>
-        <div class='product'>
-            <img src='https://binaries.templates.cdn.office.net/support/templates/en-us/lt16412134_quantized.png'>
-            <h2 class='header'>Evento 4</h2>
-            <p class='description' style="font-size:13px;" id="celulares">Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
-            <p class='price' style="margin-top: 45px;"> 723,-</p>
-            <div class='quickview' style="top:265px;">Info</div>
-            <div class='btn btn_comprar'>Comprar</div>
-            <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div>
-        </div>
-
-        <hr>
-
-        <!-- SEMANALES -->
-        <h2 style="font-size: 2rem; font-family: sans-serif; ">SEMANALES</h2>
-        <div class='product'>
-            <img src='https://binaries.templates.cdn.office.net/support/templates/en-us/lt16412134_quantized.png'>
-            <h2 class='header'>Evento</h2>
-            <p class='description' style="font-size:13px; ">Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
-            <p class='price' style="margin-top: 45px; "> 231,</p>
-            <div class='quickview' style="top:265px; ">Info</div>
-            <div class='btn btn_comprar'>Comprar</div>
-            <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div>
-        </div>
-        <div class='product'>
-            <img src='https://binaries.templates.cdn.office.net/support/templates/en-us/lt16412134_quantized.png'>
-            <h2 class='header'>Evento</h2>
-            <p class='description' style="font-size:13px; ">Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
-            <p class='price' style="margin-top: 45px; "> 231,</p>
-            <div class='quickview' style="top:265px; ">Info</div>
-            <div class='btn btn_comprar'>Comprar</div>
-            <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div>
-        </div>
-        <div class='product'>
-            <img src='https://binaries.templates.cdn.office.net/support/templates/en-us/lt16412134_quantized.png'>
-            <h2 class='header'>Evento</h2>
-            <p class='description' style="font-size:13px; ">Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
-            <p class='price' style="margin-top: 45px; "> 231,</p>
-            <div class='quickview' style="top:265px; ">Info</div>
-            <div class='btn btn_comprar'>Comprar</div>
-            <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div>
-        </div>
-        <div class='product'>
-            <img src='https://binaries.templates.cdn.office.net/support/templates/en-us/lt16412134_quantized.png'>
-            <h2 class='header'>Evento</h2>
-            <p class='description' style="font-size:13px; " id="computadoras ">Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
-            <p class='price' style="margin-top: 45px; "> 231,</p>
-            <div class='quickview' style="top:265px; ">Info</div>
-            <div class='btn btn_comprar'>Comprar</div>
-            <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div>
-        </div>
-
-        <hr>
-
-        <!-- MENSUALES -->
-        <h2 style="font-size: 2rem; font-family: sans-serif; ">MENSUALES</h2>
-        <div class='product'>
-            <img src='https://binaries.templates.cdn.office.net/support/templates/en-us/lt16412134_quantized.png'>
-            <h2 class='header'>Evento</h2>
-            <p class='description' style="font-size:13px; ">Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
-            <p class='price' style="margin-top: 45px; "> 231,</p>
-            <div class='quickview' style="top:265px; ">Info</div>
-            <div class='btn btn_comprar'>Comprar</div>
-            <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div>
-        </div>
-        <div class='product'>
-            <img src='https://binaries.templates.cdn.office.net/support/templates/en-us/lt16412134_quantized.png'>
-            <h2 class='header'>Evento</h2>
-            <p class='description' style="font-size:13px; ">Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
-            <p class='price' style="margin-top: 45px; "> 231,</p>
-            <div class='quickview' style="top:265px; ">Info</div>
-            <div class='btn btn_comprar'>Comprar</div>
-            <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div>
-        </div>
-        <div class='product'>
-            <img src='https://binaries.templates.cdn.office.net/support/templates/en-us/lt16412134_quantized.png'>
-            <h2 class='header'>Evento</h2>
-            <p class='description' style="font-size:13px; ">Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
-            <p class='price' style="margin-top: 45px; "> 231,</p>
-            <div class='quickview' style="top:265px; ">Info</div>
-            <div class='btn btn_comprar'>Comprar</div>
-            <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div>
-        </div>
-        <div class='product'>
-            <img src='https://binaries.templates.cdn.office.net/support/templates/en-us/lt16412134_quantized.png'>
-            <h2 class='header'>Evento</h2>
-            <p class='description' style="font-size:13px; " id="deportes ">Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
-            <p class='price' style="margin-top: 45px; "> 231,</p>
-            <div class='quickview' style="top:265px; ">Info</div>
-            <div class='btn btn_comprar'>Comprar</div>
-            <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div>
-        </div>
-
-        <hr>
-
-        <!-- ESPACIOS CULTURALES -->
-        <h2 style="font-size: 2rem; font-family: sans-serif; ">ESPACIOS CULTURALES</h2>
-        <div class='product'>
-            <img src=''>
-            <h2 class='header'>Espacio</h2>
-            <p class='description' style="font-size:13px; ">Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
-            <!-- <p class='price' style="margin-top: 45px; "> 231,</p> -->
-            <div class='quickview' style="top:265px; ">Info</div>
-            <!-- <div class='btn btn_comprar'>Comprar</div>
-            <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div> -->
-        </div>
-        <div class='product'>
-            <img src=''>
-            <h2 class='header'>Espacio</h2>
-            <p class='description' style="font-size:13px; ">Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
-            <!-- <p class='price' style="margin-top: 45px; "> 231,</p> -->
-            <div class='quickview' style="top:265px; ">Info</div>
-            <!-- <div class='btn btn_comprar'>Comprar</div>
-            <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div> -->
-        </div>
-        <div class='product'>
-            <img src=''>
-            <h2 class='header'>Espacio</h2>
-            <p class='description' style="font-size:13px; ">Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
-            <!-- <p class='price' style="margin-top: 45px; "> 231,</p> -->
-            <div class='quickview' style="top:265px; ">Info</div>
-            <!-- <div class='btn btn_comprar'>Comprar</div> -->
-            <!-- <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div> -->
-        </div>
-        <div class='product'>
-            <img src=''>
-            <h2 class='header'>Espacio</h2>
-            <p class='description' style="font-size:13px; " id="electrodomesticos ">Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
-            <!-- <p class='price' style="margin-top: 45px; "> 231,</p> -->
-            <div class='quickview' style="top:265px; ">Info</div>
-            <!-- <div class='btn btn_comprar'>Comprar</div>
-            <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div> -->
-        </div>
-
-        <hr>
-
-
-
     </div>
-    <div class='quickviewContainer'>
-        <div class='close'></div>
-        <h2 class='headline'></h2>
-        <p class='description'></p>
-        <img src='https://placeimg.com/100/100'>
-        <img src='https://placeimg.com/100/100'>
-        <img src='https://placeimg.com/100/100'>
-    </div>
-    <!-- partial -->
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
-    <script src="../script.js "></script>
-
     <!-- FOOTER -->
     <footer>
+        <div class="container-footer-all">
+            <div class="container-body">
+
+
+                <div class="column1">
+                    <h1> Mas informacion de la Compañia</h1>
+                    <p> EnterARTE ofrece a sus usuarios un abanico infinito de opciones para que el visitante se lleve la mejor de las experiencias.
+
+                    </p>
+                </div>
+
+                <div class="column2">
+                    <h1> Redes Sociales</h1>
+                    <div class="row">
+                        <img src="../img/face.jpg">
+                        <label> Facebook </label>
+                    </div>
+                    <div class="row">
+                        <img src="../img/insta.jpg">
+                        <label> Instagram </label>
+                    </div>
+                    <div class="row">
+                        <img src="../img/twitter.jpg">
+                        <label> Twitter </label>
+                    </div>
+
+                </div>
+
+
+                <div class="column3">
+
+                    <h1> Información Contactos</h1>
+                    <div class="row2">
+                        <img src="../img/casa.jpg">
+                        <label> Contamos con los siguientes medios de comunicación:</label>
+                    </div>
+
+                    <div class="row2">
+                        <img src="../img/whatsapp.jpg">
+                        <label> Cel. 2494-454541 </label>
+                    </div>
+
+                    <div class="row2">
+                        <img src="../img/correo.jpg">
+                        <label> correo electronico: enterarte@hotmail.com </label>
+                    </div>
+                </div>
+            </div>
+            <div class="container-footer">
+                <div class="copyright"> © 2022 EnterArte, Inc.</div>
+            </div>
+
+
+        </div>
 
     </footer>
-
-    <script src="../js/jquery-3.4.1.min.js "></script>
     <!-- Bootstrap core JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM " crossorigin="anonymous "></script>
-    <script src="../js/init.js "></script>
-    <script src="../js/carrito.js "></script>
-    <script src="../js/search.js "></script>
-</body>
-
-</html>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- partial -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="../mycart.js"></script>
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/init.js"></script>
+    <script src="../js/carrito.js"></script>
+    <script src="../js/search.js"></script>
 </body>
 
 </html>

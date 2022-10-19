@@ -48,19 +48,18 @@
                 <li><a href="pages/event.html">Eventos</a></li>
                 <li><a href="pages/post.html">Publicar</a></li>
                 <li><a href="pages/about.html">Quienes somos</a></li>
-                <li><a href="pages/login.html">Mi Cuenta</a></li>
+                <li><a href="pages/profileUser.html">Mi Cuenta</a></li>
                 <ul class="navbar-right">
                     <!--PC-->
-                    <li id="pc"><a href="./cart.html" id="cart"><i class="fa fa-shopping-cart"></i> Carrito <span class="badge"></span></a></li>
-                    <!--MOVIL-->
-                    <!-- <li id="movil"><a href="./cart.html"><i class="fa fa-shopping-cart"></i> Carrito <span class="badge"></span></a></li> -->
-                    <!--</ul>-->
+                    <!-- <li id="pc"><a href="./cart.html" id="cart"><i class="fa fa-shopping-cart"></i> Carrito <span class="badge"></span></a></li> -->
+                    <!-- MOVIL-->
+                    <li id="movil"><a href="pages/cart.html" id="cart"><i class="fa fa-shopping-cart"></i> Carrito <span class="badge"></span></a></li>
                 </ul>
-                <!-- <li><a href="./login.html">Login</a></li> -->
+                <li><a href="pages/login.html">Login</a></li>
             </ul>
         </nav>
 
-        <div class="conteiner">
+        <!-- <div class="conteiner">
             <div class="shopping-cart">
                 <div class="shopping-cart-header">
                     <i class="fa fa-shopping-cart cart-icon"></i><span class="badge">0</span>
@@ -73,7 +72,7 @@
 
                 <a href="cart.html" class="button">Checkout</a>
             </div>
-        </div>
+        </div> -->
     </header>
     <br><br>
 
@@ -104,7 +103,7 @@
             <div id="calendario-cont" class="calendario-cont">
                 <h5 class="calendariotitulo">CALENDARIO DE EVENTOS</h5>
                 <div id="calendario" class="calendario">
-                    <iframe src="https://calendar.google.com/calendar/embed?height=200&wkst=1&bgcolor=%23ffffff&ctz=America%2FArgentina%2FBuenos_Aires&showTitle=0&showPrint=0&showDate=1&showNav=1&showTabs=0&showCalendars=0&showTz=0&src=ZGFyaW9naWFuYUBnbWFpbC5jb20&color=%237986CB"
+                    <iframe src="https://calendar.google.com/calendar/embed?height=250&wkst=1&bgcolor=%23ffffff&ctz=America%2FArgentina%2FBuenos_Aires&showTitle=0&showNav=0&showPrint=0&showTabs=0&showTz=0&showCalendars=0&showDate=1&src=ZGFyaW9naWFuYUBnbWFpbC5jb20&color=%237986CB"
                         style="border-width:0" width="250" height="250" frameborder="0" scrolling="no"></iframe>
                 </div>
             </div>
@@ -164,22 +163,22 @@
         <!--GeR y David -->
 
         <div class="divbootstrap">
-            <h4 id="Titulo_Anuncio">ANUNCIOS PUBLICITARIOS</h4>
+            <!--<h4 id="Titulo_Anuncio">ANUNCIOS PUBLICITARIOS</h4>-->
 
             <div class="card">
                 <img src="img/Jarrones-en-ceramica.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">TeBaS (tu cerámica)</h5>
                     <p class="card-text">La mejor relación precio-calidad la encontras en <em>TeBaS</em>.</p>
-                    <a href="#" class="btn btn-primary">Ver Catálogo</a>
+                    <a href="#" class="btn btn-primary"> Ver Catálogo </a>
                 </div>
             </div>
-            <div class="card">
+            <div class="cardUno">
                 <img src="img/Ghost.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Curso de Cerámica</h5>
                     <p class="card-text">Aprende el milenario arte de la alfarería . . . Balato Balato</p>
-                    <a href="#" class="btn btn-primary">Recibir Información</a>
+                    <a href="#" class="btn btn-primary"> Recibir Información </a>
                 </div>
             </div>
         </div>
@@ -202,19 +201,22 @@
                 <div class="column2">
                     <h1> Redes Sociales</h1>
                     <div class="row">
-                        <img src="img/face.jpg">
-                        <label> Facebook </label>
+                        <a href="https://www.facebook.com/"><img src="img/face.jpg">
+                            <label> Facebook </label> </a>
+
                     </div>
                     <div class="row">
-                        <img src="img/insta.jpg">
-                        <label> Instagram </label>
+                        <a href="https://www.instagram.com/"><img src="img/insta.jpg">
+                            <label> Instagram </label></a>
                     </div>
+
                     <div class="row">
-                        <img src="img/twitter.jpg">
-                        <label> Twitter </label>
+                        <a href="https://twitter.com/"> <img src="img/twitter.jpg">
+                            <label> Twitter </label> </a>
                     </div>
 
                 </div>
+
 
                 <div class="column3">
 
@@ -225,23 +227,21 @@
                     </div>
 
                     <div class="row2">
-                        <img src="img/whatsapp.jpg">
-                        <label> Cel. 2494-454541 </label>
+                        <a href="https://wa.me/2494583609"><img src="img/whatsapp.jpg">
+                            <label> Cel. 2494-583609 </label> </a>
                     </div>
 
                     <div class="row2">
-                        <img src="img/correo.jpg">
-                        <label> correo electronico: enterarte@hotmail.com </label>
+                        <a href="mailto:enterarte.cordoba@gmail.com"> <img src="img/correo.jpg">
+                            <label> correo electronico: enterarte.cordoba@gmail.com </label></a>
                     </div>
                 </div>
+
             </div>
             <div class="container-footer">
                 <div class="copyright"> © 2022 EnterArte, Inc.</div>
             </div>
-
-
         </div>
-
     </footer>
     <!-- Bootstrap core JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
