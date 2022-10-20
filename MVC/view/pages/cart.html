@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/mycart.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+</head>
+
+<body>
+    <!--HEADER-->
+    <header>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+                </label>
+            <label class="logo"><span style="font-weight: normal;">ENTER</span>arte</label>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./event.html">Eventos</a></li>
+                <li><a href="./post.html">Publicar</a></li>
+                <li><a href="./about.html">Quienes somos</a></li>
+                <li><a href="./profileUser.html">Mi Cuenta</a></li>
+                <ul class="navbar-right">
+                    <!--PC-->
+                    <!-- <li id="pc"><a href="./cart.html" id="cart"><i class="fa fa-shopping-cart"></i> Carrito <span class="badge"></span></a></li> -->
+                    <!--MOVIL-->
+                    <li id="movil"><a href="./cart.html"><i class="fa fa-shopping-cart"></i> Carrito <span class="badge"></span></a></li>
+                    <!--</ul>-->
+                </ul>
+                <li><a href="./login.html">Login</a></li>
+            </ul>
+        </nav>
+
+        <!-- <div class="conteiner">
+            <div class="shopping-cart">
+                <div class="shopping-cart-header">
+                    <i class="fa fa-shopping-cart cart-icon"></i><span class="badge"></span>
+                    <div class="shopping-cart-total">
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </header>
+    <!--SECTION-->
+
+    <div id="container">
+        <table>
+            <tr style="text-align:center;">
+                <td>Image</td>
+                <td>Name</td>
+                <td>Price</td>
+                <td>Amount</td>
+                <td>Subtotal</td>
+                <td> </td>
+            </tr>
+            <tr class="p">
+                <td class="image"><img src="https://binaries.templates.cdn.office.net/support/templates/en-us/lt16412134_quantized.png" /></td>
+                <td class="name">Evento 1</td>
+                <td class="price">$299.99</td>
+                <td class="amount"><input type="number" value="1" min="0" /></td>
+                <td class="pricesubtotal"></td>
+                <td class="remove">
+                    <div>&times</div>
+                </td>
+            </tr>
+            <tr class="p">
+                <td class="image"><img src="https://binaries.templates.cdn.office.net/support/templates/en-us/lt16412134_quantized.png" /></td>
+                <td class="name">Evento 2</td>
+                <td class="price">$4.99</td>
+                <td class="amount"><input type="number" value="3" min="0" /></td>
+                <td class="pricesubtotal"></td>
+                <td class="remove">
+                    <div>&times</div>
+                </td>
+            </tr>
+            <tr class="p">
+                <td class="image"><img src="https://binaries.templates.cdn.office.net/support/templates/en-us/lt16412134_quantized.png" /></td>
+                <td class="name">Evento 3</td>
+                <td class="price">$599.99</td>
+                <td class="amount">
+                    <input type="number" value="1" min="0" />
+                </td>
+                <td class="pricesubtotal"></td>
+                <td class="remove">
+                    <div>&times</div>
+                </td>
+            </tr>
+            <tr class="p">
+                <td class="image"><img src="https://binaries.templates.cdn.office.net/support/templates/en-us/lt16412134_quantized.png" /></td>
+                <td class="name">Evento 4</td>
+                <td class="price">$29.99</td>
+                <td class="amount"><input type="number" value="5" min="0" /></td>
+                <td class="pricesubtotal"></td>
+                <td class="remove">
+                    <div>&times</div>
+                </td>
+            </tr>
+            <tr class="p">
+                <td class="image"><img src="https://binaries.templates.cdn.office.net/support/templates/en-us/lt16412134_quantized.png" /></td>
+                <td class="name">Evento 5</td>
+                <td class="price">$0.99</td>
+                <td class="amount"><input type="number" value="20" min="0" /></td>
+                <td class="pricesubtotal"></td>
+                <td class="remove">
+                    <div>&times</div>
+                </td>
+            </tr>
+            <tr class="p">
+                <td class="image"><img src="https://binaries.templates.cdn.office.net/support/templates/en-us/lt16412134_quantized.png" /></td>
+                <td class="name">Evento 6</td>
+                <td class="price">$49.99</td>
+                <td class="amount"><input type="number" value="2" min="0" /></td>
+                <td class="pricesubtotal"></td>
+                <td class="remove">
+                    <div>&times</div>
+                </td>
+            </tr>
+            <tr>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td>Subtotal:</td>
+                <td class="totalpricesubtotal"></td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td style="border-top:1px solid white" colspan="6">$ shipping:<br />
+                    <span class="big">Total: $<span class="realtotal">0</span></span>
+                </td>
+            </tr>
+        </table>
+        <div id="checkout">Checkout<span> &rarr;</span></div>
+        <div id="footer">
+            <ul>
+                <li>Cambie la cantidad de cosas y vea el cambio total y subtotal</li>
+                <li>Intente cambiar la cantidad de artículos a cantidades negativas o 0</li>
+                <li>Eliminar elementos y ver cómo cambian los totales</li>
+            </ul>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <footer>
+        <div class="container-footer-all">
+            <div class="container-body">
+
+
+                <div class="column1">
+                    <h1> Mas informacion de la Compañia</h1>
+                    <p> EnterARTE ofrece a sus usuarios un abanico infinito de opciones para que el visitante se lleve la mejor de las experiencias.
+
+                    </p>
+                </div>
+
+                <div class="column2">
+                    <h1> Redes Sociales</h1>
+                    <div class="row">
+                        <img src="../img/face.jpg">
+                        <label> Facebook </label>
+                    </div>
+                    <div class="row">
+                        <img src="../img/insta.jpg">
+                        <label> Instagram </label>
+                    </div>
+                    <div class="row">
+                        <img src="../img/twitter.jpg">
+                        <label> Twitter </label>
+                    </div>
+
+                </div>
+
+
+                <div class="column3">
+
+                    <h1> Información Contactos</h1>
+                    <div class="row2">
+                        <img src="../img/casa.jpg">
+                        <label> Contamos con los siguientes medios de comunicación:</label>
+                    </div>
+
+                    <div class="row2">
+                        <img src="../img/whatsapp.jpg">
+                        <label> Cel. 2494-454541 </label>
+                    </div>
+
+                    <div class="row2">
+                        <img src="../img/correo.jpg">
+                        <label> correo electronico: enterarte@hotmail.com </label>
+                    </div>
+                </div>
+            </div>
+            <div class="container-footer">
+                <div class="copyright"> © 2022 EnterArte, Inc.</div>
+            </div>
+
+
+        </div>
+
+    </footer>
+    <!-- Bootstrap core JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- partial -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="../mycart.js"></script>
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/init.js"></script>
+    <script src="../js/carrito.js"></script>
+    <script src="../js/search.js"></script>
+</body>
+
+</html>
