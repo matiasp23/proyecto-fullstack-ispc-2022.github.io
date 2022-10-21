@@ -131,7 +131,7 @@ section{
     .cajaTrasera{
         max-width: 350px;
         height: 380px;
-        flex-direction: columns;
+        flex-direction: column;
         margin:auto;
     }
     .cajaTrasera div{
