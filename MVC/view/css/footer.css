@@ -1,22 +1,18 @@
 /*------------------------------------FOOTER-----------------------------------------------------*/
 
-@font-face {
-    font-weight: 500;
-    font-family: Averta;
-    src: url(/currency-converter-assets/fonts/TW-Averta-Regular.woff2);
-}
 
-@font-face {
-    font-weight: 600;
-    font-family: Averta;
-    src: url(/currency-converter-assets/fonts/TW-Averta-Semibold.woff2);
-}
-
-@font-face {
-    font-weight: 800;
-    font-family: Averta;
-    src: url(/currency-converter-assets/fonts/TW-Averta-Bold.woff2);
-}
+/* * {
+    margin: 0px;
+    margin-right: 20px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    justify-content: space-between;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%
+} */
 
 footer {
     width: 100%;
