@@ -20,7 +20,8 @@ nav a:hover {
 }
 
 nav {
-    background: white;
+    background: #EB6E80;
+    opacity: .5;
     height: 80px;
     width: 100%;
     position: fixed;
