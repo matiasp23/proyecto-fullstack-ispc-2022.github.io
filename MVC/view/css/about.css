@@ -94,6 +94,8 @@ body{
     display: flex;
     flex-direction: column;
 }
+.formularioContact button,
+.formularioContact textarea,
 .formularioContact input{
     display: flex;
     width: 100%;
@@ -105,17 +107,24 @@ body{
     outline:none;
     margin:10px 0 0 100px;
     border-radius: 3px;
-}
-.formularioContact button,
-.formularioContact textarea{
-    width: 100%;
-    margin:10px 0 5px 100px;
-    border: none;
-    font-size: 14px;
-    cursor: pointer;
-    outline: none;
-    background: #f2f2f2;
-    color: black;
+    margin-right: 10px; 
 }
 
+@media (max-width: 760px){
+
+    .contenedorSection{
+        flex-direction:column;
+        padding-left: 20%;
+    }
+     .contact{
+        flex-direction: column;
+        margin: auto;
+     }
+
+    .formularioContact button,
+    .formularioContact textarea,
+    .formularioContact input{
+        width: 70%;
+    }
+}
 
