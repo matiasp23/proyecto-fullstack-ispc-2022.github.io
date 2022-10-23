@@ -1,22 +1,22 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito:400,300,700);
 
 
-body {
-  /*background-color: #0b0b0b;
-  font-family: 'Nunito', sans-serif;*/
+/*body {
+  background-color: #0b0b0b;
+  font-family: 'Nunito', sans-serif;
   
-    background-image: url(../img/fondoAbout.jpeg);
+    background-color: white;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-}
+}*/
 
 
 nav {
     
-    /*position: fixed;
-  z-index: 999;*/
+    position: fixed;
+    z-index: 999;
     width: 100%;
     height: 70px;
     line-height: 70px;
@@ -27,7 +27,6 @@ nav .mini {
     position: fixed;
     top: 80px;
     right: 60px;
-    /*10px*/
     background: white;
     border: 1px solid #6c757d;
     -webkit-border-radius: 10px;
@@ -77,7 +76,7 @@ nav .cart span {
     opacity: 1;
     color: #fff;
     font-size: 18px;
-    /*font-family: 'Nunito', sans-serif;*/
+    font-family: 'Nunito', sans-serif;
 }
 
 nav .cart span.updateQuantity:before,
@@ -146,17 +145,35 @@ nav ul li a {
     text-transform: uppercase;
     font-weight: 100;
 }
+
+
+.buscador{
+    height: 30px;
+    margin-top: 55px;
+}
+
+.btn-search{
+    height: 30px;
+}
+.cont_botonera{
+ flex-direction: column;
+ align-content: center;
+
+}
 .botonera{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-left: 12%;
     margin-right: 12%;
+       
 }
+
 .botonsolo{
     margin-top:4%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 12%;
+    margin-right: 12%;
+    
 }
 .botontodos{ 
     height: 10vh;
@@ -222,7 +239,7 @@ nav ul li a {
 
 
 .containerCarrito {
-    background-color:#008F95;
+    background-color:white;
     border-radius: 15px;
     font-family: sans-serif;
     margin-top: 2%;
@@ -234,6 +251,7 @@ nav ul li a {
 
 
 .prox-evento {
+    color: white;
     text-align: center;
     margin-top: 5%;
 }
@@ -241,7 +259,6 @@ nav ul li a {
     position: relative;
     overflow: hidden;
     width: 250px;
-    /*200px*/
     height: 340px;
     display: inline-block;
     border-radius: 15px;
@@ -255,9 +272,9 @@ nav ul li a {
 }
 
 .containerCarrito .product img {
-    /*position: relative;
+    position: relative;
   top: -15px;
-  left: -15px;*/
+  left: -15px;
     width: 100%;
     height: 150px;
     border-top-right-radius: 4px;
@@ -288,9 +305,9 @@ nav ul li a {
 }
 
 .containerCarrito .product .price {
-    /*text-align: right;*/
+    text-align: right;
     font-size: 18px;
-    color: rgb(17, 192, 17);
+    color:#000;
     margin-top: 40px;
     text-align: left;
     font-weight: 600;
@@ -339,7 +356,7 @@ nav ul li a {
 }
 
 .containerCarrito .product .btn:after {
-    /*font-family: 'simple-line-icons';*/
+    font-family: 'simple-line-icons';
     content: "\e095";
     -webkit-transition: all .2s ease;
     transition: all .2s ease;
@@ -458,7 +475,18 @@ nav .cart {
 .btn_agregar {
     width: 150px;
 }
-
+@media (max-width:1142px) {
+    .boton {
+     margin-top: 15%;
+     height: 10vh;
+     width: auto;
+     padding-left: 4vh;
+     padding-right: 4vh;
+     border-radius: 10px;
+     font-size: 5vh;
+     background-color: white;
+ }
+ }
 @media (max-width:1299px) {
     .containerCarrito>h2 {
         margin-top: 97px;
@@ -519,6 +547,7 @@ nav .cart {
     .containerCarrito .product img {
         height: 254px;
     }
+    
 }
 
 @media (max-width:391px) {
@@ -529,3 +558,58 @@ nav .cart {
         height: 446px;
     }
 }
+
+
+@media (max-width:599px) {
+.botonera {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 12%;
+    margin-right: 12%;
+    flex-direction: column;
+}
+.botonsolo {
+    display: flex;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.botontodos{ 
+    height: 10vh;
+    width: 50vw;
+    margin-right: 8%;
+    margin-left: 8%; 
+    border-radius: 10px;
+    font-size: 6vw;
+    background-color: white;
+    color: #008F95 ;
+    border-color: #008F95;
+}
+
+.boton {
+    margin-top: 15%;
+    height: 10vh;
+    width: 50vw;
+    padding-left: 4vh;
+    padding-right: 4vh;
+    border-radius: 10px;
+    font-size: 6vw;
+    background-color: white;
+}
+
+.botonsolo {
+     display: flex; 
+     justify-content: space-between; 
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+}
+
+
