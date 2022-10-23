@@ -146,9 +146,6 @@ nav ul li a {
     font-weight: 100;
 }
 
-<<<<<<< HEAD
-.botonera {
-=======
 
 .buscador{
     height: 30px;
@@ -164,7 +161,6 @@ nav ul li a {
 
 }
 .botonera{
->>>>>>> Francisco
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -173,33 +169,25 @@ nav ul li a {
        
 }
 
-<<<<<<< HEAD
-.botonsolo {
-    margin-top: 4%;
-    margin-left: 5%;
-    margin-right: 5%;
-=======
 .botonsolo{
     margin-top:4%;
     margin-left: 12%;
     margin-right: 12%;
     
->>>>>>> Francisco
 }
-
-.botontodos {
+.botontodos{ 
     height: 10vh;
     width: 85%;
     margin-right: 8%;
-    margin-left: 8%;
+    margin-left: 8%; 
     border-radius: 10px;
     font-size: 6vh;
     background-color: white;
-    color: #008F95;
+    color: #008F95 ;
     border-color: #008F95;
 }
 
-.boton {
+.boton{
     margin-top: 15%;
     height: 10vh;
     width: auto;
@@ -209,14 +197,13 @@ nav ul li a {
     font-size: 6vh;
     background-color: white;
 }
-
 .boton.teatro {
     color: black;
-    border-color: black;
+    border-color: black ;
 }
 
 .boton.musica {
-    color: #E9B000;
+    color:#E9B000;
     border-color: #E9B000;
 }
 
@@ -224,36 +211,32 @@ nav ul li a {
     color: #EB6E80;
     border-color: #EB6E80;
 }
-
-.boton.infantiles {
-    color: #E24E42;
+.boton.infantiles{
+    color:#E24E42;
     border-color: #E24E42;
 }
 
-.boton.teatro:hover {
+.boton.teatro:hover{
     background-color: black;
     color: white;
 }
-
-.boton.musica:hover {
+.boton.musica:hover{
     background-color: #E9B000;
     color: white;
 }
-
-.boton.arte:hover {
+.boton.arte:hover{
     background-color: #EB6E80;
     color: white;
 }
-
-.botontodos:hover {
-    background-color: #008F95;
-    color: white;
+.botontodos:hover{
+    background-color: #008F95 ;
+    color:white;
 }
-
-.boton.infantiles:hover {
+.boton.infantiles:hover{
     background-color: #E24E42;
-    color: white;
+    color:white;
 }
+
 
 .containerCarrito {
     background-color:white;
@@ -266,12 +249,12 @@ nav ul li a {
     text-align: center;
 }
 
+
 .prox-evento {
     color: white;
     text-align: center;
     margin-top: 5%;
 }
-
 .containerCarrito .product {
     position: relative;
     overflow: hidden;
@@ -279,13 +262,8 @@ nav ul li a {
     height: 340px;
     display: inline-block;
     border-radius: 15px;
-<<<<<<< HEAD
-    background-color: white;
-    border: 1px solid #008F95;
-=======
     background-color:white;
     border: 1px solid white;
->>>>>>> Francisco
     margin: 20px;
     padding: 15px;
     cursor: default;
@@ -306,6 +284,8 @@ nav ul li a {
 .containerCarrito .product:hover {
     box-shadow: 5px 5px 20px rgb(0, 0, 0, 0.4);
     transform: translateY(-3%);
+   
+    
 }
 
 .containerCarrito .product h2 {
@@ -349,6 +329,7 @@ nav ul li a {
     -webkit-transition: all .2s ease;
     transition: all .2s ease;
     font-family: sans-serif;
+
 }
 
 .containerCarrito .product .btn.ok {
@@ -395,7 +376,7 @@ nav ul li a {
 
 .containerCarrito .product .btn_comprar:hover {
     padding-right: 7px;
-    background-color: #EB6E80;
+    background-color:#EB6E80;
     border: 2px #008F95;
 }
 
