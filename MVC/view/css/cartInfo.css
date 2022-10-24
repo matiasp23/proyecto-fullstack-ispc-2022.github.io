@@ -46,3 +46,9 @@ section{
      padding: 5px;
      border-bottom: 1px solid #E24E42;
 }
+
+@media (max-width: 860px){
+    .sectionInfo{
+        flex-direction: column;
+    }
+}
