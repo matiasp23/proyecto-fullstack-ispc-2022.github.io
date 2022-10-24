@@ -66,3 +66,14 @@ section{
     outline: none;
     margin-left: 37%;
 }
+@media (max-width: 760px){
+    .contenedor{
+        flex-direction: column;
+    }
+    .infoUser{
+        margin-left: -70px;
+    }
+    .user{
+        width: 60vh;
+    }
+}
