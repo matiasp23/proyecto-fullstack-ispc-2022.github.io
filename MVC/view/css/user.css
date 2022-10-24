@@ -22,6 +22,7 @@ section{
     margin-top: 50px;
 }
 .contenedor{
+  margin-top: 50px;
    display: flex;
    align-items:center;
 }

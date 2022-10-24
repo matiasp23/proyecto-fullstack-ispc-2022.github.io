@@ -110,7 +110,7 @@ body{
     margin-right: 10px; 
 }
 
-@media (max-width: 760px){
+@media (max-width: 860px){
 
     .contenedorSection{
         flex-direction:column;
