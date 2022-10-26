@@ -224,7 +224,7 @@ a:hover {
         display: block;
     }
 
-    ul {
+    .ulNav {
         position: fixed;
         width: 100%;
         height: 100vh;
