@@ -5,41 +5,170 @@
     list-style: none;
     box-sizing: border-box;
 }
+nav {
+    
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    font-family: sans-serif;
+}
 
+nav .mini {
+    position: fixed;
+    top: 80px;
+    right: 60px;
+    background: white;
+    border: 1px solid #6c757d;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 40px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: opacity .2s ease .2s;
+    transition: opacity .2s ease .2s;
+}
 
+nav .mini.visible {
+    padding: 40px;
+    opacity: 1;
+    visibility: visible;
+}
+
+nav .mini .products {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+nav .mini p {
+    font-size: 15px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+}
+
+nav .cart {
+    position: relative;
+    float: right;
+    margin-right: 50px;
+    height: 20px;
+    line-height: 70px;
+    font-size: 28px;
+    height: 100%;
+    cursor: pointer;
+}
+
+nav .cart span {
+    height: 100%;
+    float: left;
+    margin-right: 20px;
+    opacity: 1;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+}
+
+nav .cart span.updateQuantity:before,
+nav .cart span.updateQuantity:after {
+    top: 0;
+    bottom: 0;
+    opacity: 1;
+    width: 30px;
+    -webkit-transition: all .2s ease, top .3s ease .4s, bottom .3s ease .4s;
+    transition: all .2s ease, top .3s ease .4s, bottom .3s ease .4s;
+}
+
+nav .cart span.update {
+    -webkit-transition: color .2s ease .6s;
+    transition: color .2s ease .6s;
+    color: #000;
+}
+
+nav .cart span.update:before {
+    top: -30px;
+    width: 30px;
+    opacity: 1;
+    -webkit-transition: all .2s ease, top .3s ease .4s, bottom .3s ease .4s;
+    transition: all .2s ease, top .3s ease .4s, bottom .3s ease .4s;
+}
+
+nav .cart span.update:after {
+    top: 30px;
+    width: 30px;
+    opacity: 1;
+    -webkit-transition: all .2s ease, top .3s ease .4s, bottom .3s ease .4s;
+    transition: all .2s ease, top .3s ease .4s, bottom .3s ease .4s;
+}
+
+nav .cart span:before,
+nav .cart span:after {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 2px;
+    background-color: #0b0b0b;
+    left: -10px;
+    right: 40px;
+    top: 2px;
+    bottom: 0;
+    margin: auto;
+}
+
+nav ul {
+    float: left;
+}
+
+nav ul li {
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 50px;
+    color: #0b0b0b;
+    font-size: 12px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 100;
+}
 nav a {
     display: inline-block;
     margin-top: -5px;
     transition: all 300ms;
-    
 }
 
 nav a:hover {
-    color:black;
+    color: black;
     transform: scale(1.1, 1.1);
     text-decoration: none;
 }
 
 nav {
-    background:rgba(230, 153, 176, 0.5);
+    background: rgba(230, 153, 176, 0.5);
     height: 80px;
     width: 100%;
-    position: fixed;
+    /* position: fixed; */
     z-index: 99;
 }
 
 label.logo {
-    color:#008F95;
-    font-size: 35px;
+    color: #008F95;
+    font-size: 30px;
     line-height: 80px;
-    padding: 0 100px;
+    padding: 0 50px;
     font-weight: bold;
     font-family: 'Raleway', serif !important;
 }
 
 nav ul {
     float: right;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 nav ul:last-child {
@@ -53,7 +182,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color:black ;
+    color: black;
     font-size: 17px;
     padding: 7px 13px;
     border-radius: 3px;
@@ -69,9 +198,9 @@ a:hover {
 .checkbtn {
     font-size: 30px;
     color: white;
-    float: right;
+    float:right;
     line-height: 80px;
-    margin-right: 40px;
+    margin-left: 40px;
     cursor: pointer;
     display: none;
 }
@@ -81,20 +210,21 @@ a:hover {
 }
 
 @media (max-width: 952px) {
-    label.logo {
+    label .logo {
         font-size: 30px;
-        padding-left: 50px;
+        padding-left: 20px;
     }
     nav ul li a {
-        font-size: 16px;
+        font-size: 14px;
     }
 }
 
-@media (max-width: 991px) {
-    .checkbtn {
+@media (max-width: 933px) {
+    .checkbtn{
         display: block;
     }
-    nav ul {
+
+    ul {
         position: fixed;
         width: 100%;
         height: 100vh;
@@ -103,7 +233,7 @@ a:hover {
         left: -100%;
         text-align: center;
         transition: all .5s;
-        z-index: 99999;
+        
     }
     nav ul li {
         display: block;
@@ -127,4 +257,9 @@ a:hover {
       background-size: cover;
       height: calc(100vh - 80px);
     }*/
+}
+@media(max-width: 1063px){
+nav ul li a {
+    font-size: 14px;
+}
 }

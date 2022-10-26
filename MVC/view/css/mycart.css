@@ -13,7 +13,15 @@
 #EB6E80 Blush
 #008F95 aqua
 */
-
+.sectionCart{
+    background-image: url(../img/fondoAbout.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 12vh;
+    margin-top: -5vh;
+}
 #expand {
     cursor: pointer;
 }
@@ -32,6 +40,7 @@
 
 ul {
     text-align: left;
+    margin-left: 15px;
 }
 
 hr {
@@ -141,8 +150,64 @@ td {
     width: 20px;
 }
 
+
+/******************************historial de compras****************************/
+
+#record {
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    display: inline-block;
+    margin: 2px;
+    border-radius: 3px;
+    text-align: right;
+    transition: background 0.2s;
+    background: black;
+    cursor: pointer;
+}
+
+#record>span {
+    width: 0;
+    display: inline-block;
+    overflow: hidden;
+    transition: width .3s;
+    text-align: right;
+}
+
+#record:hover>span {
+    width: 20px;
+}
+
+
+/******************************Medios de pago****************************/
+
+#pay {
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    display: inline-block;
+    margin: 2px;
+    border-radius: 3px;
+    text-align: right;
+    transition: background 0.2s;
+    background: #E9B000;
+    cursor: pointer;
+}
+
+#pay>span {
+    width: 0;
+    display: inline-block;
+    overflow: hidden;
+    transition: width .3s;
+    text-align: right;
+}
+
+#pay:hover>span {
+    width: 20px;
+}
+
 #footer {
-    opacity: 0.6;
+    opacity: 0.8;
     border-top: 1px solid white;
     padding-top: 10px;
     text-align: center;
