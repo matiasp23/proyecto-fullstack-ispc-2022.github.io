@@ -8,32 +8,22 @@
 
     <title>ENTERarte - Todo lo que busques está aquí</title>
 
-    <!--CARRITO-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-
-
-    <!--FONT-->
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://wise.com/currency-converter-assets/fonts/TW-Averta-Regular.woff2" rel="stylesheet">
-
-
-    <!--NAV-->
-    <link rel="stylesheet" href="../css/nav.css">
-
-    <!--CSS-->
-    <link href="../css/style.css" rel="stylesheet">
-
-    <!--FOOTER-->
-    <link rel="stylesheet" href="../css/footer.css">
-
     <!-- Bootstrap core CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <!--JS del HEADER-->
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <!--CSS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/terms.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/event.css">
+    <link rel="stylesheet" href="../css/events.css">
 
-    <!--Terms Politic-->
-    <link href="../css/terms.css" rel="stylesheet">
+    <!--JS del HEADER-->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.2.4/css/simple-line-icons.min.css'>
 
 </head>
 
@@ -43,35 +33,49 @@
         <nav>
             <input type="checkbox" id="check">
             <label for="check" class="checkbtn">
-                <i class="fas fa-bars"></i>
-                </label>
+                <img src="../img/navbar.png" id="navbar-img" alt="">
+            </label>
             <label class="logo"><span style="font-weight: normal;">ENTER</span>arte</label>
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./event.html">Eventos</a></li>
-                <li><a href="./post.html">Publicar</a></li>
-                <li><a href="./about.html">Quienes somos</a></li>
-                <li><a href="./profileUser.html">Mi Cuenta</a></li>
+                <li><a href="event.html">Eventos</a></li>
+                <li><a href="post.html">Publicar</a></li>
+                <li><a href="about.html">Quienes somos</a></li>
+                <li><a href="profileUser.html">Mi Cuenta</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="cart.html">Carrito</a></li>
+
                 <ul class="navbar-right">
                     <!--PC-->
-                    <!-- <li id="pc"><a href="./cart.html" id="cart"><i class="fa fa-shopping-cart"></i> Carrito <span class="badge"></span></a></li> -->
+                    <li id="pc">
+                        <a href="#" id="cart">
+                            <i class="fa"></i>
+                            <div class='cart icon-basket'>
+                                <span class='number'></span>
+                            </div>
+                        </a>
+                    </li>
                     <!--MOVIL-->
-                    <li id="movil"><a href="./cart.html"><i class="fa fa-shopping-cart"></i> Carrito <span class="badge"></span></a></li>
-                    <!--</ul>-->
+                    <li id="movil">
+                        <a href="#" class="active">
+                            <i class="fa"></i>
+                            <div class='cart icon-basket'>
+                                <span class='number'></span>
+                            </div>
+                        </a>
+                    </li>
                 </ul>
-                <li><a href="./login.html">Login</a></li>
+
+                <div class='mini'>
+                    <ul class="shopping-cart-items">
+                        <p class='products'>Vacío</p>
+                        <p class='names'></p>
+                        <p class='miniprice'></p>
+                        <a href="cart.html" class="button">Revisar compra</a>
+                    </ul>
+                </div>
             </ul>
         </nav>
-
-        <!-- <div class="conteiner">
-            <div class="shopping-cart">
-                <div class="shopping-cart-header">
-                    <i class="fa fa-shopping-cart cart-icon"></i><span class="badge"></span>
-                    <div class="shopping-cart-total">
-                    </div>
-                </div>
-            </div>
-        </div> -->
     </header>
     <br><br>
 
@@ -240,24 +244,27 @@
 
                 <div class="column1">
                     <h1> Mas informacion de la Compañia</h1>
-                    <p> EnterARTE ofrece a sus usuarios un abanico infinito de opciones para que el visitante se lleve la mejor de las experiencias.
-
-                    </p>
+                    <p> EnterARTE ofrece a sus usuarios un abanico infinito de opciones para que el visitante se lleve la mejor de las experiencias.</p>
+                    <a class="link-footer" href="terms.html">Términos y condiciones</a><br><br>
+                    <a class="link-footer" href="politic.html">Política y privacidad</a><br><br>
+                    <a class="link-footer" href="faq.html">Preguntas frecuentes</a><br>
                 </div>
 
                 <div class="column2">
                     <h1> Redes Sociales</h1>
                     <div class="row">
-                        <img src="../img/face.jpg">
-                        <label> Facebook </label>
+                        <a class="link-footer" href="https://www.facebook.com/"><img src="../img/face.jpg">
+                            <label> Facebook </label> </a>
+
                     </div>
                     <div class="row">
-                        <img src="../img/insta.jpg">
-                        <label> Instagram </label>
+                        <a class="link-footer" href="https://www.instagram.com/"><img src="../img/insta.jpg">
+                            <label> Instagram </label></a>
                     </div>
+
                     <div class="row">
-                        <img src="../img/twitter.jpg">
-                        <label> Twitter </label>
+                        <a class="link-footer" href="https://twitter.com/"> <img src="../img/twitter.jpg">
+                            <label> Twitter </label> </a>
                     </div>
 
                 </div>
@@ -272,23 +279,21 @@
                     </div>
 
                     <div class="row2">
-                        <img src="../img/whatsapp.jpg">
-                        <label> Cel. 2494-454541 </label>
+                        <a class="link-footer" href="https://wa.me/2494583609"><img src="../img/whatsapp.jpg">
+                            <label> Cel. 2494-583609 </label> </a>
                     </div>
 
                     <div class="row2">
-                        <img src="../img/correo.jpg">
-                        <label> correo electronico: enterarte@hotmail.com </label>
+                        <a class="link-footer" href="mailto:enterarte.cordoba@gmail.com"> <img src="../img/correo.jpg">
+                            <label> correo electronico: enterarte.cordoba@gmail.com </label></a>
                     </div>
                 </div>
+
             </div>
             <div class="container-footer">
                 <div class="copyright"> © 2022 EnterArte, Inc.</div>
             </div>
-
-
         </div>
-
     </footer>
     <!-- Bootstrap core JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
