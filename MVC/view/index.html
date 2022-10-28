@@ -31,6 +31,7 @@
 
     <!--JS del HEADER-->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
 
 </head>
 
@@ -51,12 +52,25 @@
                 <li><a href="pages/profileUser.html">Mi Cuenta</a></li>
                 <ul class="navbar-right">
                     <!--PC-->
-                    <!-- <li id="pc"><a href="./cart.html" id="cart"><i class="fa fa-shopping-cart"></i> Carrito <span class="badge"></span></a></li> -->
+                    <!-- <li id="pc"><a href="pages/cart.html" id="cart"><i class="fa fa-shopping-cart"></i> Carrito <span class="badge"></span></a></li> -->
                     <!-- MOVIL-->
                     <li id="movil"><a href="pages/cart.html" id="cart"><i class="fa fa-shopping-cart"></i> Carrito <span class="badge"></span></a></li>
                 </ul>
                 <li><a href="pages/login.html">Login</a></li>
+
+                <ol class="traductor"><div id="google_translate_element" class="google"></div>
+                 
+                    <script type="text/javascript">
+                    function googleTranslateElementInit() {
+                        new google.translate.TranslateElement({pageLanguage: 'es', includedLanguages: 'ca,eu,gl,en,fr,it,pt,de', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true}, 'google_translate_element');
+                            }
+                    </script>
+                    
+                    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                </ol>
+
             </ul>
+            
         </nav>
 
         <!-- <div class="conteiner">
@@ -93,8 +107,8 @@
         <!--DIV AGENDA-->
 
         <div id="colorFondo">
-            <div class="banner">
-                <div class="container">
+            <div class="banner" >
+                <div class="container" >
                     <p style="margin-bottom: 0px;" class="texto-derecha floatR desaparece"><input type="text" name="buscador" placeholder="Buscar..." class="buscador" id="buscador"><button class="btn-search" id="buttonSearch"><i class="material-icons">Buscar</i></button></p>
                     <div class="clearfix"></div>
                     <br>
@@ -103,15 +117,13 @@
             <div id="calendario-cont" class="calendario-cont">
                 <h5 class="calendariotitulo">CALENDARIO DE EVENTOS</h5>
                 <div id="calendario" class="calendario">
-                    <iframe src="https://calendar.google.com/calendar/embed?height=250&wkst=1&bgcolor=%23ffffff&ctz=America%2FArgentina%2FBuenos_Aires&showTitle=0&showNav=0&showPrint=0&showTabs=0&showTz=0&showCalendars=0&showDate=1&src=ZGFyaW9naWFuYUBnbWFpbC5jb20&color=%237986CB"
-                        style="border-width:0" width="250" height="250" frameborder="0" scrolling="no"></iframe>
-                </div>
+                    <iframe class="calen" src="https://calendar.google.com/calendar/embed?height=250&wkst=1&bgcolor=%23ffffff&ctz=America%2FArgentina%2FBuenos_Aires&showTitle=0&showNav=0&showPrint=0&showTabs=0&showTz=0&showCalendars=0&showDate=1&src=ZGFyaW9naWFuYUBnbWFpbC5jb20&color=%237986CB" style="border-width:0" frameborder="0" scrolling="no"></iframe>                </div>
             </div>
         </div>
 
         <!--DIV CAROUSEL-->
 
-        <div>
+        <div >
             <div>
                 <h2 class="prox-eventos">Proximos Eventos</h2>
             </div>
@@ -165,7 +177,7 @@
         <div class="divbootstrap">
             <!--<h4 id="Titulo_Anuncio">ANUNCIOS PUBLICITARIOS</h4>-->
 
-            <div class="card">
+            <div class="cardUno">
                 <img src="img/Jarrones-en-ceramica.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">TeBaS (tu cerámica)</h5>
@@ -173,7 +185,7 @@
                     <a href="#" class="btn btn-primary"> Ver Catálogo </a>
                 </div>
             </div>
-            <div class="cardUno">
+            <div class="cardDos">
                 <img src="img/Ghost.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Curso de Cerámica</h5>

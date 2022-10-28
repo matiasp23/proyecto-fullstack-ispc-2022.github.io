@@ -10,12 +10,7 @@
 nav a {
     display: inline-block;
     margin-top: -5px;
-    transition: all 300ms;
-<<<<<<< HEAD
-   
-=======
-    
->>>>>>> 3b54a6ff92234258d5b03fe6fb530413286a76dc
+    transition: all 300ms; 
 }
 
 nav a:hover {
