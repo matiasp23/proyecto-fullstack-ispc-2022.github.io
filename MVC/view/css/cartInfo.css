@@ -6,19 +6,18 @@
     font-family: 'Poppins', sans-serif;
     
 }
-body{
+.bodyCartInfo{
     background-image: url(../img/fondoAbout.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
 }
-section{
+
+.sectionInfo{
     padding-top: 11vh;
     padding-bottom: 11vh;
     background-color:  rgba(226, 78, 66, .4);
-}
-.sectionInfo{
     display: flex;
     align-items:center;
     justify-content:center;
@@ -37,7 +36,7 @@ section{
     font-size: 1.5rem;
     border-radius: 5px;
     padding:1%;
-    transition:left 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+
 }
 
 .listInfo ul li{
@@ -45,4 +44,10 @@ section{
      margin-bottom: 1vh;
      padding: 5px;
      border-bottom: 1px solid #E24E42;
+}
+
+@media (max-width: 960px){
+    .sectionInfo{
+        flex-direction: column;
+    }
 }

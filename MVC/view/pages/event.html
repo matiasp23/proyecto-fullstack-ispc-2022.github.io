@@ -38,14 +38,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.2.4/css/simple-line-icons.min.css'>
     <link rel="stylesheet" href="../css/style.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    
 
 </head>
 
 
-<body style="font-family: sans-serif;">
+<body class="bodyEvent" style="font-family: sans-serif;">
     <!-- partial:index.partial.html -->
+    <!--HEADER-->
+    <header>
     <nav>
         <div class='mini'>
             <p class='products'>Vacío</p>
@@ -60,10 +60,10 @@
             <label class="logo"><span style="font-weight: normal;">ENTER</span>arte</label>
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
-                <li><a href="event.html">Eventos</a></li>
-                <li><a href="post.html">Publicar</a></li>
-                <li><a href="about.html">Quienes somos</a></li>
-                <li><a href="login.html">Mi Cuenta</a></li>
+                <li><a href="./event.html">Eventos</a></li>
+                <li><a href="./post.html">Publicar</a></li>
+                <li><a href="./about.html">Quienes somos</a></li>
+                <li><a href="./profileUser.html">Mi Cuenta</a></li>
                 <ul class="navbar-right">
                     <!--PC-->
                     <li id="pc">
@@ -86,32 +86,9 @@
                     <!--</ul>-->
                 </ul>
         </nav>
+    </header>
 
-
-        <!-- <div class="conteiner">
-            <div class="shopping-cart">
-                <div class="shopping-cart-header">
-                    <i class="fa fa-shopping-cart cart-icon"></i><span class="badge">0</span>
-                    <div class="shopping-cart-total">
-                    </div>
-                </div>
-
-                <ul class="shopping-cart-items">
-                </ul>
-
-                <a href="cart.html" class="button">Checkout</a>
-            </div>
-        </div> -->
-        </header>
-        <br><br>
-         <!--<div class="banner">
-            <div class="container">
-                <p style="margin-bottom: 0px;" class="texto-derecha floatR desaparece"><input type="text" name="buscador" placeholder="Buscar..." class="buscador" id="buscador"><button class="btn-search" id="buttonSearch"><i class="material-icons">Buscar</i></button></p>
-                <div class="clearfix"></div>
-                <br>
-            </div>
-        </div> -->
-    </nav>
+    <section class="sectionEvent">
     
     <div class="botonera">
         <button type="button" class="boton teatro" category="teatro">Teatro</button>
@@ -308,13 +285,67 @@
         <img src='https://placeimg.com/100/100'>
         <img src='https://placeimg.com/100/100'>-->
     </div>
+</section>
     <!-- partial -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
     <script src="../script.js "></script>
 
-    <!-- FOOTER -->
+    <!--FOOTER-->
     <footer>
+        <div class="container-footer-all">
+            <div class="container-body">
 
+
+                <div class="column1">
+                    <h1> Mas informacion de la Compañia</h1>
+                    <p> EnterARTE ofrece a sus usuarios un abanico infinito de opciones para que el visitante se lleve la mejor de las experiencias.
+
+                    </p>
+                </div>
+
+                <div class="column2">
+                    <H1> Redes Sociales</H1>
+                    <div class="row">
+                        <img src="../img/face.jpg">
+                        <label> Facebook </label>
+                    </div>
+                    <div class="row">
+                        <img src="../img/insta.jpg">
+                        <label> Instagram </label>
+                    </div>
+                    <div class="row">
+                        <img src="../img/twitter.jpg">
+                        <label> Twitter </label>
+                    </div>
+
+                </div>
+
+
+                <div class="column3">
+
+                    <h1> Información Contactos</h1>
+                    <div class="row2">
+                        <img src="../img/casa.jpg">
+                        <label> Contamos con los siguientes medios de comunicación:</label>
+                    </div>
+
+                    <div class="row2">
+                        <img src="../img/whatsapp.jpg">
+                        <label> Cel. 2494-454541 </label>
+                    </div>
+
+                    <div class="row2">
+                        <img src="../img/correo.jpg">
+                        <label> correo electronico: enterarte@hotmail.com </label>
+                    </div>
+                </div>
+
+            </div>
+            <div class="container-footer">
+                <div class="copyright"> © 2022 EnterArte, Inc.</div>
+            </div>
+        </div>
+        </div>
     </footer>
 
     <script src="../js/jquery-3.4.1.min.js "></script>
