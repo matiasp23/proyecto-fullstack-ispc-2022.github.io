@@ -20,10 +20,10 @@
     justify-content: space-around;
     width: 100%;
     margin-bottom: 15vh;
-    margin-top: 10vh;
+    margin-top: 10vh;      
 }
 
-body {
+.bodyIndex{
     background-image: url(../img/fondoAbout.jpeg);
     padding-top: 0vh;
     background-size: cover;

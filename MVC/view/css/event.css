@@ -1,15 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito:400,300,700);
 
-/*body {
-  background-color: #0b0b0b;
-  font-family: 'Nunito', sans-serif;
-  
-    background-color: white;
+
+.bodyEvent{
+    background-image: url(../img/fondoAbout.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-}*/
+}
 
 
 /* nav {
@@ -49,24 +47,12 @@ nav .mini .products {
     font-size: 15px;
 }
 
-nav .mini p {
-    font-size: 15px;
-    display: block;
-    margin: 0;
-    padding: 0;
-    line-height: 20px;
+.sectionEvent{
+    padding-top: 11vh;
+    padding-bottom: 11vh;
+    background-color: rgba(226, 78, 66, .4);
 }
 
-nav .cart {
-    position: relative;
-    float: right;
-    margin-right: 50px;
-    height: 20px;
-    line-height: 70px;
-    font-size: 28px;
-    height: 100%;
-    cursor: pointer;
-}
 
 nav .cart span {
     height: 100%;
@@ -181,8 +167,7 @@ nav ul li a {
     margin-left: 8%;
     border-radius: 10px;
     font-size: 6vh;
-    background-color: white;
-    color: #008F95;
+    color: #008F95 ;
     border-color: #008F95;
 }
 
@@ -194,7 +179,6 @@ nav ul li a {
     padding-right: 4vh;
     border-radius: 10px;
     font-size: 6vh;
-    background-color: white;
 }
 
 .boton.teatro {
