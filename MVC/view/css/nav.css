@@ -5,8 +5,8 @@
     list-style: none;
     box-sizing: border-box;
 }
+
 nav {
-    
     position: fixed;
     z-index: 999;
     width: 100%;
@@ -49,7 +49,6 @@ nav .mini .products {
 #EB6E80 Blush
 #008F95 aqua
 */
-
 
 nav .mini p {
     font-size: 15px;
@@ -245,9 +244,7 @@ a:hover {
         color: black;
         background-color: transparent;
     }
-
     .ulNav {
-
         position: fixed;
         width: 100%;
         height: 100vh;
