@@ -10,16 +10,25 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+<<<<<<< HEAD
     font-family: 'Averta', sans-serif;
 }
 
 .section {
     background-color:black;
+=======
+    font-family: 'Poppins', sans-serif;
+}
+
+.section {
+    background-color: black;
+>>>>>>> 86f46634c3c3bd0da153325def7b7b3abfaae0ea
     box-shadow: inset;
     display: flex;
     justify-content: space-around;
     width: 100%;
     margin-bottom: 15vh;
+<<<<<<< HEAD
     
     
     
@@ -38,6 +47,27 @@ section h2 {
 }
 
 /*Titulo del carrusel*/
+=======
+    margin-top: 10vh;      
+}
+
+.bodyIndex{
+    background-image: url(../img/fondoAbout.jpeg);
+    padding-top: 0vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+section h2 {
+    text-align: center;
+}
+
+
+/*Titulo del carrusel*/
+
+>>>>>>> 86f46634c3c3bd0da153325def7b7b3abfaae0ea
 .prox-eventos {
     text-align: center;
     margin-top: 3vh;
@@ -55,6 +85,7 @@ section h2 {
 #carouselExampleCaptions img {
     max-width: 100vh;
     max-height: 75vh;
+<<<<<<< HEAD
     
 }
 
@@ -85,20 +116,51 @@ section h2 {
     
 }
 .buscador{
+=======
+}
+
+#colorFondo {
+    margin-top: 5vh;
+    border-radius: 15px;
+    margin-bottom: 5vh;
+    /*background-color:transparent;*/
+    background-image: url(../img/fondoAbout.jpeg);
+    opacity: 90%;
+    /**/
+}
+
+.banner {
+    margin-top: 3vh;
+}
+
+.btn-search {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: transparent;
+}
+
+.buscador {
+>>>>>>> 86f46634c3c3bd0da153325def7b7b3abfaae0ea
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
 
 .calendariotitulo {
     text-align: center;
+<<<<<<< HEAD
     padding-top: 1rem;
     
+=======
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+>>>>>>> 86f46634c3c3bd0da153325def7b7b3abfaae0ea
     color: white;
 }
 
 .calendario-cont {
     width: auto;
     height: auto;
+<<<<<<< HEAD
     
 }
 
@@ -114,6 +176,14 @@ section h2 {
 .calen{
     width: 30vh;
     height:30vh; 
+=======
+}
+
+.calendario {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+>>>>>>> 86f46634c3c3bd0da153325def7b7b3abfaae0ea
 }
 
 #tituloCarousel {
@@ -128,6 +198,7 @@ section h2 {
 
 /*-----------------------------------------------------------------------------------------*/
 
+<<<<<<< HEAD
 
 /*GeR y DaviD*/
 
@@ -159,23 +230,56 @@ section h2 {
     height: 30vh;
     border-radius: 10px;
     
+=======
+.divbootstrap {
+    display: flexbox;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding-top: auto;
+    background-color: transparent;
+    text-align: center;
+    margin-top: 5vh;
+    padding-bottom: 5vh;
+    opacity: 90%;
+}
+
+.card {
+    height: 30vh;
+    margin-bottom: 1vh;
+    border-radius: 10px;
+}
+
+.cardUno {
+    background-color: white;
+    height: 30vh;
+    border-radius: 10px;
+>>>>>>> 86f46634c3c3bd0da153325def7b7b3abfaae0ea
 }
 
 .divbootstrap div {
     width: 30vh;
     height: auto;
     font-size: 10px;
+<<<<<<< HEAD
     
 
+=======
+>>>>>>> 86f46634c3c3bd0da153325def7b7b3abfaae0ea
 }
 
 .divbootstrap div a {
     height: auto;
+<<<<<<< HEAD
     font-size: 10px ;
     text-align: center;
     border-radius: 30px;
     
     
+=======
+    font-size: 10px;
+    text-align: center;
+    border-radius: 30px;
+>>>>>>> 86f46634c3c3bd0da153325def7b7b3abfaae0ea
 }
 
 .divbootstrap div h5 {
@@ -187,12 +291,18 @@ section h2 {
     width: 30vh;
 }
 
+<<<<<<< HEAD
 
 
 .divbootstrap h4,
 .calendariotitulo {
     font-size: 20px;
     
+=======
+.divbootstrap h4,
+.calendariotitulo {
+    font-size: 20px;
+>>>>>>> 86f46634c3c3bd0da153325def7b7b3abfaae0ea
 }
 
 
@@ -236,19 +346,29 @@ section h2 {
 
 .calendario {
     text-align: center;
+<<<<<<< HEAD
 }*/
+=======
+}
+>>>>>>> 86f46634c3c3bd0da153325def7b7b3abfaae0ea
 
 
 /*-----------------------------------------------------------------------------------------*/
 
+<<<<<<< HEAD
 
 /*GeR y DaviD*/
 
+=======
+>>>>>>> 86f46634c3c3bd0da153325def7b7b3abfaae0ea
 .publigeneral {
     text-align: center;
     width: 50vh;
     margin: 6px;
+<<<<<<< HEAD
     
+=======
+>>>>>>> 86f46634c3c3bd0da153325def7b7b3abfaae0ea
 }
 
 .publigeneral div {
@@ -261,8 +381,11 @@ section h2 {
     padding-bottom: 0.5rem;
 }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 86f46634c3c3bd0da153325def7b7b3abfaae0ea
 .ayuda div {
     width: 30vh;
     height: 10vh;
@@ -281,6 +404,7 @@ section h2 {
 .ayuda div img {
     height: 15vh;
     width: 30vh;
+<<<<<<< HEAD
 }
 
 .traductor {
@@ -525,3 +649,6 @@ section h2 {
 }
 
                                 
+=======
+}
+>>>>>>> 86f46634c3c3bd0da153325def7b7b3abfaae0ea

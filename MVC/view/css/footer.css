@@ -1,6 +1,7 @@
 /*------------------------------------FOOTER-----------------------------------------------------*/
 
 
+<<<<<<< HEAD
 /* * {
     margin: 0px;
     margin-right: 20px;
@@ -17,6 +18,21 @@
 footer {
     width: 100%;
     background-color: black;
+=======
+
+
+/*Colores
+#E24E42 Papaya
+#E9B000 Mustard
+#EB6E80 Blush
+#008F95 aqua
+*/
+
+footer {
+    width: 100%;
+    background: rgb(226, 78, 66);
+    background: linear-gradient(162deg, rgba(226, 78, 66, 0.8883928571428571) 0%, rgba(0, 0, 0, 0.9668242296918768) 15%, rgba(8, 3, 2, 1) 38%);
+>>>>>>> 86f46634c3c3bd0da153325def7b7b3abfaae0ea
     color: white;
 }
 
@@ -34,6 +50,10 @@ footer {
 
 .column1 {
     max-width: 400px;
+<<<<<<< HEAD
+=======
+    margin-top: 3%;
+>>>>>>> 86f46634c3c3bd0da153325def7b7b3abfaae0ea
 }
 
 .column1 h1 {
@@ -48,6 +68,10 @@ footer {
 
 .column2 {
     max-width: 400px;
+<<<<<<< HEAD
+=======
+    margin-top: 3%;
+>>>>>>> 86f46634c3c3bd0da153325def7b7b3abfaae0ea
 }
 
 .column2 h1 {
@@ -72,6 +96,10 @@ footer {
 
 .column3 {
     max-width: 400px;
+<<<<<<< HEAD
+=======
+    margin-top: 3%;
+>>>>>>> 86f46634c3c3bd0da153325def7b7b3abfaae0ea
 }
 
 .column3 h1 {
@@ -98,4 +126,11 @@ footer {
     margin-top: 10px;
     margin-left: 20px;
     color: #C7C7C7;
+<<<<<<< HEAD
+=======
+}
+
+.link-footer {
+    color: #008F95;
+>>>>>>> 86f46634c3c3bd0da153325def7b7b3abfaae0ea
 }

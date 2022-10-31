@@ -5,14 +5,23 @@
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
 }
+<<<<<<< HEAD
 body{
     background-image: url(../img/login.jpeg);
+=======
+.bodyPost{
+    background-image: url(../img/fondoAbout.jpeg);
+>>>>>>> 86f46634c3c3bd0da153325def7b7b3abfaae0ea
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
 }
+<<<<<<< HEAD
 section{
+=======
+.sectionPost{
+>>>>>>> 86f46634c3c3bd0da153325def7b7b3abfaae0ea
     padding-top:12vh;
 }
 .formularioEvent{

@@ -249,12 +249,15 @@ nav ul li a {
     text-align: center;
 }
 
-
 .prox-evento {
     color: white;
     text-align: center;
     margin-top: 5%;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 86f46634c3c3bd0da153325def7b7b3abfaae0ea
 .containerCarrito .product {
     position: relative;
     overflow: hidden;
@@ -262,7 +265,11 @@ nav ul li a {
     height: 340px;
     display: inline-block;
     border-radius: 15px;
+<<<<<<< HEAD
     background-color:white;
+=======
+    background-color: white;
+>>>>>>> 86f46634c3c3bd0da153325def7b7b3abfaae0ea
     border: 1px solid white;
     margin: 20px;
     padding: 15px;
@@ -273,8 +280,13 @@ nav ul li a {
 
 .containerCarrito .product img {
     position: relative;
+<<<<<<< HEAD
   top: -15px;
   left: -15px;
+=======
+    top: -15px;
+    left: -15px;
+>>>>>>> 86f46634c3c3bd0da153325def7b7b3abfaae0ea
     width: 100%;
     height: 150px;
     border-top-right-radius: 4px;
@@ -284,8 +296,11 @@ nav ul li a {
 .containerCarrito .product:hover {
     box-shadow: 5px 5px 20px rgb(0, 0, 0, 0.4);
     transform: translateY(-3%);
+<<<<<<< HEAD
    
     
+=======
+>>>>>>> 86f46634c3c3bd0da153325def7b7b3abfaae0ea
 }
 
 .containerCarrito .product h2 {
@@ -307,7 +322,11 @@ nav ul li a {
 .containerCarrito .product .price {
     text-align: right;
     font-size: 18px;
+<<<<<<< HEAD
     color:#000;
+=======
+    color: #000;
+>>>>>>> 86f46634c3c3bd0da153325def7b7b3abfaae0ea
     margin-top: 40px;
     text-align: left;
     font-weight: 600;
@@ -329,7 +348,10 @@ nav ul li a {
     -webkit-transition: all .2s ease;
     transition: all .2s ease;
     font-family: sans-serif;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 86f46634c3c3bd0da153325def7b7b3abfaae0ea
 }
 
 .containerCarrito .product .btn.ok {
@@ -376,7 +398,11 @@ nav ul li a {
 
 .containerCarrito .product .btn_comprar:hover {
     padding-right: 7px;
+<<<<<<< HEAD
     background-color:#EB6E80;
+=======
+    background-color: #EB6E80;
+>>>>>>> 86f46634c3c3bd0da153325def7b7b3abfaae0ea
     border: 2px #008F95;
 }
 
@@ -475,6 +501,7 @@ nav .cart {
 .btn_agregar {
     width: 150px;
 }
+<<<<<<< HEAD
 @media (max-width:1142px) {
     .boton {
      margin-top: 15%;
@@ -487,6 +514,22 @@ nav .cart {
      background-color: white;
  }
  }
+=======
+
+@media (max-width:1142px) {
+    .boton {
+        margin-top: 15%;
+        height: 10vh;
+        width: auto;
+        padding-left: 4vh;
+        padding-right: 4vh;
+        border-radius: 10px;
+        font-size: 5vh;
+        background-color: white;
+    }
+}
+
+>>>>>>> 86f46634c3c3bd0da153325def7b7b3abfaae0ea
 @media (max-width:1299px) {
     .containerCarrito>h2 {
         margin-top: 97px;
@@ -547,7 +590,10 @@ nav .cart {
     .containerCarrito .product img {
         height: 254px;
     }
+<<<<<<< HEAD
     
+=======
+>>>>>>> 86f46634c3c3bd0da153325def7b7b3abfaae0ea
 }
 
 @media (max-width:391px) {
@@ -559,6 +605,7 @@ nav .cart {
     }
 }
 
+<<<<<<< HEAD
 
 @media (max-width:599px) {
 .botonera {
@@ -613,3 +660,52 @@ nav .cart {
 }
 
 
+=======
+@media (max-width:599px) {
+    .botonera {
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 12%;
+        margin-right: 12%;
+        flex-direction: column;
+    }
+    .botonsolo {
+        display: flex;
+        margin-top: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .botontodos {
+        height: 10vh;
+        width: 50vw;
+        margin-right: 8%;
+        margin-left: 8%;
+        border-radius: 10px;
+        font-size: 6vw;
+        background-color: white;
+        color: #008F95;
+        border-color: #008F95;
+    }
+    .boton {
+        margin-top: 15%;
+        height: 10vh;
+        width: 50vw;
+        padding-left: 4vh;
+        padding-right: 4vh;
+        border-radius: 10px;
+        font-size: 6vw;
+        background-color: white;
+    }
+    .botonsolo {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+>>>>>>> 86f46634c3c3bd0da153325def7b7b3abfaae0ea
