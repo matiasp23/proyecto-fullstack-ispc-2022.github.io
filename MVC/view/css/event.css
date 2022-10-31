@@ -1,19 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito:400,300,700);
 
 
-/*body {
-  background-color: #0b0b0b;
-  font-family: 'Nunito', sans-serif;
-  
-    background-color: white;
+.bodyEvent{
+    background-image: url(../img/fondoAbout.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-}*/
+}
 
 
-nav {
+/* nav {
     
     position: fixed;
     z-index: 999;
@@ -21,7 +18,7 @@ nav {
     height: 70px;
     line-height: 70px;
     font-family: sans-serif;
-}
+} */
 
 nav .mini {
     position: fixed;
@@ -50,24 +47,12 @@ nav .mini .products {
     font-size: 15px;
 }
 
-nav .mini p {
-    font-size: 15px;
-    display: block;
-    margin: 0;
-    padding: 0;
-    line-height: 20px;
+.sectionEvent{
+    padding-top: 11vh;
+    padding-bottom: 11vh;
+    background-color: rgba(226, 78, 66, .4);
 }
 
-nav .cart {
-    position: relative;
-    float: right;
-    margin-right: 50px;
-    height: 20px;
-    line-height: 70px;
-    font-size: 28px;
-    height: 100%;
-    cursor: pointer;
-}
 
 nav .cart span {
     height: 100%;
@@ -125,7 +110,8 @@ nav .cart span:after {
     margin: auto;
 }
 
-nav ul {
+
+/* nav ul {
     float: left;
 }
 
@@ -144,50 +130,48 @@ nav ul li a {
     border-radius: 3px;
     text-transform: uppercase;
     font-weight: 100;
-}
+} */
 
-
-.buscador{
+.buscador {
     height: 30px;
     margin-top: 55px;
 }
 
-.btn-search{
+.btn-search {
     height: 30px;
 }
-.cont_botonera{
- flex-direction: column;
- align-content: center;
 
+.cont_botonera {
+    flex-direction: column;
+    align-content: center;
 }
-.botonera{
+
+.botonera {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-left: 12%;
     margin-right: 12%;
-       
 }
 
-.botonsolo{
-    margin-top:4%;
+.botonsolo {
+    margin-top: 4%;
     margin-left: 12%;
     margin-right: 12%;
-    
 }
-.botontodos{ 
+
+.botontodos {
     height: 10vh;
     width: 85%;
     margin-right: 8%;
-    margin-left: 8%; 
+    margin-left: 8%;
     border-radius: 10px;
     font-size: 6vh;
-    background-color: white;
     color: #008F95 ;
     border-color: #008F95;
 }
 
-.boton{
+.boton {
     margin-top: 15%;
     height: 10vh;
     width: auto;
@@ -195,15 +179,15 @@ nav ul li a {
     padding-right: 4vh;
     border-radius: 10px;
     font-size: 6vh;
-    background-color: white;
 }
+
 .boton.teatro {
     color: black;
-    border-color: black ;
+    border-color: black;
 }
 
 .boton.musica {
-    color:#E9B000;
+    color: #E9B000;
     border-color: #E9B000;
 }
 
@@ -211,35 +195,39 @@ nav ul li a {
     color: #EB6E80;
     border-color: #EB6E80;
 }
-.boton.infantiles{
-    color:#E24E42;
+
+.boton.infantiles {
+    color: #E24E42;
     border-color: #E24E42;
 }
 
-.boton.teatro:hover{
+.boton.teatro:hover {
     background-color: black;
     color: white;
 }
-.boton.musica:hover{
+
+.boton.musica:hover {
     background-color: #E9B000;
     color: white;
 }
-.boton.arte:hover{
+
+.boton.arte:hover {
     background-color: #EB6E80;
     color: white;
 }
-.botontodos:hover{
-    background-color: #008F95 ;
-    color:white;
-}
-.boton.infantiles:hover{
-    background-color: #E24E42;
-    color:white;
+
+.botontodos:hover {
+    background-color: #008F95;
+    color: white;
 }
 
+.boton.infantiles:hover {
+    background-color: #E24E42;
+    color: white;
+}
 
 .containerCarrito {
-    background-color:white;
+    background-color: white;
     border-radius: 15px;
     font-family: sans-serif;
     margin-top: 2%;
@@ -249,12 +237,12 @@ nav ul li a {
     text-align: center;
 }
 
-
 .prox-evento {
     color: white;
     text-align: center;
     margin-top: 5%;
 }
+
 .containerCarrito .product {
     position: relative;
     overflow: hidden;
@@ -262,7 +250,7 @@ nav ul li a {
     height: 340px;
     display: inline-block;
     border-radius: 15px;
-    background-color:white;
+    background-color: white;
     border: 1px solid white;
     margin: 20px;
     padding: 15px;
@@ -273,8 +261,8 @@ nav ul li a {
 
 .containerCarrito .product img {
     position: relative;
-  top: -15px;
-  left: -15px;
+    top: -15px;
+    left: -15px;
     width: 100%;
     height: 150px;
     border-top-right-radius: 4px;
@@ -284,8 +272,6 @@ nav ul li a {
 .containerCarrito .product:hover {
     box-shadow: 5px 5px 20px rgb(0, 0, 0, 0.4);
     transform: translateY(-3%);
-   
-    
 }
 
 .containerCarrito .product h2 {
@@ -307,7 +293,7 @@ nav ul li a {
 .containerCarrito .product .price {
     text-align: right;
     font-size: 18px;
-    color:#000;
+    color: #000;
     margin-top: 40px;
     text-align: left;
     font-weight: 600;
@@ -329,7 +315,6 @@ nav ul li a {
     -webkit-transition: all .2s ease;
     transition: all .2s ease;
     font-family: sans-serif;
-
 }
 
 .containerCarrito .product .btn.ok {
@@ -376,7 +361,7 @@ nav ul li a {
 
 .containerCarrito .product .btn_comprar:hover {
     padding-right: 7px;
-    background-color:#EB6E80;
+    background-color: #EB6E80;
     border: 2px #008F95;
 }
 
@@ -475,18 +460,20 @@ nav .cart {
 .btn_agregar {
     width: 150px;
 }
+
 @media (max-width:1142px) {
     .boton {
-     margin-top: 15%;
-     height: 10vh;
-     width: auto;
-     padding-left: 4vh;
-     padding-right: 4vh;
-     border-radius: 10px;
-     font-size: 5vh;
-     background-color: white;
- }
- }
+        margin-top: 15%;
+        height: 10vh;
+        width: auto;
+        padding-left: 4vh;
+        padding-right: 4vh;
+        border-radius: 10px;
+        font-size: 5vh;
+        background-color: white;
+    }
+}
+
 @media (max-width:1299px) {
     .containerCarrito>h2 {
         margin-top: 97px;
@@ -547,7 +534,6 @@ nav .cart {
     .containerCarrito .product img {
         height: 254px;
     }
-    
 }
 
 @media (max-width:391px) {
@@ -559,57 +545,50 @@ nav .cart {
     }
 }
 
-
 @media (max-width:599px) {
-.botonera {
-    padding-top: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 12%;
-    margin-right: 12%;
-    flex-direction: column;
+    .botonera {
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 12%;
+        margin-right: 12%;
+        flex-direction: column;
+    }
+    .botonsolo {
+        display: flex;
+        margin-top: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .botontodos {
+        height: 10vh;
+        width: 50vw;
+        margin-right: 8%;
+        margin-left: 8%;
+        border-radius: 10px;
+        font-size: 6vw;
+        background-color: white;
+        color: #008F95;
+        border-color: #008F95;
+    }
+    .boton {
+        margin-top: 15%;
+        height: 10vh;
+        width: 50vw;
+        padding-left: 4vh;
+        padding-right: 4vh;
+        border-radius: 10px;
+        font-size: 6vw;
+        background-color: white;
+    }
+    .botonsolo {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
-.botonsolo {
-    display: flex;
-    margin-top: 10%;
-    margin-left: 5%;
-    margin-right: 5%;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-.botontodos{ 
-    height: 10vh;
-    width: 50vw;
-    margin-right: 8%;
-    margin-left: 8%; 
-    border-radius: 10px;
-    font-size: 6vw;
-    background-color: white;
-    color: #008F95 ;
-    border-color: #008F95;
-}
-
-.boton {
-    margin-top: 15%;
-    height: 10vh;
-    width: 50vw;
-    padding-left: 4vh;
-    padding-right: 4vh;
-    border-radius: 10px;
-    font-size: 6vw;
-    background-color: white;
-}
-
-.botonsolo {
-     display: flex; 
-     justify-content: space-between; 
-    margin-top: 10%;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-}
-
-
