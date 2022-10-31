@@ -5,113 +5,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
     <title>ENTERarte - Todo lo que busques está aquí</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/album/">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
     <!-- Bootstrap core CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-    <!--CARRITO-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <!--CSS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/event.css">
     <link rel="stylesheet" href="../css/events.css">
 
-    <!--CSS-->
-    <link href="css/styles.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/event.css">
-
-    <!--FOOTER-->
-    <link rel="stylesheet" href="../css/footer.css">
-
-    <!--FONT-->
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
-
-    <!--NAV-->
-    
-    <link rel="stylesheet" href="../css/nav.css">
-    
-
-
     <!--JS del HEADER-->
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.2.4/css/simple-line-icons.min.css'>
-    <link rel="stylesheet" href="../css/style.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    
 
 </head>
-
-
 <body style="font-family: sans-serif;">
-    <!-- partial:index.partial.html -->
-    <nav>
-        <div class='mini'>
-            <p class='products'>Vacío</p>
-            <p class='names'></p>
-            <p class='miniprice'></p>
-        </div>
+    <!-- HEADER -->
+    <header>
         <nav>
             <input type="checkbox" id="check">
             <label for="check" class="checkbtn">
-    <i class="fas fa-bars"></i>
-    </label>
+                <img src="../img/navbar.png" id="navbar-img" alt="">
+            </label>
             <label class="logo"><span style="font-weight: normal;">ENTER</span>arte</label>
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="event.html">Eventos</a></li>
                 <li><a href="post.html">Publicar</a></li>
                 <li><a href="about.html">Quienes somos</a></li>
-                <li><a href="login.html">Mi Cuenta</a></li>
+                <li><a href="profileUser.html">Mi Cuenta</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="cart.html">Carrito</a></li>
+
+
+
                 <ul class="navbar-right">
                     <!--PC-->
                     <li id="pc">
                         <a href="#" id="cart">
                             <i class="fa"></i>
                             <div class='cart icon-basket'>
-                                <span class='number'>0</span>
+                                <span class='number'></span>
                             </div>
                         </a>
                     </li>
                     <!--MOVIL-->
                     <li id="movil">
-                        <a href="cart.html" class="active">
+                        <a href="#" class="active">
                             <i class="fa"></i>
                             <div class='cart icon-basket'>
-                                <span class='number'>0</span>
+                                <span class='number'></span>
                             </div>
                         </a>
                     </li>
-                    <!--</ul>-->
                 </ul>
-        </nav>
-
-
-        <!-- <div class="conteiner">
-            <div class="shopping-cart">
-                <div class="shopping-cart-header">
-                    <i class="fa fa-shopping-cart cart-icon"></i><span class="badge">0</span>
-                    <div class="shopping-cart-total">
-                    </div>
+                <div class='mini'>
+                    <ul class="shopping-cart-items">
+                        <p class='products'>Vacío</p>
+                        <p class='names'></p>
+                        <p class='miniprice'></p>
+                        <a href="cart.html" class="button">Revisar compra</a>
+                    </ul>
                 </div>
-
-                <ul class="shopping-cart-items">
-                </ul>
-
-                <a href="cart.html" class="button">Checkout</a>
-            </div>
-        </div> -->
-        </header>
-        <br><br>
-         <!--<div class="banner">
+            </ul>
+        </nav>
+    </header>
+    <br><br>
+    <!--<div class="banner">
             <div class="container">
                 <p style="margin-bottom: 0px;" class="texto-derecha floatR desaparece"><input type="text" name="buscador" placeholder="Buscar..." class="buscador" id="buscador"><button class="btn-search" id="buttonSearch"><i class="material-icons">Buscar</i></button></p>
                 <div class="clearfix"></div>
                 <br>
             </div>
         </div> -->
-    </nav>
+        </nav>
+    </header>
+
+    <section class="sectionEvent">
     
     <div class="botonera">
         <button type="button" class="boton teatro" category="teatro">Teatro</button>
@@ -122,7 +97,7 @@
     <div class="botonsolo">
         <button type="button" class="botontodos" category="todos">Todos los eventos</button>
     </div>
-    
+
 
     <div class="prox-evento">
         <h1>EVENTOS</h1>
@@ -139,17 +114,21 @@
             <h2 class='header'>Teatro 1</h2>
             <p class='description' style="font-size:13px;">Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
             <p class='price' style="margin-top: 45px;"> 178,-</p>
-            <div class='quickview' style="top:265px;">Info</div>
+            <div class='quickview' style="top:265px;">
+                <a href="cartInfo.html">Info</a>
+            </div>
             <div class='btn btn_comprar'>Comprar</div>
             <div class='btn btn_agregar' style="left:10px;">Agregar al Carrito</div>
         </div>
-        
+
         <div class='product' category="musica">
             <img src='../img/la vela puerca.jpg'>
             <h2 class='header'>Musica 1</h2>
             <p class='description' style="font-size:13px;">Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
             <p class='price' style="margin-top: 45px;"> 523,-</p>
-            <div class='quickview' style="top:265px;">Info</div>
+            <div class='quickview' style="top:265px;">
+                <a href="cartInfo.html">Info</a>
+            </div>
             <div class='btn btn_comprar'>Comprar</div>
             <div class='btn btn_agregar' style="left:10px;">Agregar al Carrito</div>
         </div>
@@ -158,16 +137,20 @@
             <h2 class='header'>Artes Visuales 1</h2>
             <p class='description' style="font-size:13px;">Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
             <p class='price' style="margin-top: 45px;"> 223,-</p>
-            <div class='quickview' style="top:265px;">Info</div>
+            <div class='quickview' style="top:265px;">
+                <a href="cartInfo.html">Info</a>
+            </div>
             <div class='btn btn_comprar'>Comprar</div>
             <div class='btn btn_agregar' style="left:10px;">Agregar al Carrito</div>
         </div>
-        <div class='product'category="infantiles">
+        <div class='product' category="infantiles">
             <img src='../img/callejerossenales.jpg'>
             <h2 class='header'>Infantiles 1</h2>
             <p class='description' style="font-size:13px;" id="celulares">Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
             <p class='price' style="margin-top: 45px;"> 723,-</p>
-            <div class='quickview' style="top:265px;">Info</div>
+            <div class='quickview' style="top:265px;">
+                <a href="cartInfo.html">Info</a>
+            </div>
             <div class='btn btn_comprar'>Comprar</div>
             <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div>
         </div>
@@ -176,39 +159,47 @@
 
         <!-- SEMANALES -->
         <h2 style="font-size: 2rem; font-family: sans-serif; color: black; ">SEMANALES</h2>
-        <div class='product'category="teatro">
+        <div class='product' category="teatro">
             <img src='../img/La-pelicula-de-Breaking-Bad.jpg'>
             <h2 class='header'>Teatro 2</h2>
             <p class='description' style="font-size:13px; ">Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
             <p class='price' style="margin-top: 45px; "> 231,</p>
-            <div class='quickview' style="top:265px; ">Info</div>
+            <div class='quickview' style="top:265px;">
+                <a href="cartInfo.html">Info</a>
+            </div>
             <div class='btn btn_comprar'>Comprar</div>
             <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div>
         </div>
-        <div class='product'category="musica">
+        <div class='product' category="musica">
             <img src='../img/lgante.jpg'>
             <h2 class='header'>Musica 2</h2>
             <p class='description' style="font-size:13px; ">Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
             <p class='price' style="margin-top: 45px; "> 231,</p>
-            <div class='quickview' style="top:265px; ">Info</div>
+            <div class='quickview' style="top:265px;">
+                <a href="cartInfo.html">Info</a>
+            </div>
             <div class='btn btn_comprar'>Comprar</div>
             <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div>
         </div>
-        <div class='product'category="artesvisuales">
+        <div class='product' category="artesvisuales">
             <img src='../img/cuarteto de nso.jpg'>
             <h2 class='header'>Artes Visuales 2</h2>
             <p class='description' style="font-size:13px; ">Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
             <p class='price' style="margin-top: 45px; "> 231,</p>
-            <div class='quickview' style="top:265px; ">Info</div>
+            <div class='quickview' style="top:265px;">
+                <a href="cartInfo.html">Info</a>
+            </div>
             <div class='btn btn_comprar'>Comprar</div>
             <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div>
         </div>
-        <div class='product'category="infantiles">
+        <div class='product' category="infantiles">
             <img src='../img/circo.jpg'>
             <h2 class='header'>Infantiles 2</h2>
             <p class='description' style="font-size:13px; " id="computadoras ">Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
             <p class='price' style="margin-top: 45px; "> 231,</p>
-            <div class='quickview' style="top:265px; ">Info</div>
+            <div class='quickview' style="top:265px;">
+                <a href="cartInfo.html">Info</a>
+            </div>
             <div class='btn btn_comprar'>Comprar</div>
             <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div>
         </div>
@@ -217,39 +208,47 @@
 
         <!-- MENSUALES -->
         <h2 style="font-size: 2rem; font-family: sans-serif; color:black; ">MENSUALES</h2>
-        <div class='product'category="teatro">
+        <div class='product' category="teatro">
             <img src='https://binaries.templates.cdn.office.net/support/templates/en-us/lt16412134_quantized.png'>
             <h2 class='header'>Teatro 3</h2>
             <p class='description' style="font-size:13px; ">Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
             <p class='price' style="margin-top: 45px; "> 231,</p>
-            <div class='quickview' style="top:265px; ">Info</div>
+            <div class='quickview' style="top:265px;">
+                <a href="cartInfo.html">Info</a>
+            </div>
             <div class='btn btn_comprar'>Comprar</div>
             <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div>
         </div>
-        <div class='product'category="musica">
+        <div class='product' category="musica">
             <img src='https://binaries.templates.cdn.office.net/support/templates/en-us/lt16412134_quantized.png'>
             <h2 class='header'>Musica 3</h2>
             <p class='description' style="font-size:13px; ">Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
             <p class='price' style="margin-top: 45px; "> 231,</p>
-            <div class='quickview' style="top:265px; ">Info</div>
+            <div class='quickview' style="top:265px;">
+                <a href="cartInfo.html">Info</a>
+            </div>
             <div class='btn btn_comprar'>Comprar</div>
             <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div>
         </div>
-        <div class='product'category="artesvisuales">
+        <div class='product' category="artesvisuales">
             <img src='https://binaries.templates.cdn.office.net/support/templates/en-us/lt16412134_quantized.png'>
             <h2 class='header'>Artes Visuales 3</h2>
             <p class='description' style="font-size:13px; ">Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
             <p class='price' style="margin-top: 45px; "> 231,</p>
-            <div class='quickview' style="top:265px; ">Info</div>
+            <div class='quickview' style="top:265px;">
+                <a href="cartInfo.html">Info</a>
+            </div>
             <div class='btn btn_comprar'>Comprar</div>
             <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div>
         </div>
-        <div class='product'category="infantiles">
+        <div class='product' category="infantiles">
             <img src='https://binaries.templates.cdn.office.net/support/templates/en-us/lt16412134_quantized.png'>
             <h2 class='header'>Infantiles 3</h2>
             <p class='description' style="font-size:13px; " id="deportes ">Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
             <p class='price' style="margin-top: 45px; "> 231,</p>
-            <div class='quickview' style="top:265px; ">Info</div>
+            <div class='quickview' style="top:265px;">
+                <a href="cartInfo.html">Info</a>
+            </div>
             <div class='btn btn_comprar'>Comprar</div>
             <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div>
         </div>
@@ -258,46 +257,52 @@
 
         <!-- ESPACIOS CULTURALES -->
         <h2 style="font-size: 2rem; font-family: sans-serif; color:black ">ESPACIOS CULTURALES</h2>
-        <div class='product'category="teatro">
+        <div class='product' category="teatro">
             <img src=''>
             <h2 class='header'>Teatro 4</h2>
             <p class='description' style="font-size:13px; ">Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
             <!-- <p class='price' style="margin-top: 45px; "> 231,</p> -->
-            <div class='quickview' style="top:265px; ">Info</div>
+            <div class='quickview' style="top:265px;">
+                <a href="cartInfo.html">Info</a>
+            </div>
             <!-- <div class='btn btn_comprar'>Comprar</div>
             <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div> -->
         </div>
-        <div class='product'category="musica">
+        <div class='product' category="musica">
             <img src=''>
             <h2 class='header'>Musica 4</h2>
             <p class='description' style="font-size:13px; ">Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
             <!-- <p class='price' style="margin-top: 45px; "> 231,</p> -->
-            <div class='quickview' style="top:265px; ">Info</div>
+            <div class='quickview' style="top:265px;">
+                <a href="cartInfo.html">Info</a>
+            </div>
             <!-- <div class='btn btn_comprar'>Comprar</div>
             <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div> -->
         </div>
-        <div class='product'category="artesvisuales">
+        <div class='product' category="artesvisuales">
             <img src=''>
             <h2 class='header'>Artes visuales 4</h2>
             <p class='description' style="font-size:13px; ">Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
             <!-- <p class='price' style="margin-top: 45px; "> 231,</p> -->
-            <div class='quickview' style="top:265px; ">Info</div>
+            <div class='quickview' style="top:265px;">
+                <a href="cartInfo.html">Info</a>
+            </div>
             <!-- <div class='btn btn_comprar'>Comprar</div> -->
             <!-- <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div> -->
         </div>
-        <div class='product'category="infantiles">
+        <div class='product' category="infantiles">
             <img src=''>
             <h2 class='header'>Infantiles 4</h2>
             <p class='description' style="font-size:13px; " id="electrodomesticos ">Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
             <!-- <p class='price' style="margin-top: 45px; "> 231,</p> -->
-            <div class='quickview' style="top:265px; ">Info</div>
+            <div class='quickview' style="top:265px;">
+                <a href="cartInfo.html">Info</a>
+            </div>
             <!-- <div class='btn btn_comprar'>Comprar</div>
             <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div> -->
         </div>
 
         <hr>
-
-
 
     </div>
     <div class='quickviewContainer'>
@@ -308,12 +313,71 @@
         <img src='https://placeimg.com/100/100'>
         <img src='https://placeimg.com/100/100'>-->
     </div>
+</section>
     <!-- partial -->
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js'></script>
     <script src="../script.js "></script>
 
-    <!-- FOOTER -->
+
+    <!--FOOTER-->
     <footer>
+        <div class="container-footer-all">
+            <div class="container-body">
+
+                <div class="column1">
+                    <h1> Mas informacion de la Compañia</h1>
+                    <p> EnterARTE ofrece a sus usuarios un abanico infinito de opciones para que el visitante se lleve la mejor de las experiencias.</p>
+                    <a class="link-footer" href="terms.html">Términos y condiciones</a><br><br>
+                    <a class="link-footer" href="politic.html">Política y privacidad</a><br><br>
+                    <a class="link-footer" href="faq.html">Preguntas frecuentes</a><br>
+                </div>
+
+                <div class="column2">
+                    <h1> Redes Sociales</h1>
+                    <div class="row">
+                        <a class="link-footer" href="#"><img src="../img/face.jpg">
+                            <label> Facebook </label> </a>
+
+                    </div>
+                    <div class="row">
+                        <a class="link-footer" href="#"><img src="../img/insta.jpg">
+                            <label> Instagram </label></a>
+                    </div>
+
+                    <div class="row">
+                        <a class="link-footer" href="#"> <img src="../img/twitter.jpg">
+                            <label> Twitter </label> </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="column3">
+
+                    <h1> Información Contactos</h1>
+                    <div class="row2">
+                        <img src="../img/casa.jpg">
+                        <label> Contamos con los siguientes medios de comunicación:</label>
+                    </div>
+
+                    <div class="row2">
+                        <a class="link-footer" href="#"><img src="../img/whatsapp.jpg">
+                            <label> Cel. 2494-454541 </label> </a>
+                    </div>
+
+                    <div class="row2">
+                        <a class="link-footer" href="mailto:enterarte.cordoba@gmail.com"> <img src="../img/correo.jpg">
+                            <label> correo electronico: enterarte@hotmail.com </label></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="container-footer">
+                <div class="copyright"> © 2022 EnterArte, Inc.</div>
+            </div>
+        </div>
+        </div>
 
     </footer>
 
@@ -324,9 +388,6 @@
     <script src="../js/init.js "></script>
     <script src="../js/carrito.js "></script>
     <script src="../js/search.js "></script>
-</body>
-
-</html>
 </body>
 
 </html>
