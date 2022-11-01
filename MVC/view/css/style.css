@@ -10,42 +10,44 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Averta', sans-serif;
 }
 
 .section {
-    background-color: black;
+    background-color:black;
     box-shadow: inset;
     display: flex;
     justify-content: space-around;
     width: 100%;
     margin-bottom: 15vh;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Daro
     
     
     
     
+<<<<<<< HEAD
 =======
     margin-top: 10vh;      
 >>>>>>> 04c5f591c5a14d5e20b1bb49a47d6c2d66cd32b4
+=======
+>>>>>>> Daro
 }
 
-.bodyIndex{
+body{
     background-image: url(../img/fondoAbout.jpeg);
     padding-top: 0vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+    
 }
 
 section h2 {
-    text-align: center;
+   
+    text-align: center;    
 }
 
-
 /*Titulo del carrusel*/
-
 .prox-eventos {
     text-align: center;
     margin-top: 3vh;
@@ -67,64 +69,83 @@ section h2 {
 }
 
 #colorFondo {
+    
     margin-top: 5vh;
     border-radius: 15px;
     margin-bottom: 5vh;
-    /*background-color:transparent;*/
     background-image: url(../img/fondoAbout.jpeg);
     opacity: 90%;
+<<<<<<< HEAD
 <<<<<<< HEAD
     
     
 
 =======
 >>>>>>> 04c5f591c5a14d5e20b1bb49a47d6c2d66cd32b4
+=======
+    
+    
+
+>>>>>>> Daro
     /**/
 }
 
+
 .banner {
     margin-top: 3vh;
+<<<<<<< HEAD
 <<<<<<< HEAD
     display: flex;
     justify-content: center;
     
 =======
 >>>>>>> 04c5f591c5a14d5e20b1bb49a47d6c2d66cd32b4
+=======
+    display: flex;
+    justify-content: center;
+    
+>>>>>>> Daro
 }
-
-.btn-search {
+.btn-search{
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    background-color: transparent;
+    background-color:transparent;
+    
 }
-
-.buscador {
+.buscador{
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
 
 .calendariotitulo {
     text-align: center;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: 1rem;
+    
     color: white;
 }
 
 .calendario-cont {
     width: auto;
     height: auto;
+    
 }
 
 .calendario {
-    padding-top: 10px;
+    
     display: flex;
     justify-content: center;
+<<<<<<< HEAD
 <<<<<<< HEAD
     
        
     
 =======
 >>>>>>> 04c5f591c5a14d5e20b1bb49a47d6c2d66cd32b4
+=======
+    
+       
+    
+>>>>>>> Daro
 }
 
 .calen{
@@ -144,20 +165,28 @@ section h2 {
 
 /*-----------------------------------------------------------------------------------------*/
 
+
+/*GeR y DaviD*/
+
 .divbootstrap {
     display: flexbox;
+<<<<<<< HEAD
 <<<<<<< HEAD
     justify-content:space-between;
 =======
     justify-content: space-between;
 >>>>>>> 04c5f591c5a14d5e20b1bb49a47d6c2d66cd32b4
+=======
+    justify-content:space-between;
+>>>>>>> Daro
     border-radius: 10px;
     padding-top: auto;
-    background-color: transparent;
+    background-color:transparent;
     text-align: center;
     margin-top: 5vh;
     margin-bottom: 5vh;
     opacity: 90%;
+<<<<<<< HEAD
 <<<<<<< HEAD
     
 
@@ -181,31 +210,55 @@ section h2 {
     border-radius: 10px;
     
 =======
+=======
+    
+
+    
+>>>>>>> Daro
 }
 
 .cardUno {
+    height: 30vh;
+    margin-bottom: 1vh;
+    border-radius: 10px;
+    background-color: white;
+   
+}
+
+.cardDos{
     background-color: white;
     height: 30vh;
     border-radius: 10px;
+<<<<<<< HEAD
 >>>>>>> 04c5f591c5a14d5e20b1bb49a47d6c2d66cd32b4
+=======
+    
+>>>>>>> Daro
 }
 
 .divbootstrap div {
     width: 30vh;
     height: auto;
     font-size: 10px;
+    
+
 }
 
 .divbootstrap div a {
     height: auto;
-    font-size: 10px;
+    font-size: 10px ;
     text-align: center;
     border-radius: 30px;
+<<<<<<< HEAD
 <<<<<<< HEAD
     
     
 =======
 >>>>>>> 04c5f591c5a14d5e20b1bb49a47d6c2d66cd32b4
+=======
+    
+    
+>>>>>>> Daro
 }
 
 .divbootstrap div h5 {
@@ -217,9 +270,12 @@ section h2 {
     width: 30vh;
 }
 
+
+
 .divbootstrap h4,
 .calendariotitulo {
     font-size: 20px;
+    
 }
 
 
@@ -268,10 +324,14 @@ section h2 {
 
 /*-----------------------------------------------------------------------------------------*/
 
+
+/*GeR y DaviD*/
+
 .publigeneral {
     text-align: center;
     width: 50vh;
     margin: 6px;
+    
 }
 
 .publigeneral div {
@@ -283,6 +343,8 @@ section h2 {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
+
+
 
 .ayuda div {
     width: 30vh;
@@ -545,4 +607,8 @@ section h2 {
 
 }
 
+<<<<<<< HEAD
                                 
+=======
+                                
+>>>>>>> Daro

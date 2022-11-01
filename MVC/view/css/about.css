@@ -11,7 +11,7 @@
 #EB6E80 Blush
 #008F95 aqua
 */
-.bodyAbout{
+body{
     background-image: url(../img/fondoAbout.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -110,7 +110,7 @@
     margin-right: 10px; 
 }
 
-@media (max-width: 860px){
+@media (max-width: 760px){
 
     .contenedorSection{
         flex-direction:column;
