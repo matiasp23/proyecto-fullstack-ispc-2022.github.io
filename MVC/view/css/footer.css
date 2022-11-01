@@ -1,8 +1,6 @@
 /*------------------------------------FOOTER-----------------------------------------------------*/
 
 
-
-
 /*Colores
 #E24E42 Papaya
 #E9B000 Mustard
@@ -26,7 +24,11 @@ footer {
 
 .container-body {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-around;
+    align-content: center;
 }
 
 .column1 {

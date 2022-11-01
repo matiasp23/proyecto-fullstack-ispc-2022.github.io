@@ -1,7 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito:400,300,700);
+/* @import url(https://fonts.googleapis.com/css?family=Nunito:400,300,700); */
 
-
-.bodyEvent{
+.bodyEvent {
     background-image: url(../img/fondoAbout.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -47,12 +46,16 @@ nav .mini .products {
     font-size: 15px;
 }
 
-.sectionEvent{
-    padding-top: 11vh;
+.sectionEvent {
+    /* padding-top: 11vh; */
     padding-bottom: 11vh;
     background-color: rgba(226, 78, 66, .4);
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
-
 
 nav .cart span {
     height: 100%;
@@ -148,10 +151,13 @@ nav ul li a {
 
 .botonera {
     display: flex;
+    margin-left: 15%;
+    margin-right: 12%;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
     justify-content: space-between;
     align-items: center;
-    margin-left: 12%;
-    margin-right: 12%;
 }
 
 .botonsolo {
@@ -164,10 +170,10 @@ nav ul li a {
     height: 10vh;
     width: 85%;
     margin-right: 8%;
-    margin-left: 8%;
+    margin-left: 6%;
     border-radius: 10px;
-    font-size: 6vh;
-    color: #008F95 ;
+    font-size: 5vh;
+    color: #008F95;
     border-color: #008F95;
 }
 
@@ -177,8 +183,9 @@ nav ul li a {
     width: auto;
     padding-left: 4vh;
     padding-right: 4vh;
-    border-radius: 10px;
-    font-size: 6vh;
+    border-radius: 12px;
+    font-size: 3vh;
+    margin-left: 6%;
 }
 
 .boton.teatro {
@@ -227,7 +234,8 @@ nav ul li a {
 }
 
 .containerCarrito {
-    background-color: white;
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.3309698879551821) 10%, rgba(226, 78, 66, 0.5998774509803921) 45%, rgba(8, 3, 2, 1) 95%);
     border-radius: 15px;
     font-family: sans-serif;
     margin-top: 2%;
@@ -472,6 +480,16 @@ nav .cart {
         font-size: 5vh;
         background-color: white;
     }
+    .botonera {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 12%;
+        margin-right: 12%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+    }
 }
 
 @media (max-width:1299px) {
@@ -545,7 +563,7 @@ nav .cart {
     }
 }
 
-@media (max-width:599px) {
+@media (max-width:639px) {
     .botonera {
         padding-top: 30px;
         display: flex;
@@ -569,7 +587,7 @@ nav .cart {
         margin-right: 8%;
         margin-left: 8%;
         border-radius: 10px;
-        font-size: 6vw;
+        font-size: 5vw;
         background-color: white;
         color: #008F95;
         border-color: #008F95;
@@ -581,7 +599,7 @@ nav .cart {
         padding-left: 4vh;
         padding-right: 4vh;
         border-radius: 10px;
-        font-size: 6vw;
+        font-size: 5vw;
         background-color: white;
     }
     .botonsolo {
