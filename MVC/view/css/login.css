@@ -5,34 +5,21 @@
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
 }
-<<<<<<< HEAD
 body{
-=======
-.bodyLogin{
->>>>>>> 86f46634c3c3bd0da153325def7b7b3abfaae0ea
     background-image: url(../img/login.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
 }
-<<<<<<< HEAD
 section{
     width:100%;
-=======
-
-.contenedorTodo{
->>>>>>> 86f46634c3c3bd0da153325def7b7b3abfaae0ea
     padding:20px;
     padding-top: 180px;
     margin:auto;
     margin-top: 100px;
-<<<<<<< HEAD
 }
 .contenedorTodo{
-=======
-    padding-bottom: 10vh;
->>>>>>> 86f46634c3c3bd0da153325def7b7b3abfaae0ea
     width: 100%;
     max-width: 800px;
     margin:auto;
@@ -138,11 +125,7 @@ section{
 }
 
 @media screen and (max-width: 800px){
-<<<<<<< HEAD
     section{
-=======
-    .sectionLogin{
->>>>>>> 86f46634c3c3bd0da153325def7b7b3abfaae0ea
         margin-top:60px;
     }
     .cajaTrasera{

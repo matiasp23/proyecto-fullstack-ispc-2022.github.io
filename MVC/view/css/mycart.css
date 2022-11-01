@@ -13,19 +13,6 @@
 #EB6E80 Blush
 #008F95 aqua
 */
-<<<<<<< HEAD
-
-=======
-.sectionCart{
-    background-image: url(../img/fondoAbout.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    padding-top: 12vh;
-    margin-top: -5vh;
-}
->>>>>>> 86f46634c3c3bd0da153325def7b7b3abfaae0ea
 #expand {
     cursor: pointer;
 }
@@ -86,11 +73,7 @@ td {
 }
 
 .amount>input {
-<<<<<<< HEAD
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-=======
-    /* font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; */
->>>>>>> 86f46634c3c3bd0da153325def7b7b3abfaae0ea
     color: white;
     font-size: 16px;
     background: transparent;
