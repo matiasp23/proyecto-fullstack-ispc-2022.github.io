@@ -1,188 +1,193 @@
-/*Colores
+                    /*Colores
 #E24E42 Papaya (Naranja)
 #E9B000 Mustard (Amarillo)
 #EB6E80 Blush (Rosa)
 #008F95 aqua (Turquesa)
 */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-}
-
-.section {
-    background: rgb(0, 0, 0);
-    background: radial-gradient(circle, rgba(0, 0, 0, 0.3309698879551821) 10%, rgba(226, 78, 66, 0.5998774509803921) 45%, rgba(8, 3, 2, 1) 95%);
-    box-shadow: inset;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-bottom: 15vh;
-    margin-top: 10vh;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: space-between;
-    align-items: center;
-}
-
-.bodyIndex {
-    background-image: url(../img/fondo.jpg);
-    padding-top: 0vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-}
-
-section h2 {
-    text-align: center;
-}
-
-
-/*Titulo del carrusel*/
-
-.prox-eventos {
-    text-align: center;
-    margin-top: 3vh;
-    color: whitesmoke;
-}
-
-#carouselExampleCaptions {
-    margin-top: 25px;
-    width: 95vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-bottom: 25px;
-}
-
-#carouselExampleCaptions img {
-    max-width: 100vh;
-    max-height: 75vh;
-}
-
-#colorFondo {
-    margin-top: 5vh;
-    border-radius: 15px;
-    margin-bottom: 5vh;
-    /*background-color:transparent;*/
-    background: rgb(0, 0, 0);
-    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 143, 149, 1) 50%);
-    /* background-image: url(../img/fondoAbout.jpeg); */
-    opacity: 100%;
-    /**/
-}
-
-.banner {
-    margin-top: 3vh;
-}
-
-.btn-search {
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    background-color: transparent;
-}
-
-.buscador {
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-}
-
-.calendariotitulo {
-    text-align: center;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    color: white;
-}
-
-.calendario-cont {
-    width: auto;
-    height: auto;
-}
-
-.calendario {
-    padding-top: 10px;
-    display: flex;
-    justify-content: center;
-}
-
-#tituloCarousel {
-    margin-top: 15px;
-    text-align: center;
-    margin-left: 22vh;
-    margin-right: 22vh;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-}
-
-
-/*-----------------------------------------------------------------------------------------*/
-
-.divbootstrap {
-    display: flexbox;
-    justify-content: space-between;
-    border-radius: 10px;
-    padding-top: auto;
-    background-color: transparent;
-    text-align: center;
-    margin-top: 5vh;
-    padding-bottom: 5vh;
-    opacity: 90%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: flex-start;
-    justify-content: space-between;
-}
-
-.card {
-    height: 30vh;
-    margin-bottom: 1vh;
-    border-radius: 10px;
-}
-
-.cardUno {
-    background-color: white;
-    height: 30vh;
-    border-radius: 10px;
-}
-
-.divbootstrap div {
-    width: 30vh;
-    height: auto;
-    font-size: 2vh;
-    margin: 1vh;
-}
-
-.divbootstrap div a {
-    height: auto;
-    font-size: 2vh;
-    text-align: center;
-    border-radius: 30px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 143, 149, 1) 50%);
-}
-
-.divbootstrap div h5 {
-    font-size: 2vh;
-}
-
-.divbootstrap div img {
-    height: 15vh;
-    width: 30vh;
-}
-
-.divbootstrap h4,
-.calendariotitulo {
-    font-size: 20px;
-}
-
-
-/*#carouselExampleCaptions {
+                    
+                    * {
+                        margin: 0;
+                        padding: 0;
+                        box-sizing: border-box;
+                        text-decoration: none;
+                        font-family: 'Poppins', sans-serif;
+                    }
+                    
+                    .section {
+                        box-shadow: inset;
+                        display: flex;
+                        justify-content: center;
+                        width: 100%;
+                        margin-bottom: 15vh;
+                        margin-top: 10vh;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        align-content: space-between;
+                        align-items: center;
+                    }
+                    
+                    .bodyIndex {
+                        background-image: url(../img/fondo.jpg);
+                        padding-top: 0vh;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-attachment: fixed;
+                    }
+                    
+                    section h2 {
+                        text-align: center;
+                    }
+                    /*Titulo del carrusel*/
+                    
+                    .prox-eventos {
+                        text-align: center;
+                        margin-top: 3vh;
+                        color: black;
+                    }
+                    
+                    #carouselExampleCaptions {
+                        margin-top: 25px;
+                        width: 95vh;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-left: 15px;
+                        margin-right: 15px;
+                        margin-bottom: 25px;
+                    }
+                    
+                    #carouselExampleCaptions img {
+                        max-width: 100vh;
+                        max-height: 75vh;
+                    }
+                    
+                    #colorFondo {
+                        margin-top: 5vh;
+                        border-radius: 15px;
+                        margin-bottom: 5vh;
+                        background: rgb(0, 0, 0);
+                        background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 143, 149, 0.6110819327731092) 0%);
+                        opacity: 100%;
+                    }
+                    
+                    .banner {
+                        margin-top: 3vh;
+                    }
+                    
+                    .btn-search {
+                        border-top-right-radius: 5px;
+                        border-bottom-right-radius: 5px;
+                        background-color: transparent;
+                    }
+                    
+                    .buscador {
+                        border-top-left-radius: 5px;
+                        border-bottom-left-radius: 5px;
+                    }
+                    
+                    .calendariotitulo {
+                        text-align: center;
+                        padding-top: 0.5rem;
+                        padding-bottom: 0.5rem;
+                        color: white;
+                    }
+                    
+                    .calendario-cont {
+                        width: auto;
+                        height: auto;
+                    }
+                    
+                    .calendario {
+                        padding-top: 10px;
+                        display: flex;
+                        justify-content: center;
+                    }
+                    
+                    #tituloCarousel {
+                        margin-top: 15px;
+                        text-align: center;
+                        margin-left: 22vh;
+                        margin-right: 22vh;
+                        padding-top: 0.5rem;
+                        padding-bottom: 0.5rem;
+                    }
+                    
+                    .prox-eventos-contenedor {
+                        background: rgb(0, 0, 0);
+                        background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 143, 149, 0.6110819327731092) 0%);
+                        border-radius: 40px;
+                        margin-left: 5%;
+                        margin-right: 5%;
+                    }
+                    /*-----------------------------------------------------------------------------------------*/
+                    
+                    .divbootstrap {
+                        display: flexbox;
+                        justify-content: space-between;
+                        border-radius: 15px;
+                        padding-top: auto;
+                        background-color: transparent;
+                        background: rgb(0, 0, 0);
+                        background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 143, 149, 0.6110819327731092) 0%);
+                        text-align: center;
+                        margin-top: 5vh;
+                        /* padding-bottom: 5vh; */
+                        opacity: 90%;
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: nowrap;
+                        align-items: flex-start;
+                        justify-content: space-between;
+                    }
+                    
+                    #Titulo_Anuncio {
+                        text-align: center;
+                        padding-top: 3.5rem;
+                        padding-bottom: 0.5rem;
+                    }
+                    
+                    .card {
+                        height: 30vh;
+                        margin-bottom: 1vh;
+                        border-radius: 10px;
+                    }
+                    
+                    .cardUno {
+                        background-color: white;
+                        height: 30vh;
+                        border-radius: 10px;
+                    }
+                    
+                    .divbootstrap div {
+                        width: 30vh;
+                        height: auto;
+                        font-size: 2vh;
+                        margin: 1vh;
+                    }
+                    
+                    .divbootstrap div a {
+                        height: auto;
+                        font-size: 2vh;
+                        text-align: center;
+                        border-radius: 30px;
+                        background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 143, 149, 1) 50%);
+                    }
+                    
+                    .divbootstrap div h5 {
+                        font-size: 2vh;
+                    }
+                    
+                    .divbootstrap div img {
+                        height: 15vh;
+                        width: 30vh;
+                    }
+                    
+                    .divbootstrap h4,
+                    .calendariotitulo {
+                        font-size: 20px;
+                    }
+                    /*#carouselExampleCaptions {
 
     display: flex;
     width: 90vh;
@@ -226,86 +231,80 @@ section h2 {
 
 
 /*-----------------------------------------------------------------------------------------*/
-
-.publigeneral {
-    text-align: center;
-    width: 50vh;
-    margin: 6px;
-}
-
-.publigeneral div {
-    height: 40vh;
-}
-
-#Titulo_Anuncio {
-    text-align: center;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-}
-
-.ayuda div {
-    width: 30vh;
-    height: 10vh;
-    font-size: 10px;
-}
-
-.ayuda div a {
-    width: 3vh;
-    font-size: 10px;
-}
-
-.ayuda div h5 {
-    font-size: 10px;
-}
-
-.ayuda div img {
-    height: 15vh;
-    width: 30vh;
-}
-
-@media (max-width:1250px) {
-    iframe {
-        width: 450px;
-        height: 450px;
-    }
-}
-
-@media (max-width:1014px) {
-    #carouselExampleCaptions {
-        margin-top: 25px;
-        width: 75vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: 15px;
-        margin-right: 15px;
-    }
-    iframe {
-        width: 500px;
-        height: 500px;
-    }
-}
-
-@media (max-width: 724px) {
-    #carouselExampleCaptions {
-        margin-top: 25px;
-        width: 60vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: 15px;
-        margin-right: 15px;
-    }
-}
-
-@media (max-width:599px) {
-    #carouselExampleCaptions {
-        margin-top: 25px;
-        width: 45vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: 15px;
-        margin-right: 15px;
-    }
-}
+                    
+                    .publigeneral {
+                        text-align: center;
+                        width: 50vh;
+                        margin: 6px;
+                    }
+                    
+                    .publigeneral div {
+                        height: 40vh;
+                    }
+                    
+                    .ayuda div {
+                        width: 30vh;
+                        height: 10vh;
+                        font-size: 10px;
+                    }
+                    
+                    .ayuda div a {
+                        width: 3vh;
+                        font-size: 10px;
+                    }
+                    
+                    .ayuda div h5 {
+                        font-size: 10px;
+                    }
+                    
+                    .ayuda div img {
+                        height: 15vh;
+                        width: 30vh;
+                    }
+                    
+                    @media (max-width:1250px) {
+                        iframe {
+                            width: 450px;
+                            height: 450px;
+                        }
+                    }
+                    
+                    @media (max-width:1014px) {
+                        #carouselExampleCaptions {
+                            margin-top: 25px;
+                            width: 75vh;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            margin-left: 15px;
+                            margin-right: 15px;
+                        }
+                        iframe {
+                            width: 500px;
+                            height: 500px;
+                        }
+                    }
+                    
+                    @media (max-width: 724px) {
+                        #carouselExampleCaptions {
+                            margin-top: 25px;
+                            width: 60vh;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            margin-left: 15px;
+                            margin-right: 15px;
+                        }
+                    }
+                    
+                    @media (max-width:599px) {
+                        #carouselExampleCaptions {
+                            margin-top: 25px;
+                            width: 45vh;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            margin-left: 15px;
+                            margin-right: 15px;
+                        }
+                    }
