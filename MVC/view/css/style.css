@@ -10,34 +10,42 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Averta', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .section {
-    background-color:black;
+    background-color: black;
     box-shadow: inset;
     display: flex;
     justify-content: space-around;
     width: 100%;
     margin-bottom: 15vh;
+<<<<<<< HEAD
     
     
     
     
+=======
+    margin-top: 10vh;      
+>>>>>>> 04c5f591c5a14d5e20b1bb49a47d6c2d66cd32b4
 }
 
-body{
+.bodyIndex{
     background-image: url(../img/fondoAbout.jpeg);
     padding-top: 0vh;
-    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 section h2 {
-   
-    text-align: center;    
+    text-align: center;
 }
 
+
 /*Titulo del carrusel*/
+
 .prox-eventos {
     text-align: center;
     margin-top: 3vh;
@@ -65,26 +73,32 @@ section h2 {
     /*background-color:transparent;*/
     background-image: url(../img/fondoAbout.jpeg);
     opacity: 90%;
+<<<<<<< HEAD
     
     
 
+=======
+>>>>>>> 04c5f591c5a14d5e20b1bb49a47d6c2d66cd32b4
     /**/
 }
 
-
 .banner {
     margin-top: 3vh;
+<<<<<<< HEAD
     display: flex;
     justify-content: center;
     
+=======
+>>>>>>> 04c5f591c5a14d5e20b1bb49a47d6c2d66cd32b4
 }
-.btn-search{
+
+.btn-search {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    background-color:transparent;
-    
+    background-color: transparent;
 }
-.buscador{
+
+.buscador {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
@@ -99,16 +113,18 @@ section h2 {
 .calendario-cont {
     width: auto;
     height: auto;
-    
 }
 
 .calendario {
     padding-top: 10px;
     display: flex;
     justify-content: center;
+<<<<<<< HEAD
     
        
     
+=======
+>>>>>>> 04c5f591c5a14d5e20b1bb49a47d6c2d66cd32b4
 }
 
 .calen{
@@ -128,28 +144,33 @@ section h2 {
 
 /*-----------------------------------------------------------------------------------------*/
 
-
-/*GeR y DaviD*/
-
 .divbootstrap {
     display: flexbox;
+<<<<<<< HEAD
     justify-content:space-between;
+=======
+    justify-content: space-between;
+>>>>>>> 04c5f591c5a14d5e20b1bb49a47d6c2d66cd32b4
     border-radius: 10px;
     padding-top: auto;
-    background-color:transparent;
+    background-color: transparent;
     text-align: center;
     margin-top: 5vh;
     margin-bottom: 5vh;
     opacity: 90%;
+<<<<<<< HEAD
     
 
     
+=======
+>>>>>>> 04c5f591c5a14d5e20b1bb49a47d6c2d66cd32b4
 }
 
 .cardUno {
     height: 30vh;
     margin-bottom: 1vh;
     border-radius: 10px;
+<<<<<<< HEAD
     background-color: white;
    
 }
@@ -159,23 +180,32 @@ section h2 {
     height: 30vh;
     border-radius: 10px;
     
+=======
+}
+
+.cardUno {
+    background-color: white;
+    height: 30vh;
+    border-radius: 10px;
+>>>>>>> 04c5f591c5a14d5e20b1bb49a47d6c2d66cd32b4
 }
 
 .divbootstrap div {
     width: 30vh;
     height: auto;
     font-size: 10px;
-    
-
 }
 
 .divbootstrap div a {
     height: auto;
-    font-size: 10px ;
+    font-size: 10px;
     text-align: center;
     border-radius: 30px;
+<<<<<<< HEAD
     
     
+=======
+>>>>>>> 04c5f591c5a14d5e20b1bb49a47d6c2d66cd32b4
 }
 
 .divbootstrap div h5 {
@@ -187,12 +217,9 @@ section h2 {
     width: 30vh;
 }
 
-
-
 .divbootstrap h4,
 .calendariotitulo {
     font-size: 20px;
-    
 }
 
 
@@ -241,14 +268,10 @@ section h2 {
 
 /*-----------------------------------------------------------------------------------------*/
 
-
-/*GeR y DaviD*/
-
 .publigeneral {
     text-align: center;
     width: 50vh;
     margin: 6px;
-    
 }
 
 .publigeneral div {
@@ -260,8 +283,6 @@ section h2 {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
-
-
 
 .ayuda div {
     width: 30vh;
