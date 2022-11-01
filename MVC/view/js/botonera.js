@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    alert('"Hola absurdismo query')
+    
 
 //
     $(".boton").click(function(){
