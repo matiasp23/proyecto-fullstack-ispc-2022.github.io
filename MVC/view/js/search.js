@@ -123,5 +123,43 @@ $('#buttonSearch').click(function(value){
     
 });
 
+// - - - Buscador de Eventos (GeR) - - - 
+
+document.getElementById("inputSearch").addEventListener("keyup", buscador_eventos);
+
+function buscador_eventos(){
+
+
+    filtro = inputSearch.value.toUpperCase();
+
+    li = box_search.getElementsBytagName("li");
+
+    //busqueda mediante li
+
+    for (i= 0; i < li.length; i ++)
+
+    events = li[i].getElementsBytagName("events")[0]
+
+   textValue= events.textContent || events.innerText;
+
+   if (textValue.toUpperCase().indexOf(filtro) > - 1) {
+
+    li[i].style.display = "" ;
+    box_search.style.display="block";
+
+        if (inputSearch.value === ""){
+            box_search.style.display="none";
+        }
+
+
+   } else {
+
+    li[i].style.display = "none" ;
+
+   }
+
+
+}
+
 
 
