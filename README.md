@@ -16,7 +16,7 @@ El sitio web está en deploy en el siguiente link: (github-page).
 
 ## Construido con 🛠️
 
-HTML5, CSS y JS  
+HTML5, CSS y JS.    
 Python y MySQL.  
 GIT.  
 Metodologías ágiles.  
@@ -29,8 +29,6 @@ La demo (en proceso).
 
 ## Autores ✒️
 
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios
-
 * **Georgina Parola** - [planetageorgi](https://github.com/planetageorgi)
 * **Francisco Germolotto** - [FranGemo1](https://github.com/FranGemo1)
 * **Karen Pigni** - [Karen-Pigni](https://github.com/Karen-Pigni)
@@ -40,4 +38,4 @@ _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios
 * **Germán Villalba** - [Gerx2690](https://github.com/Gerx2690)
 * **Maria Ornela Ghezzi** - [ornela639251](https://github.com/ornela639251)
 
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/matiasp23/proyecto-fullstack-ispc-2022/graphs/contributors) quíenes han participado en este proyecto.
+También pueden mirar la lista de todos los [contribuyentes](https://github.com/matiasp23/proyecto-fullstack-ispc-2022/graphs/contributors) quíenes han participado en este proyecto.
