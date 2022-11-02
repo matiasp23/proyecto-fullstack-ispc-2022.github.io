@@ -16,16 +16,16 @@ El sitio web está en deploy en el siguiente link: (github-page).
 
 ## Construido con 🛠️
 
-HTML5, CSS y JS
-Python y MySQL.
-GIT.
-Metodologías ágiles.
+HTML5, CSS y JS  
+Python y MySQL.  
+GIT.  
+Metodologías ágiles.  
 
 ## Wiki 📖
 
-Pueden encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/matiasp23/proyecto-fullstack-ispc-2022/wiki)
-Documentación de reuniones.
-La demo (en proceso).
+Pueden encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/matiasp23/proyecto-fullstack-ispc-2022/wiki)  
+Documentación de reuniones.  
+La demo (en proceso).  
 
 ## Autores ✒️
 
