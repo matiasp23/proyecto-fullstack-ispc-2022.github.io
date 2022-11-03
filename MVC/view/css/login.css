@@ -17,9 +17,10 @@
 .contenedorTodo {
     padding: 20px;
     padding-top: 180px;
+    padding-bottom: 180px;
     margin: auto;
     margin-top: 100px;
-    padding-bottom: 10vh;
+    /* padding-bottom: 10vh; */
     width: 100%;
     max-width: 800px;
     margin: auto;
