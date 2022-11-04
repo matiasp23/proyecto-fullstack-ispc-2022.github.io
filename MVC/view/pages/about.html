@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ENTERarte - Todo lo que busques está aquí</title>
-    <!--CSS-->
+    <title>Quienes Somos</title>
+    <!--Links Css-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -18,18 +18,20 @@
 
     <!--JS del HEADER-->
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.2.4/css/simple-line-icons.min.css'>
+
 </head>
 
-<body class="bodyAbout">
+<body>
     <!-- HEADER -->
     <header>
         <nav>
             <input type="checkbox" id="check">
             <label for="check" class="checkbtn">
-                <img src="../img/navbar.png" id="navbar-img" alt="">
-            </label>
+                <i class="fas fa-bars"></i>
+                </label>
             <label class="logo"><span style="font-weight: normal;">ENTER</span>arte</label>
             <ul>
+
                 <li><a href="../home.html">Inicio</a></li>
                 <li><a href="event.html">Eventos</a></li>
                 <li><a href="post.html">Publicar</a></li>
@@ -38,35 +40,24 @@
                 <li><a href="login.html">Login</a></li>
                 <ul class="navbar-right">
                     <!--PC-->
-                    <li id="pc">
-                        <a href="#" id="cart">
-                            <i class="fa"></i>
-                            <div class='cart icon-basket'>
-                                <span class='number'></span>
-                            </div>
-                        </a>
-                    </li>
+                    <!-- <li id="pc"><a href="./cart.html" id="cart"><i class="fa fa-shopping-cart"></i> Carrito <span class="badge"></span></a></li> -->
                     <!--MOVIL-->
-                    <li id="movil">
-                        <a href="#" class="active">
-                            <i class="fa"></i>
-                            <div class='cart icon-basket'>
-                                <span class='number'></span>
-                            </div>
-                        </a>
-                    </li>
+                    <li id="movil"><a href="./cart.html"><i class="fa fa-shopping-cart"></i> Carrito <span class="badge"></span></a></li>
+                    <!--</ul>-->
                 </ul>
-
-                <div class='mini'>
-                    <ul class="shopping-cart-items">
-                        <p class='products'>Vacío</p>
-                        <p class='names'></p>
-                        <p class='miniprice'></p>
-                        <a href="cart.html" class="button">Revisar compra</a>
-                    </ul>
-                </div>
+                <li><a href="./login.html">Login</a></li>
             </ul>
         </nav>
+
+        <!-- <div class="conteiner">
+            <div class="shopping-cart">
+                <div class="shopping-cart-header">
+                    <i class="fa fa-shopping-cart cart-icon"></i><span class="badge"></span>
+                    <div class="shopping-cart-total">
+                    </div>
+                </div>
+            </div>
+        </div> -->
     </header>
     <section>
 
@@ -92,7 +83,7 @@
             <div>
                 <img src="../img/pagina.png" />
                 <h2>Mas de nosotros</h2>
-                <p>Te invitamos a conocer <a href="http://enterspace.rf.gd/">nuestra pagina web</a></p>
+                <p>Te invitamos a conocer <a href="#">nuestra pagina web</a></p>
             </div>
             <div>
                 <img src="../img/computadora.png" />
@@ -124,8 +115,10 @@
                 </form>
             </div>
         </div>
+        
     </section><br><br>
     <!--FOOTER-->
+
     <footer>
         <div class="container-footer-all">
             <div class="container-body">
@@ -137,6 +130,7 @@
                     <a class="link-footer" href="./terms.html">Términos y condiciones</a><br><br>
                     <a class="link-footer" href="./politic.html">Política y privacidad</a><br><br>
                     <a class="link-footer" href="./faq.html">Preguntas frecuentes</a><br>
+                    
                 </div>
 
                 <div class="column2">
@@ -150,10 +144,10 @@
                         <a class="link-footer" href="#"><img src="../img/insta.jpg">
                         </a>
                     </div>
-
                     <div class="row">
                         <a class="link-footer" href="#"><img src="../img/twitter.jpg">
                         </a>
+
                     </div>
 
                 </div>
@@ -174,6 +168,7 @@
                     <div class="row2">
                         <a class="link-footer" href="#"> <img src="../img/correo.jpg">
                         </a>
+
                     </div>
                 </div>
 
@@ -181,6 +176,7 @@
             <div class="container-footer">
                 <div class="copyright"> © 2022 EnterArte, Inc.</div>
             </div>
+        </div>
         </div>
     </footer>
 </body>

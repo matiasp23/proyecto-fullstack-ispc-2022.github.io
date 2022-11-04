@@ -8,6 +8,7 @@
 
 .bodyCartInfo {
     background-image: url(../img/fondo.jpg);
+
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -20,7 +21,8 @@
     background-color: rgba(226, 78, 66, .4);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
+
 }
 
 .imgInfo img {
@@ -36,6 +38,7 @@
     font-size: 1.5rem;
     border-radius: 5px;
     padding: 1%;
+
 }
 
 .listInfo ul li {
@@ -46,6 +49,7 @@
 }
 
 @media (max-width: 960px) {
+
     .sectionInfo {
         flex-direction: column;
     }

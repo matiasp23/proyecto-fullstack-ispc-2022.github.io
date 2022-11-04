@@ -4,6 +4,7 @@
 #EB6E80 Blush (Rosa)
 #008F95 aqua (Turquesa)
 */
+
                     
                     * {
                         margin: 0;
@@ -189,6 +190,7 @@
                     }
                     /*#carouselExampleCaptions {
 
+
     display: flex;
     width: 90vh;
     height: 55vh;
@@ -227,10 +229,11 @@
 
 .calendario {
     text-align: center;
-}
+}*/
 
 
 /*-----------------------------------------------------------------------------------------*/
+
                     
                     .publigeneral {
                         text-align: center;
@@ -308,3 +311,4 @@
                             margin-right: 15px;
                         }
                     }
+
