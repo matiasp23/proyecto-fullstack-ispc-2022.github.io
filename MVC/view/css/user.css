@@ -30,7 +30,8 @@ section{
     text-align: center;
     font-size: 8vh;
     color: white;
-    border-bottom: 3px solid #EB6E80;
+    border-bottom: 3px solid #EB6E80;  
+         
 }
 .infoUser{
     margin-left: 20px;
@@ -66,6 +67,14 @@ section{
     outline: none;
     margin-left: 37%;
 }
+
+.sinBorde {
+    border: 0;
+    font-family: 'Poppins';
+    font-size: 16px;
+    outline: none;
+  }
+
 @media (max-width: 760px){
     .contenedor{
         flex-direction: column;

@@ -58,19 +58,24 @@
     <!--SECTION-->
     <section>
         <div class="contenedor">
+            
             <h1 class="titleUser">Mi Usuario</h1>
+            
             <div class="infoUser">
                 <div class="user">
                     <img src="../img/user.png" alt="">
-                    <p> Nombre</p>
-                    <p> Apellido</p>
-                    <p> Email</p>
-                    <p> Fecha de Nacimiento</p>
-                    <p> Usuario</p>
-                    <button>Editar</button>
+                    
+                    <form>                
+                        <p> <input type="text" class="sinBorde" value="Nombre" id="nombre" disabled Required> </p>
+                        <p> <input type="text" class="sinBorde" value="Apellido" id="apellido" disabled Required> </p>
+                        <p> <input type="text" class="sinBorde" value="Email" id="email" disabled Required> </p>
+                        <p> <input type="text" class="sinBorde" value="Fecha de Nacimiento" id="fechanac" disabled Required> </p>
+                        <p> <input type="text" class="sinBorde" value="Usuario" id="usuario" disabled Required> </p>
+                        <button type="button" value="submit" id="editar" onclick="FbotonOn(this)" >Editar</button>
+                    </form>
                 </div>
             </div>
-        </div>
+       </div>
     </section>
     <!--FOOTER-->
     <footer>
@@ -129,6 +134,10 @@
         </div>
         </div>
     </footer>
+
+    <script src="../js/jquery-3.4.1.min.js "></script>
+    <script src="../js/user.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
 
 </html>

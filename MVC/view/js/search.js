@@ -123,7 +123,6 @@ $('#buttonSearch').click(function(value){
     
 });
 
-<<<<<<< HEAD
 // - - - Buscador de Eventos (GeR) - - - 
 
 document.getElementById("inputSearch").addEventListener("keyup", buscador_eventos);
@@ -162,7 +161,5 @@ function buscador_eventos(){
 
 }
 
-=======
->>>>>>> 86f46634c3c3bd0da153325def7b7b3abfaae0ea
 
 
