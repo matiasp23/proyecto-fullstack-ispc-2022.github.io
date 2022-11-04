@@ -1,5 +1,10 @@
+<<<<<<< HEAD
+$(document).ready(function(){
+    alert("absurdismo query")
+=======
 $(document).ready(function() {
     // alert('"Hola absurdismo query')
+>>>>>>> 6b191e019c4127a61bb60d31f56bd3d872df7e42
 
     //
     $(".boton").click(function() {
