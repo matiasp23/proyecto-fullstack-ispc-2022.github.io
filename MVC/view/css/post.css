@@ -6,10 +6,8 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
 .bodyPost {
     background-image: url(../img/fondo.jpg);
-
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -18,7 +16,6 @@
 
 .sectionPost {
     padding-top: 12vh;
-
 }
 
 .formularioEvent {
