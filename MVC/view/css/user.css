@@ -11,18 +11,17 @@
 #EB6E80 Blush
 #008F95 aqua
 */
-.bodyUser{
+body{
     background-image: url(../img/fondoAbout.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
 }
-.sectionUser{
+section{
     margin-top: 50px;
 }
 .contenedor{
-  margin-top: 50px;
    display: flex;
    align-items:center;
 }
