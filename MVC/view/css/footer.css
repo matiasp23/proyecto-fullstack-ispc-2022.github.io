@@ -1,18 +1,13 @@
 /*------------------------------------FOOTER-----------------------------------------------------*/
 
 
-/* * {
-    margin: 0px;
-    margin-right: 20px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: sans-serif;
-    justify-content: space-between;
-    position: relative;
-    bottom: 0;
-    left: 0;
-    width: 100%
-} */
+/*Colores
+#E24E42 Papaya
+#E9B000 Mustard
+#EB6E80 Blush
+#008F95 aqua
+*/
+
 
 footer {
     width: 100%;
@@ -29,11 +24,18 @@ footer {
 
 .container-body {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-around;
+    align-content: center;
 }
 
 .column1 {
     max-width: 400px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+
 }
 
 .column1 h1 {
@@ -62,6 +64,7 @@ footer {
 .row img {
     width: 36px;
     height: 36px;
+    margin-left: 6vh;
 }
 
 .row label {
@@ -87,6 +90,7 @@ footer {
 .row2 img {
     width: 36px;
     height: 36px;
+    margin-left: 5vh;
 }
 
 .container-footer img {
@@ -98,4 +102,10 @@ footer {
     margin-top: 10px;
     margin-left: 20px;
     color: #C7C7C7;
+    text-align: center;
+}
+
+.link-footer {
+    color: #008F95;
+
 }

@@ -13,6 +13,17 @@
 #EB6E80 Blush
 #008F95 aqua
 */
+
+.sectionCart {
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 12vh;
+    margin-top: -5vh;
+}
+
 #expand {
     cursor: pointer;
 }
@@ -26,7 +37,8 @@
     max-width: 800px;
     margin: auto;
     text-align: center;
-    background-color: #008F95;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 143, 149, 0.6110819327731092) 0%);
 }
 
 ul {

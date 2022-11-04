@@ -1,16 +1,12 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito:400,300,700);
+/* @import url(https://fonts.googleapis.com/css?family=Nunito:400,300,700); */
 
-
-/*body {
-  background-color: #0b0b0b;
-  font-family: 'Nunito', sans-serif;
-  
-    background-color: white;
+.bodyEvent {
+    background-image: url(../img/fondo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-}*/
+}
 
 
 /*nav {
@@ -49,23 +45,16 @@ nav .mini .products {
     font-size: 15px;
 }
 
-nav .mini p {
-    font-size: 15px;
-    display: block;
-    margin: 0;
-    padding: 0;
-    line-height: 20px;
-}
 
-nav .cart {
-    position: relative;
-    float: right;
-    margin-right: 50px;
-    height: 20px;
-    line-height: 70px;
-    font-size: 28px;
-    height: 100%;
-    cursor: pointer;
+.sectionEvent {
+    /* padding-top: 11vh; */
+    padding-bottom: 11vh;
+    background-color: rgba(226, 78, 66, .4);
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 nav .cart span {
@@ -162,11 +151,13 @@ nav ul li a {
 }
 .botonera{
     display: flex;
+    margin-left: 15%;
+    margin-right: 12%;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
     justify-content: space-between;
     align-items: center;
-    margin-left: 12%;
-    margin-right: 12%;
-       
 }
 
 .botonsolo{
@@ -179,11 +170,10 @@ nav ul li a {
     height: 10vh;
     width: 85%;
     margin-right: 8%;
-    margin-left: 8%; 
+    margin-left: 6%;
     border-radius: 10px;
-    font-size: 6vh;
-    background-color: white;
-    color: #008F95 ;
+    font-size: 5vh;
+    color: #008F95;
     border-color: #008F95;
 }
 
@@ -193,9 +183,10 @@ nav ul li a {
     width: auto;
     padding-left: 4vh;
     padding-right: 4vh;
-    border-radius: 10px;
-    font-size: 6vh;
-    background-color: white;
+    border-radius: 12px;
+    font-size: 3vh;
+    margin-left: 6%;
+
 }
 .boton.teatro {
     color: black;
@@ -239,7 +230,8 @@ nav ul li a {
 
 
 .containerCarrito {
-    background-color:white;
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.3309698879551821) 10%, rgba(226, 78, 66, 0.5998774509803921) 45%, rgba(8, 3, 2, 1) 95%);
     border-radius: 15px;
     font-family: sans-serif;
     margin-top: 2%;
@@ -250,7 +242,7 @@ nav ul li a {
 }
 
 .prox-evento {
-    color: white;
+    color: black;
     text-align: center;
     margin-top: 5%;
 }
@@ -274,8 +266,9 @@ nav ul li a {
     position: relative;
     top: -15px;
     left: -15px;
-    width: 100%;
-    height: 80%;
+    width: 115%;
+    height: 150px;
+
     border-top-right-radius: 4px;
     border-top-left-radius: 4px;
 }
@@ -297,20 +290,19 @@ nav ul li a {
 
 .containerCarrito .product .description {
     text-align: left;
-    font-size: 15px;
+    font-size: 12px;
     color: #333;
     max-height: 20px;
 }
 
 .containerCarrito .product .price {
-
-    text-align: center;
+    text-align: right;
     font-size: 15px;
-    color:#000;
-    text-align: center;
+    color: #000;
+    margin-top: 40px;
+    text-align: left;
     font-weight: 600;
-    margin-top:-50px;
-    
+    margin-top: 45px;
 }
 
 .containerCarrito .product .btn {
@@ -485,16 +477,27 @@ nav .cart {
 }
 @media (max-width:1142px) {
     .boton {
-     margin-top: 15%;
-     height: 10vh;
-     width: auto;
-     padding-left: 4vh;
-     padding-right: 4vh;
-     border-radius: 10px;
-     font-size: 5vh;
-     background-color: white;
- }
- }
+        margin-top: 15%;
+        height: 10vh;
+        width: auto;
+        padding-left: 4vh;
+        padding-right: 4vh;
+        border-radius: 10px;
+        font-size: 5vh;
+        background-color: white;
+    }
+    .botonera {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 12%;
+        margin-right: 12%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+}
+
 @media (max-width:1299px) {
     .containerCarrito>h2 {
         margin-top: 97px;
@@ -567,55 +570,51 @@ nav .cart {
     }
 }
 
-
-@media (max-width:599px) {
-.botonera {
-    padding-top: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 12%;
-    margin-right: 12%;
-    flex-direction: column;
-}
-.botonsolo {
-    display: flex;
-    margin-top: 10%;
-    margin-left: 5%;
-    margin-right: 5%;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-.botontodos{ 
-    height: 10vh;
-    width: 50vw;
-    margin-right: 8%;
-    margin-left: 8%; 
-    border-radius: 10px;
-    font-size: 6vw;
-    background-color: white;
-    color: #008F95 ;
-    border-color: #008F95;
-}
-
-.boton {
-    margin-top: 15%;
-    height: 10vh;
-    width: 50vw;
-    padding-left: 4vh;
-    padding-right: 4vh;
-    border-radius: 10px;
-    font-size: 6vw;
-    background-color: white;
-}
-
-.botonsolo {
-     display: flex; 
-     justify-content: space-between; 
-    margin-top: 10%;
-    margin-left: 5%;
-    margin-right: 5%;
-}
+@media (max-width:639px) {
+    .botonera {
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 12%;
+        margin-right: 12%;
+        flex-direction: column;
+    }
+    .botonsolo {
+        display: flex;
+        margin-top: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .botontodos {
+        height: 10vh;
+        width: 50vw;
+        margin-right: 8%;
+        margin-left: 8%;
+        border-radius: 10px;
+        font-size: 5vw;
+        background-color: white;
+        color: #008F95;
+        border-color: #008F95;
+    }
+    .boton {
+        margin-top: 15%;
+        height: 10vh;
+        width: 50vw;
+        padding-left: 4vh;
+        padding-right: 4vh;
+        border-radius: 10px;
+        font-size: 5vw;
+        background-color: white;
+    }
+    .botonsolo {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
 }
