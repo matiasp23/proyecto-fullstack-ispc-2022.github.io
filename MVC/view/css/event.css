@@ -1,7 +1,7 @@
 /* @import url(https://fonts.googleapis.com/css?family=Nunito:400,300,700); */
 
 .bodyEvent {
-    background-image: url(../img/fondoAbout.jpeg);
+    background-image: url(../img/fondo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -383,10 +383,10 @@ nav ul li a {
     bottom: 20px;
     color: #008F95;
     cursor: pointer;
-    top: 360px;
     bottom: 10px;
     right: 10px;
     float: right;
+    top: 360px;
 }
 
 .containerCarrito .product .quickview:before {
@@ -512,7 +512,7 @@ nav .cart {
         height: 523px;
     }
     .containerCarrito .product img {
-        width: 100%;
+        width: 110%;
         height: 305px;
     }
     .containerCarrito .product .btn {
