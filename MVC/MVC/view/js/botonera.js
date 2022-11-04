@@ -1,3 +1,7 @@
+$(document).ready(function(){
+    alert("absurdismo query")
+
+//
     $(".boton").click(function(){
      let catEventos = $(this).attr("category");
      console.log(catEventos);
