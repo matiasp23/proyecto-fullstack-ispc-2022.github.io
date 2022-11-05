@@ -17,6 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/calendario.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/event.css">
     <link rel="stylesheet" href="./css/events.css">
@@ -27,6 +28,7 @@
 </head>
 
 <body class="bodyIndex">
+
     <!-- HEADER -->
     <header>
         <nav>
@@ -36,14 +38,13 @@
             </label>
             <label class="logo"><span style="font-weight: normal;">ENTER</span>arte</label>
             <ul>
-                <li><a href="index.html">Inicio</a></li>
+                <li><a href="home.html">Inicio</a></li>
+
                 <li><a href="pages/event.html">Eventos</a></li>
                 <li><a href="pages/post.html">Publicar</a></li>
                 <li><a href="pages/about.html">Quienes somos</a></li>
                 <li><a href="pages/profileUser.html">Mi Cuenta</a></li>
                 <li><a href="pages/login.html">Login</a></li>
-                <li><a href="pages/cart.html">Carrito</a></li>
-
                 <ul class="navbar-right">
                     <!--PC-->
                     <li id="pc">
@@ -105,17 +106,35 @@
             <div id="calendario-cont" class="calendario-cont">
                 <h5 class="calendariotitulo">CALENDARIO DE EVENTOS</h5>
                 <div id="calendario" class="calendario">
-                    <iframe src="https://calendar.google.com/calendar/embed?height=250&wkst=1&bgcolor=%23ffffff&ctz=America%2FArgentina%2FBuenos_Aires&showTitle=0&showNav=0&showPrint=0&showTabs=0&showTz=0&showCalendars=0&showDate=1&src=ZGFyaW9naWFuYUBnbWFpbC5jb20&color=%237986CB"
-                        style="border-width:0" width="250" height="250" frameborder="0" scrolling="no"></iframe>
+                    <div class="calendar">
+                        <div class="calendar__info">
+                            <div class="calendar__prev" id="prev-month">&#9664;</div>
+                            <div class="calendar__month" id="month"></div>
+                            <div class="calendar__year" id="year"></div>
+                            <div class="calendar__next" id="next-month">&#9654;</div>
+                        </div>
+
+                        <div class="calendar__week">
+                            <div class="calendar__day calendar__item">Lun</div>
+                            <div class="calendar__day calendar__item">Mar</div>
+                            <div class="calendar__day calendar__item">Mie</div>
+                            <div class="calendar__day calendar__item">Jue</div>
+                            <div class="calendar__day calendar__item">Vie</div>
+                            <div class="calendar__day calendar__item">Sab</div>
+                            <div class="calendar__day calendar__item">Dom</div>
+                        </div>
+
+                        <div class="calendar__dates" id="dates"></div>
+                    </div>
                 </div>
             </div>
         </div>
 
         <!--DIV CAROUSEL-->
 
-        <div>
+        <div class="prox-eventos-contenedor">
             <div>
-                <h2 class="prox-eventos">Proximos Eventos</h2>
+                <h2 class="prox-eventos">Próximos Eventos</h2>
             </div>
 
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
@@ -130,7 +149,7 @@
                     <div class="carousel-item active">
                         <img src="img/circo.jpg" class="d-block w-100" alt="circo">
                         <div class="carousel-caption d-none d-md-block">
-                            <h3>CIRCO DE KAREN</h3>
+                            <h3>CIRCO</h3>
                             <em><p>15/10</p></em>
                         </div>
                     </div>
@@ -163,7 +182,7 @@
         <!--DIV PUBLICIDAD-->
 
         <div class="divbootstrap">
-            <!--<h4 id="Titulo_Anuncio">ANUNCIOS PUBLICITARIOS</h4>-->
+            <!-- <h2 id="Titulo_Anuncio">Anuncios Publicitacios</h2> -->
 
             <div class="card">
                 <img src="img/Jarrones-en-ceramica.png" class="card-img-top" alt="...">
@@ -173,6 +192,7 @@
                     <a href="#" class="btn btn-primary"> Ver Catálogo </a>
                 </div>
             </div>
+
             <div class="cardUno">
                 <img src="img/Ghost.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -193,6 +213,7 @@
 
                 <div class="column1">
                     <h1> Mas informacion de la Compañia</h1>
+
                     <p> EnterARTE ofrece a sus usuarios un abanico infinito de opciones para que el visitante se lleve la mejor de las experiencias.</p>
                     <a class="link-footer" href="pages/terms.html">Términos y condiciones</a><br><br>
                     <a class="link-footer" href="pages/politic.html">Política y privacidad</a><br><br>
@@ -202,18 +223,19 @@
                 <div class="column2">
                     <h1> Redes Sociales</h1>
                     <div class="row">
-                        <a class="link-footer" href="https://www.facebook.com/"><img src="img/face.jpg">
-                            <label> Facebook </label> </a>
+
+                        <a class="link-footer" href="#"><img src="img/face.jpg">
+                        </a>
 
                     </div>
                     <div class="row">
-                        <a class="link-footer" href="https://www.instagram.com/"><img src="img/insta.jpg">
-                            <label> Instagram </label></a>
+                        <a class="link-footer" href="#"><img src="img/insta.jpg">
+                        </a>
                     </div>
 
                     <div class="row">
-                        <a class="link-footer" href="https://twitter.com/"> <img src="img/twitter.jpg">
-                            <label> Twitter </label> </a>
+                        <a class="link-footer" href="#"><img src="img/twitter.jpg">
+                        </a>
                     </div>
 
                 </div>
@@ -221,20 +243,20 @@
 
                 <div class="column3">
 
-                    <h1> Información Contactos</h1>
+                    <h1>Contactanos</h1>
                     <div class="row2">
                         <img src="img/casa.jpg">
-                        <label> Contamos con los siguientes medios de comunicación:</label>
                     </div>
 
                     <div class="row2">
-                        <a class="link-footer" href="https://wa.me/2494583609"><img src="img/whatsapp.jpg">
-                            <label> Cel. 2494-583609 </label> </a>
+                        <a class="link-footer" href="#"><img src="img/whatsapp.jpg">
+                        </a>
                     </div>
 
                     <div class="row2">
-                        <a class="link-footer" href="mailto:enterarte.cordoba@gmail.com"> <img src="img/correo.jpg">
-                            <label> correo electronico: enterarte.cordoba@gmail.com </label></a>
+                        <a class="link-footer" href="#"> <img src="img/correo.jpg">
+                        </a>
+
                     </div>
                 </div>
 
@@ -250,6 +272,8 @@
     <script src="js/init.js"></script>
     <script src="js/carrito.js"></script>
     <script src="js/search.js"></script>
+    <script src="js/calendario.js"></script>
+
 </body>
 
 </html>
