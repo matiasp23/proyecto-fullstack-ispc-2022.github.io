@@ -7,6 +7,7 @@ function guardarEvento(){
         ycategoria= document.querySelector("#Categoria").value,
         /*yimagen= document.querySelector("#foto").value,*/
         yprovincia= document.querySelector("#Provincia").value,
+        ylocalidad=document.querySelector("#Localidad").value,
         ycalle= document.querySelector("#Calle").value,
         ynumero= document.querySelector("#Numero").value,
         yredes= document.querySelector("#Redes-Sociales").value,

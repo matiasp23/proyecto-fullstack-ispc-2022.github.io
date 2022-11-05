@@ -1,6 +1,11 @@
 var evento=[];
+fetch("../js/json.json")
+    .then(res => res.json()) // el método .json() analiza la respuesta JSON en un objeto literal JS
+    .then(data => evento.push(data));
 
+/*funcion para agregar un objeto evento al Json*/
 function agregarEvento(xnombre,xfecha,xgenero,xcategoria,xprovincia,xlocalidad,xcalle,xnumero,xredessociales,xdescripcionevento){
+    
     var nuevoEvento={
         nombre : xnombre,
         fecha : xfecha,
@@ -13,10 +18,14 @@ function agregarEvento(xnombre,xfecha,xgenero,xcategoria,xprovincia,xlocalidad,x
         redes : xredessociales,
         descripcion : xdescripcionevento
     };
-    console.log(nuevoEvento);
-    evento.push(nuevoEvento); 
+    (nuevoEvento);
+    /*evento.push(JSON.stringify(nuevoEvento))*/
+    evento.push(nuevoEvento);
+    localStorage.setItem("usuario", JSON.stringify(evento));
+    console.log(evento);
+    
 };
-
+console.log(localStorage.getItem("usuario"));
 /*function crearEvento(){
    
     document.getElementById("nuevo-evento").addEventListener("click", nuevoEvento,false);
