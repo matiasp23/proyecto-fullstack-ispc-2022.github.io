@@ -1,4 +1,3 @@
-
 /*
 #E24E42 Papaya (Naranja)
 #E9B000 Mustard (Amarillo)
@@ -8,93 +7,84 @@
 
 * {
     -webkit-box-sizing: border-box;
-    box-sizing: border-box; }
-  
-  .calendar {
-    
-    
+    box-sizing: border-box;
+}
+
+.calendar {
     width: auto;
     height: auto;
     max-width: min-content;
     margin: 1em auto;
-    padding: .5em 0; 
+    padding: .5em 0;
     border-radius: 3%;
     font-weight: 500;
 }
 
+.calendar__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
 
-    .calendar__info {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-     
-      
-      font-size: 1.2em;
-      text-transform: uppercase; }
+.calendar__prev,
+.calendar__next {
+    color: #E9B000;
+    cursor: pointer;
+    font-size: 1.3em;
+}
 
-    .calendar__prev, .calendar__next {
-      color: #E9B000;
-      cursor: pointer;
-      font-size: 1.3em; }
+.calendar__prev {
+    margin-right: auto;
+}
 
-    .calendar__prev {
-      margin-right: auto; }
+.calendar__next {
+    margin-left: auto;
+}
 
-    .calendar__next {
-      margin-left: auto; }
+.calendar__week,
+.calendar__dates {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 10px;
+    -webkit-box-align: end;
+    text-align: center;
+}
 
-    .calendar__week, .calendar__dates {
-      display: grid;
-      grid-template-columns: repeat(7, 1fr);
-      grid-gap: 10px; 
-      -webkit-box-align:end; 
-      text-align: center;
-    }
+.calendar__month,
+.calendar__year {
+    padding: .5em .5em;
+}
 
-    .calendar__month, .calendar__year {
-      padding: .5em .5em; }
+.calendar__item {
+    text-align: center;
+    line-height: 2;
+}
 
-    .calendar__item {
-      text-align: center;
-      line-height: 2; 
-      
-    }
+.calendar__today {
+    background: coral;
+    color: white;
+    width: 100%;
+    border-radius: 35%;
+    margin: auto;
+}
 
-    .calendar__today {
-      background: coral;
-      color: white;
-      width: 100%;
-      border-radius: 35%;
-      margin: auto; 
-    
-    }
+.calendar__last-days {
+    opacity: .3;
+    text-align: center;
+    line-height: 2;
+}
 
-    .calendar__last-days {
-      opacity: .3;
-      text-align: center;
-      line-height: 2;
-       
-    }
+#categoryItem a:link {
+    color: black;
+}
 
-      a:link {
-        color: black;
+#categoryItem a:visited {
+    color: black;
+}
 
-      }
-
-      a:visited {
-        color: black;
-
-
-      }
-
-      a:hover {
-
-        color: blue;
-
-      }
-
-
-
-
-      
+#categoryItem a:hover {
+    color: blue;
+}

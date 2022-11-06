@@ -123,6 +123,13 @@ $('#buttonSearch').click(function(value){
     
 });
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> Daro
+>>>>>>> c32b2bf0b3122e11fbcd7c35afc18428bde96cf3
 // - - - Buscador de Eventos (GeR) - - - 
 
 document.getElementById("inputSearch").addEventListener("keyup", buscador_eventos);
@@ -161,5 +168,13 @@ function buscador_eventos(){
 
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 86f46634c3c3bd0da153325def7b7b3abfaae0ea
+>>>>>>> Daro
+>>>>>>> c32b2bf0b3122e11fbcd7c35afc18428bde96cf3
 
 
