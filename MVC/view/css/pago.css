@@ -110,7 +110,6 @@ section{
     display: flex;
     text-align: left;
     width: 100%;
-  
     align-items: flex-start;
     justify-content: baseline;
   }
@@ -128,6 +127,7 @@ section{
   input[type="checkbox"] {
     float: left;
     margin-right: 5px;
+    margin-top: 5px;
   }
   .radio, .checkbox {
     position: relative;
