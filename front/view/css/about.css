@@ -1,130 +1,152 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
 }
+
+
 /*Colores
 #E24E42 Papaya
 #E9B000 Mustard
 #EB6E80 Blush
 #008F95 aqua
 */
-body{
-    background-image: url(../img/fondoAbout.jpeg);
+
+.bodyAbout {
+    background-image: url(../img/fondo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
 }
-.initAbout{
-    padding:10%;
-    text-align:center;
+
+.initAbout {
+    padding: 10%;
+    text-align: center;
     color: black;
 }
+
+
 /*Contenedores*/
-.contenedorSection{
+
+.contenedorSection {
     padding: 20px;
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
-    transition:all 800ms;
-    background-color: white;
+    transition: all 800ms;
+    /* background-color: white; */
     border-radius: 5px;
 }
-.contenedorSection div{
+
+.contenedorSection div {
     max-width: 280px;
     border: 1px solid gray;
     border-radius: 10px;
     text-align: center;
-    padding:20px;
+    padding: 20px;
     font-size: 12px;
+    background-color: white;
 }
 
-.contenedorSection div h2{
-   margin:10px;
+.contenedorSection div h2 {
+    margin: 10px;
 }
-.contenedorSection div img{
+
+.contenedorSection div img {
     max-width: 40px;
 }
 
+
 /*Contacto*/
 
-.contact{
+.contact {
     color: black;
-    margin-Top:20px;
+    margin-Top: 40px;
+    margin-bottom: 40px;
     display: flex;
     align-items: row;
     padding-bottom: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 143, 149, 0.6110819327731092) 0%);
 }
 
-.contactText{
-  text-align: center;
-  margin-top: 20px;
-  margin-left: 15%;
+.contactText {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 15%;
 }
-.contactText h2{
-  font-size: 50px;
+
+.contactText h2 {
+    font-size: 50px;
 }
-.contenedorRedes{
+
+.contenedorRedes {
     max-width: 400px;
     margin-top: 20px;
 }
-.iconos{
+
+.iconos {
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content: space-around;
     margin-top: 20px;
 }
-.iconos a:hover{
+
+.iconos a:hover {
     cursor: pointer;
     outline: none;
 }
-.iconos img{
+
+.iconos img {
     max-width: 150px;
 }
-.fc{
+
+.fc {
     border-radius: 10px;
 }
 
+
 /*Formulario Contacto*/
 
-.formularioContact{
+.formularioContact {
     display: flex;
     flex-direction: column;
 }
+
 .formularioContact button,
 .formularioContact textarea,
-.formularioContact input{
+.formularioContact input {
     display: flex;
     width: 100%;
     margin-top: 20px;
-    padding:10px;
+    padding: 10px;
     border: none;
     background: #f2f2f2;
     font-size: 16px;
-    outline:none;
-    margin:10px 0 0 100px;
+    outline: none;
+    margin: 10px 0 0 100px;
     border-radius: 3px;
-    margin-right: 10px; 
+    margin-right: 10px;
 }
 
-@media (max-width: 760px){
-
-    .contenedorSection{
-        flex-direction:column;
+@media (max-width: 860px) {
+    .contenedorSection {
+        flex-direction: column;
         padding-left: 20%;
     }
-     .contact{
+    .contact {
         flex-direction: column;
         margin: auto;
-     }
-
+    }
     .formularioContact button,
     .formularioContact textarea,
-    .formularioContact input{
+    .formularioContact input {
         width: 70%;
     }
 }
-

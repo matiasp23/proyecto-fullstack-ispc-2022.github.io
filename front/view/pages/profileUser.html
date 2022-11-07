@@ -4,13 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
     <title>Mi Cuenta</title>
 
     <!--CSS-->
+=======
+    <title>ENTERarte - Todo lo que busques está aquí</title>
+
+    <!--CSS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+>>>>>>> 25dc6a949b9db157eb572ee2462e26acd328472e
     <link rel="stylesheet" href="../css/nav.css">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/user.css">
     <link rel="stylesheet" href="../css/footer.css">
+<<<<<<< HEAD
 
 
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
@@ -19,11 +29,23 @@
 </head>
 
 <body>
+=======
+    <link rel="stylesheet" href="../css/event.css">
+    <link rel="stylesheet" href="../css/events.css">
+
+    <!--JS del HEADER-->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.2.4/css/simple-line-icons.min.css'>
+</head>
+
+<body class="bodyUser">
+>>>>>>> 25dc6a949b9db157eb572ee2462e26acd328472e
     <!--HEADER-->
     <header>
         <nav>
             <input type="checkbox" id="check">
             <label for="check" class="checkbtn">
+<<<<<<< HEAD
                 <i class="fas fa-bars"></i>
                 </label>
             <label class="logo"><span style="font-weight: normal;">ENTER</span>arte</label>
@@ -53,11 +75,55 @@
                 </div>
             </div>
         </div> -->
+=======
+                <img src="../img/navbar.png" id="navbar-img" alt="">
+            </label>
+            <label class="logo"><span style="font-weight: normal;">ENTER</span>arte</label>
+            <ul>
+                <li><a href="../home.html">Inicio</a></li>
+                <li><a href="event.html">Eventos</a></li>
+                <li><a href="post.html">Publicar</a></li>
+                <li><a href="about.html">Quienes somos</a></li>
+                <li><a href="profileUser.html">Mi Cuenta</a></li>
+                <li><a href="login.html">Login</a></li>
+                <ul class="navbar-right">
+                    <!--PC-->
+                    <li id="pc">
+                        <a href="#" id="cart">
+                            <i class="fa"></i>
+                            <div class='cart icon-basket'>
+                                <span class='number'></span>
+                            </div>
+                        </a>
+                    </li>
+                    <!--MOVIL-->
+                    <li id="movil">
+                        <a href="#" class="active">
+                            <i class="fa"></i>
+                            <div class='cart icon-basket'>
+                                <span class='number'></span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class='mini'>
+                    <ul class="shopping-cart-items">
+                        <p class='products'>Vacío</p>
+                        <p class='names'></p>
+                        <p class='miniprice'></p>
+                        <a href="cart.html" class="button">Revisar compra</a>
+                    </ul>
+                </div>
+            </ul>
+        </nav>
+>>>>>>> 25dc6a949b9db157eb572ee2462e26acd328472e
     </header>
     <br> <br>
     <!--SECTION-->
     <section>
         <div class="contenedor">
+<<<<<<< HEAD
 
             <h1 class="titleUser">Mi Usuario</h1>
             
@@ -73,6 +139,18 @@
                         <p> <input type="text" class="sinBorde" value="Usuario" placeholder="Usuario" required id="usuario" disabled> </p>
                         <button type="button" id="editar" onclick="FbotonOn(this) ;habilitar()" >Editar</button>
                     </form>            
+=======
+            <h1 class="titleUser">Mi Usuario</h1>
+            <div class="infoUser">
+                <div class="user">
+                    <img src="../img/user.png" alt="">
+                    <p> Nombre</p>
+                    <p> Apellido</p>
+                    <p> Email</p>
+                    <p> Fecha de Nacimiento</p>
+                    <p> Usuario</p>
+                    <button>Editar</button>
+>>>>>>> 25dc6a949b9db157eb572ee2462e26acd328472e
                 </div>
             </div>
         </div>
@@ -85,6 +163,7 @@
 
                 <div class="column1">
                     <h1> Mas informacion de la Compañia</h1>
+<<<<<<< HEAD
                     <p> EnterARTE ofrece a sus usuarios un abanico infinito de opciones para que el visitante se lleve la mejor de las experiencias.
 
                     </p>
@@ -103,6 +182,29 @@
                     <div class="row">
                         <img src="../img/twitter.jpg">
                         <label> Twitter </label>
+=======
+                    <p> EnterARTE ofrece a sus usuarios un abanico infinito de opciones para que el visitante se lleve la mejor de las experiencias.</p>
+                    <a class="link-footer" href="./terms.html">Términos y condiciones</a><br><br>
+                    <a class="link-footer" href="./politic.html">Política y privacidad</a><br><br>
+                    <a class="link-footer" href="./faq.html">Preguntas frecuentes</a><br>
+                </div>
+
+                <div class="column2">
+                    <h1> Redes Sociales</h1>
+                    <div class="row">
+                        <a class="link-footer" href="#"><img src="../img/face.jpg">
+                        </a>
+
+                    </div>
+                    <div class="row">
+                        <a class="link-footer" href="#"><img src="../img/insta.jpg">
+                        </a>
+                    </div>
+
+                    <div class="row">
+                        <a class="link-footer" href="#"><img src="../img/twitter.jpg">
+                        </a>
+>>>>>>> 25dc6a949b9db157eb572ee2462e26acd328472e
                     </div>
 
                 </div>
@@ -110,6 +212,7 @@
 
                 <div class="column3">
 
+<<<<<<< HEAD
                     <h1> Información Contactos</h1>
                     <div class="row2">
                         <img src="../img/casa.jpg">
@@ -124,6 +227,21 @@
                     <div class="row2">
                         <img src="../img/correo.jpg">
                         <label> correo electronico: enterarte@hotmail.com </label>
+=======
+                    <h1>Contactanos</h1>
+                    <div class="row2">
+                        <img src="../img/casa.jpg">
+                    </div>
+
+                    <div class="row2">
+                        <a class="link-footer" href="#"><img src="../img/whatsapp.jpg">
+                        </a>
+                    </div>
+
+                    <div class="row2">
+                        <a class="link-footer" href="#"> <img src="../img/correo.jpg">
+                        </a>
+>>>>>>> 25dc6a949b9db157eb572ee2462e26acd328472e
                     </div>
                 </div>
 
@@ -132,6 +250,7 @@
                 <div class="copyright"> © 2022 EnterArte, Inc.</div>
             </div>
         </div>
+<<<<<<< HEAD
         </div>
     </footer>
 
@@ -139,6 +258,9 @@
     <script src="../js/user.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
+=======
+    </footer>
+>>>>>>> 25dc6a949b9db157eb572ee2462e26acd328472e
 </body>
 
 </html>
