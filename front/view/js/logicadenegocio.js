@@ -1,12 +1,14 @@
 var evento=[];
+
 fetch("../js/json.json")
     .then(res => res.json()) // el método .json() analiza la respuesta JSON en un objeto literal JS
-    .then(data => evento.push(data));
+    .then(data => misEventos(data));
 
 /*funcion para agregar un objeto evento al Json*/
 function agregarEvento(xnombre,xfecha,xgenero,xcategoria,xprovincia,xlocalidad,xcalle,xnumero,xredessociales,xdescripcionevento){
     
-    var nuevoEvento={
+    var nuevoEvento=
+    {
         nombre : xnombre,
         fecha : xfecha,
         genero : xgenero,
@@ -18,14 +20,26 @@ function agregarEvento(xnombre,xfecha,xgenero,xcategoria,xprovincia,xlocalidad,x
         redes : xredessociales,
         descripcion : xdescripcionevento
     };
-    (nuevoEvento);
-    /*evento.push(JSON.stringify(nuevoEvento))*/
-    evento.push(nuevoEvento);
+    evento.push(JSON.stringify(nuevoEvento));
+    /*evento.push(nuevoEvento);*/
     localStorage.setItem("usuario", JSON.stringify(evento));
     console.log(evento);
     
+    
 };
+
+
+function misEventos(data){
+
+    var app = new Vue({
+        el: "#app",
+        data: {eventos:[]} })   
+}
+app.eventos.push(evento)
+let getitem = JSON.parse(localStorage.getItem("usuario"))
 console.log(localStorage.getItem("usuario"));
+
+
 /*function crearEvento(){
    
     document.getElementById("nuevo-evento").addEventListener("click", nuevoEvento,false);
