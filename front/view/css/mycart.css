@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*Colores
+#E24E42 Papaya
+#E9B000 Mustard
+#EB6E80 Blush
+#008F95 aqua
+*/
+
+.sectionCart {
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 12vh;
+    margin-top: -5vh;
+}
+
+#expand {
+    cursor: pointer;
+}
+
+#coolstuff {
+    display: none;
+}
+
+#container {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 143, 149, 0.6110819327731092) 0%);
+}
+
+ul {
+    text-align: left;
+    margin-left: 15px;
+}
+
+hr {
+    border-color: white;
+    border-bottom: 0;
+}
+
+table {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+tr {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+td {
+    border-bottom: 1px solid white;
+    padding: 5px 2px;
+}
+
+.image {
+    width: 150px;
+}
+
+.image>img {
+    width: 100%;
+    background: white;
+    border-radius: 2px;
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.4);
+    mask-border: 1px solid black;
+}
+
+.amount {
+    width: 50px;
+}
+
+.amount>input {
+    /* font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; */
+    color: white;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    width: 100%;
+    text-align: center;
+    outline: none;
+}
+
+.remove {
+    width: 30px;
+}
+
+.remove>div {
+    border-radius: 10px;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    padding: 2px;
+    transition: background .3s, border .3s, transform .3s;
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+    border: 1px solid white;
+}
+
+.remove.hey>div {
+    background: red;
+    border-color: red;
+    transform: scale(1.3);
+}
+
+.remove:hover>div {
+    background: red;
+    border-color: red;
+}
+
+.big {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#checkout {
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    display: inline-block;
+    margin: 2px;
+    border-radius: 3px;
+    text-align: center;
+    transition: background 0.2s;
+    background: #E24E42;
+    cursor: pointer;
+}
+
+#checkout>span {
+    width: 0;
+    display: inline-block;
+    overflow: hidden;
+    transition: width .3s;
+    text-align: right;
+}
+
+#checkout:hover>span {
+    width: 20px;
+}
+
+
+/******************************historial de compras****************************/
+
+#record {
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    display: inline-block;
+    margin: 2px;
+    border-radius: 3px;
+    text-align: right;
+    transition: background 0.2s;
+    background: black;
+    cursor: pointer;
+}
+
+#record>span {
+    width: 0;
+    display: inline-block;
+    overflow: hidden;
+    transition: width .3s;
+    text-align: right;
+}
+
+#record:hover>span {
+    width: 20px;
+}
+
+
+/******************************Medios de pago****************************/
+
+#pay {
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    display: inline-block;
+    margin: 2px;
+    border-radius: 3px;
+    text-align: right;
+    transition: background 0.2s;
+    background: #E9B000;
+    cursor: pointer;
+}
+
+#pay>span {
+    width: 0;
+    display: inline-block;
+    overflow: hidden;
+    transition: width .3s;
+    text-align: right;
+}
+
+#pay:hover>span {
+    width: 20px;
+}
+
+#footer {
+    opacity: 0.8;
+    border-top: 1px solid white;
+    padding-top: 10px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#footer a {
+    color: white;
+}

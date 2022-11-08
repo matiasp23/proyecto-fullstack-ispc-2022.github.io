@@ -1,0 +1,39 @@
+/*Colores
+#E24E42 Papaya (Amarillo)
+#E9B000 Mustard (Naranja)
+#EB6E80 Blush (Rosa)
+#008F95 aqua (Turquesa)
+*/
+
+
+/*----------------------- Terms -----------------------*/
+
+body {
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.terms {
+    display: flex;
+    flex-direction: center;
+    width: auto;
+    background-color: #bd473c;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 12vh;
+    text-align: left;
+    padding-top: 2vh;
+    padding-left: 6vh;
+    padding-right: 6vh;
+    border-radius: 1rem;
+    text-decoration-color: #C7C7C7;
+}
+
+.terms h2 {
+    text-align: center;
+    padding-top: 5vh;
+    color: #022323;
+}
