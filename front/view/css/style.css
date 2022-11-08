@@ -13,6 +13,15 @@
                         font-family: 'Poppins', sans-serif;
                     }
                     
+                    .bienvenidos {
+                        text-align: center;
+                    }
+                    
+                    .bienvenidos h1 {
+                        font-weight: 800;
+                        color: var(--primary);
+                    }
+                    
                     .section {
                         box-shadow: inset;
                         display: flex;
