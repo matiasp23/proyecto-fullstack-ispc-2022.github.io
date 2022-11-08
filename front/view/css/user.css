@@ -36,9 +36,12 @@
     margin: auto;
     text-align: center;
     font-size: 8vh;
-    color: black;
-    border-bottom: 3px solid #EB6E80;
+    color: rgb(0, 0, 0);
+    border-bottom: 3px solid #EB6E80;  
+    font-family: 'Poppins';
+         
 }
+
 
 .infoUser {
     margin-left: 20px;
@@ -81,8 +84,16 @@
     margin-left: 37%;
 }
 
-@media (max-width: 760px) {
-    .contenedor {
+.sinBorde {
+    border: 0;
+    font-family: 'Poppins';
+    font-size: 16px;
+    outline: none;
+    background-color:#008F95;
+  }
+
+@media (max-width: 760px){
+    .contenedor{
         flex-direction: column;
     }
     .infoUser {
