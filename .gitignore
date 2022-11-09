@@ -4,9 +4,6 @@
 # Ignora la carpeta node_modules
 node_modules
 
-# Ignora la carpeta de componentes para python
-mysql-connector-python-8.0.31
-
 # Ignora todos los archivos de configuración
 *.vscode
 
@@ -17,4 +14,4 @@ mysql-connector-python-8.0.31
 .sass-cache
 
 # Ignora la carpeta de fuente
-*fonts
+fonts
