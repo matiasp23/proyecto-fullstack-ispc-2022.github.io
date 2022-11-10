@@ -98,6 +98,20 @@ a:hover {
     margin-top: 15px;
 }
 
+.logo-img {
+    width: 20%;
+    height: auto;
+    padding: 2%;
+}
+
+.logo-img-user {
+    width: 5%;
+    height: auto;
+    padding: 1%;
+    margin-top: -1%;
+    margin-bottom: -2%;
+}
+
 @media (max-width: 952px) {
     label .logo {
         font-size: 30px;
@@ -154,5 +168,18 @@ a:hover {
     nav ul li a {
         font-size: 20px;
         /* margin-right: 25%; */
+    }
+}
+
+@media (max-width: 599px) {
+    .logo-img {
+        width: 5vh;
+        height: auto;
+        padding: 2%;
+    }
+    .logo-img-user {
+        width: 5vh;
+        height: auto;
+        padding: 2%;
     }
 }
