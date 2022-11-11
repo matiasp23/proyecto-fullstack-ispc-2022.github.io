@@ -5,10 +5,10 @@ var miCallback = datos =>{
     app.publi=datos;
     var html = ""
     app.publi.map(publicar => {
-        html+=publicar.img;
+        html+="<div class='card'>'"+publicar.img+"'";
         html+=publicar.titulo;
         html+=publicar.texto;
-        html+=publicar.boton;
+        html+="'"+publicar.boton+"'</div>";
 
         /*html+="<img src='"+publicar.img+"' ></img>";
         for(let propiedad of Object.keys(publicar)) {
