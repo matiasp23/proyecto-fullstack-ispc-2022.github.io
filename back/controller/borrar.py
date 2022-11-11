@@ -8,7 +8,7 @@ try:
                                          user='root',
                                          password='')
 
-    mySql_insert_query = " DELETE FROM usuarios  WHERE Id = '8';"
+    mySql_insert_query = " DELETE FROM usuario  WHERE id_usuario = '9';"
 
     
     cursor = connection.cursor()

@@ -8,7 +8,7 @@ try:
                                          user='root',
                                          password='')
 
-    mySql_insert_query = " UPDATE usuarios SET  price='0' WHERE Id='8';"
+    mySql_insert_query = " UPDATE usuario SET  contrasenia='258' WHERE id_usuario='9';"
 
     
     cursor = connection.cursor()
