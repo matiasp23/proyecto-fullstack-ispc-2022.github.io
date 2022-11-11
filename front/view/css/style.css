@@ -13,13 +13,12 @@
                     font-family: 'Poppins', sans-serif;
                 }
                 
-                .bienvenidos {
-                    text-align: center;
+                .bienvenido-home {
+                    text-shadow: 0px 4px 5px #e24e42;
                 }
                 
-                .bienvenidos h1 {
-                    font-weight: 800;
-                    color: var(--primary);
+                .bienvenido-sub-home {
+                    text-shadow: 0px 0px 40px #008f95;
                 }
                 
                 .section {
