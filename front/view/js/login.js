@@ -97,23 +97,21 @@ function usuarioExistente(usuarioEx, contraseñaEx){
     login(usuario)
 
     console.log(usuario)
-    alert("usuario")
 }
 function login(usuario){
     usuariosLogueados = JSON.parse(localStorage.getItem("localListUser"))
-    for (i=0; i <= usuariosLogueados.length-1; i++){
         if(usuariosLogueados != null) {
+            for (i=0; i <= usuariosLogueados.length-1; i++){
           if(usuariosLogueados[i].usuario === usuario.usuarioL & usuariosLogueados[i].contraseña === usuario.contraseñaL){
               localStorage.setItem("usuarioLog", JSON.stringify(usuario))
               window.location.href = '../home.html';
               alert("Bienvenid@ "+(usuario.usuarioL))
           }else{
               alert("usuario o contraseña incorrecto")
-          }
+          }}
         } else {
-            alert("no hay usuarios registrados")
+            alert("No hay usuarios registrados")
         }
-    }
 }
 
 
