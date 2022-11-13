@@ -30,9 +30,10 @@ const writeMonth = (month) => {
 
     for (let i = 1; i <= getTotalDays(month); i++) {
         if (i === currentDay) {
-            dates.innerHTML += ` <a href="./front/view/pages/event.html" id="categoryItem" category="teatro" class="calendar__date calendar__item calendar__today">${i}</a>`;
+
+            dates.innerHTML += ` <a href="pages/event.html" id="categoryItem" category="teatro" class="calendar__date calendar__item calendar__today">${i}</a>`;
         } else {
-            dates.innerHTML += ` <a href="./front/view/pages/event.html" id="categoryItem" category="teatro" <class="calendar__date calendar__item" category="musica">${i}</a>`;
+            dates.innerHTML += ` <a href="pages/event.html" id="categoryItem" category="teatro" <class="calendar__date calendar__item" category="musica">${i}</a>`;
         }
     }
 }
