@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>ENTERarte - Todo lo que busques está aquí</title>
+    <title>ENTERarte</title>
 
+    <!-- Icono en la pestaña -->
+    <link rel="shortcut icon" href="../img/Logo Enter Arte Solo PNG.png" />
     <!-- Bootstrap core CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
@@ -33,7 +35,8 @@
             <label for="check" class="checkbtn">
                 <img src="../img/navbar.png" id="navbar-img" alt="">
             </label>
-            <label class="logo"><span style="font-weight: normal;">ENTER</span>arte</label>
+            <label class="logo"><img class="logo-img" src="../img/Logo Enter Arte Solo PNG.png" alt=""><span style="font-weight: normal;">ENTER</span>arte</label>
+
             <ul>
                 <li><a href="../home.html">Inicio</a></li>
                 <li><a href="event.html">Eventos</a></li>
@@ -72,13 +75,6 @@
             </ul>
         </nav>
     </header>
-    <!--<div class="banner">
-            <div class="container">
-                <p style="margin-bottom: 0px;" class="texto-derecha floatR desaparece"><input type="text" name="buscador" placeholder="Buscar..." class="buscador" id="buscador"><button class="btn-search" id="buttonSearch"><i class="material-icons">Buscar</i></button></p>
-                <div class="clearfix"></div>
-                <br>
-            </div>
-        </div> -->
 
     <section class="sectionEvent" id="eventos">
 
@@ -102,7 +98,7 @@
             <br><br><br><br>
 
             <!--EVENTOS-->
-           <div  v-for="evento in eventos" class='product' category="teatro">
+            <div v-for="evento in eventos" class='product' category="teatro">
                 <img v-bind:src="evento.img">
                 <h2 class='header'>{{evento.nombre}}</h2>
                 <p class='description'>{{evento.descripcion}}</p>
@@ -147,9 +143,7 @@
                 <div class='btn btn_comprar'>Comprar</div>
                 <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div>
             </div>
-            <hr>
-
-            SEMANALES 
+            <hr> SEMANALES
             <h2 style="font-size: 2rem; font-family: sans-serif; color: black; ">SEMANALES</h2>
             <div class='product' category="teatro">
                 <img src='../img/event4.jpeg'>
@@ -196,9 +190,7 @@
                 <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div>
             </div>
 
-            <hr>
-
-             MENSUALES 
+            <hr> MENSUALES
             <h2 style="font-size: 2rem; font-family: sans-serif; color:black; ">MENSUALES</h2>
             <div class='product' category="teatro">
                 <img src='../img/event8.jpeg'>
@@ -245,53 +237,51 @@
                 <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div>
             </div>
 
-            <hr>
-
-             ESPACIOS CULTURALES 
+            <hr> ESPACIOS CULTURALES
             <h2 style="font-size: 2rem; font-family: sans-serif; color:black ">ESPACIOS CULTURALES</h2>
             <div class='product' category="teatro">
                 <img src='../img/event2.jpeg'>
                 <h2 class='header'>Teatro 4</h2>
                 <p class='description'>Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
-                 <p class='price' style="margin-top: 45px; "> 231,</p> 
+                <p class='price' style="margin-top: 45px; "> 231,</p>
                 <div class='quickview' style="top:265px;">
                     <a href="cartInfo.html">Info</a>
                 </div>
-                 <div class='btn btn_comprar'>Comprar</div>
-            <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div>
+                <div class='btn btn_comprar'>Comprar</div>
+                <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div>
             </div>
             <div class='product' category="musica">
                 <img src='../img/event3.jpeg'>
                 <h2 class='header'>Musica 4</h2>
                 <p class='description'>Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
-                 <p class='price' style="margin-top: 45px; "> 231,</p> 
+                <p class='price' style="margin-top: 45px; "> 231,</p>
                 <div class='quickview' style="top:265px;">
                     <a href="cartInfo.html">Info</a>
                 </div>
-                 <div class='btn btn_comprar'>Comprar</div>
-            <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div> 
+                <div class='btn btn_comprar'>Comprar</div>
+                <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div>
             </div>
             <div class='product' category="artesvisuales">
                 <img src='../img/event4.jpeg'>
                 <h2 class='header'>Artes visuales 4</h2>
                 <p class='description'>Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
-                 <p class='price' style="margin-top: 45px; "> 231,</p> 
+                <p class='price' style="margin-top: 45px; "> 231,</p>
                 <div class='quickview' style="top:265px;">
                     <a href="cartInfo.html">Info</a>
                 </div>
-                 <div class='btn btn_comprar'>Comprar</div> 
-                 <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div> 
+                <div class='btn btn_comprar'>Comprar</div>
+                <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div>
             </div>
             <div class='product' category="infantiles">
                 <img src='../img/event5.jpeg'>
                 <h2 class='header'>Infantiles 4</h2>
                 <p class='description' id="electrodomesticos ">Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
-                 <p class='price' style="margin-top: 45px; "> 231,</p> 
+                <p class='price' style="margin-top: 45px; "> 231,</p>
                 <div class='quickview' style="top:265px;">
                     <a href="cartInfo.html">Info</a>
                 </div>
-                 <div class='btn btn_comprar'>Comprar</div>
-            <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div> 
+                <div class='btn btn_comprar'>Comprar</div>
+                <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div>
             </div>
             <hr>
         </div>
@@ -382,9 +372,6 @@
     <script src="../js/search.js "></script>
     <script src="../js/logicadenegocio.js"></script>
     <script src="../js/logica.js"></script>
-</body>
-
-</html>
 </body>
 
 </html>
