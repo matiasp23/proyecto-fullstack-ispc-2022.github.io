@@ -36,8 +36,9 @@
     margin: auto;
     text-align: center;
     font-size: 8vh;
-    color: black;
+    color: rgb(0, 0, 0);
     border-bottom: 3px solid #EB6E80;
+    font-family: 'Poppins';
 }
 
 .infoUser {
@@ -79,6 +80,17 @@
     cursor: pointer;
     outline: none;
     margin-left: 37%;
+}
+
+.sinBorde {
+    border: 0;
+    font-family: 'Poppins';
+    font-size: 16px;
+    outline: none;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
 }
 
 @media (max-width: 760px) {

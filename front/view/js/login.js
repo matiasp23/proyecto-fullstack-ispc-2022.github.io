@@ -8,7 +8,7 @@ var formularioLogin = document.querySelector(".formularioLogin")
 var formularioRegister = document.querySelector(".formularioRegister")
 var cajaTraseraLogin = document.querySelector(".cajaTraseraLogin")
 var cajaTraseraRegister = document.querySelector(".cajaTraseraRegister")
-let usuarioLogueado
+
 function anchoPagina(){
     if(window.innerWidth > 850){
         cajaTraseraLogin.style.display = "block";
@@ -55,55 +55,6 @@ function register(){
         cajaTraseraLogin.style.opacity = "1";
     }
 }
-/*baseDeDatos = localStorage.getItem("sistema-de-login")
-
-if(!baseDeDatos){
-    cargarDatosIniciales()
-}
-function cargarDatosIniciales(){
-    baseDeDatos = {
-        1:{
-          email:"tay@gmail.com",
-          contraseña: "abc",
-          nombre:"Tay Villarreal",
-          usuario:"Tay"
-        },
-        2:{
-           email:"geo@gmail.com",
-           contraseña: "abc",
-           nombre:"Geo Villarreal",
-           usuario:"Geo"
-        },
-        3:{
-           email:"fran@gmail.com",
-           contraseña: "abc",
-           nombre:"Fran Villarreal",
-           usuario:"Fran"
-        }
-   }
-}
-document.getElementById("login").addEventListener("click", login);
-function login(){
-      let usuario = document.getElementById("usuario").value
-      let contraseña = document.getElementById("contraseña").value
-      if(!usuario){
-          alert("No hay usuario")
-      }
-      if(!contraseña){
-        alert("No hay contraseña")
-    }
-    let datos = baseDeDatos[usuario]
-    if(!datos){
-        alert("El usuario no existe");
-    }
-    if (datos.contraseña != contraseña) {
-        alert("Contraseña incorrecta");
-    }
-    if(usuario === usuario & contraseña === contraseña){
-        alert(`Bienvenido`+{usuario})
-    }
-    usuarioLogueado = datos
-}   */
 //Register
 var usuariosLogueados = [];
 
@@ -163,6 +114,4 @@ function login(usuario){
         }
     }
 }
-
-
 

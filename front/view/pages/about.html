@@ -4,7 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ENTERarte - Todo lo que busques está aquí</title>
+    <title>ENTERarte</title>
+
+    <!-- Icono en la pestaña -->
+    <link rel="shortcut icon" href="../img/Logo Enter Arte Solo PNG.png" />
+
     <!--CSS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,6 +24,8 @@
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.2.4/css/simple-line-icons.min.css'>
 </head>
 
+
+
 <body class="bodyAbout">
     <!-- HEADER -->
     <header>
@@ -28,14 +34,14 @@
             <label for="check" class="checkbtn">
                 <img src="../img/navbar.png" id="navbar-img" alt="">
             </label>
-            <label class="logo"><span style="font-weight: normal;">ENTER</span>arte</label>
+            <label class="logo"><img class="logo-img-user" src="../img/Logo Enter Arte Solo PNG.png" alt=""><span style="font-weight: normal;">ENTER</span>arte</label>
             <ul>
                 <li><a href="../home.html">Inicio</a></li>
                 <li><a href="event.html">Eventos</a></li>
                 <li><a href="post.html">Publicar</a></li>
                 <li><a href="about.html">Quienes somos</a></li>
                 <li><a href="profileUser.html">Mi Cuenta</a></li>
-                <li><a href="login.html">Login</a></li>
+                <li id="app"><a v-bind:href="url">{{ nombre }}</a></li>
                 <ul class="navbar-right">
                     <!--PC-->
                     <li id="pc">
@@ -72,42 +78,39 @@
 
         <div class="initAbout">
             <h1>ENTERarte</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur nam illo, inventore beatae eos cum provident facilis labore quos laboriosam aliquid incidunt eaque saepe possimus, quia quisquam, culpa dolor odio.</p>
+            <p>«Elegimos la calle porque hay toda clase de gente, el arte no es solo para una elite.» Ella & Pitr.</p>
         </div>
         <div class="contenedorSection">
             <div>
                 <img src="../img/personas.png" />
 
                 <h2>Quienes somos</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit suscipit totam sunt error! Quam asperiores fugiat odit! Voluptatum, ut at. Dolore doloribus expedita architecto molestiae dignissimos nesciunt veritatis aperiam suscipit
-                    illum, rem dolorem adipisci, dolor excepturi impedit laudantium qui incidunt necessitatibus neque assumenda. Placeat fuga dolor culpa tenetur cumque nemo ratione, odit ex minus numquam fugit, aperiam excepturi at esse fugiat harum
-                    temporibus quaerat saepe.</p>
+                <p>Somos una organización sin fines de lucro que trabaja activamente para promover, fomentar y difundir actividades culturales de todo tipo, ya que creemos en el valor de las expresiones artísticas como medio para generar lazos de unión entre los miembros de la sociedad.</p>
             </div>
             <div>
                 <img src="../img/lupa.webp" />
-                <h2>A quienes apuntamos</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus neque ducimus suscipit, officiis repellat, voluptates sequi fuga illo veritatis voluptatem delectus laudantium, amet doloremque ab. Fuga obcaecati, id veritatis totam soluta
-                    minus reiciendis dolorem consectetur dolores rem ut culpa veniam. Minus numquam placeat quo itaque voluptatum mollitia, maxime reprehenderit ipsam.</p>
+                <h2>Nuestro objetivo</h2>
+                <p>Buscamos generar un espacio en el que tod@s l@s artistas puedan dar a conocer sus producciones o eventos para poder, de forma sencilla, conectarse con sus potenciales espectadores.  Para esto desarrollamos un sistema ágil de compra y venta de entradas, que permitirá a l@s usuarios/as acceder desde cualquier lugar y en todo momento a visualizar la agenda cultural de su ciudad.</p>
             </div>
             <div>
                 <img src="../img/pagina.png" />
-                <h2>Mas de nosotros</h2>
-                <p>Te invitamos a conocer <a href="http://enterspace.rf.gd/">nuestra pagina web</a></p>
+                <h2>Equipo de desarrollo</h2>
+                <p>Te invitamos a conocer mas de nuestra empresa <a href="http://enterspace.rf.gd/">ENTERspace</a></p>
             </div>
             <div>
                 <img src="../img/computadora.png" />
                 <h2>ENTERarte</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem saepe ducimus quibusdam nesciunt vitae vero blanditiis non. Reprehenderit quibusdam delectus consectetur ex consequuntur? Eveniet corrupti autem odio laudantium distinctio
-                    accusantium?
+                <p>El proyecto busca llegar a todas las personas interesadas difundir y/o en disfrutar de algún evento, ofreciendo todas las propuestas disponibles de forma libre y gratuita. Creemos en que el arte es una herramienta fundamental para la inclusión social y un eslabón imprescindible de la cultura popular.
+                                        
                 </p>
             </div>
         </div>
         <div class='contact'>
             <div class="contactText">
-                <h2>Contact us</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h2>Contactanos</h2>
+                <p>Si tenes dudas o sugerencias para nuestra pagina ENTERarte.</p>
                 <div class='contenedorRedes'>
-                    <h3>YOU CAN ALSO FOLLOW US ON FACEBOOK OR INSTAGRAM.OR BOTH.WHATEVER</h3>
+                    <h3>Tambien podes seguirnos en Facebook, en Instagram o mejor: en ambos!</h3>
                     <div class="iconos">
                         <a href="#"><img class="fc" src="../img/facebook.png" alt="facebook"></a>
                         <a href="#"><img src="../img/instagram.png" alt="instagram"></a>
@@ -132,16 +135,18 @@
 
 
                 <div class="column1">
-                    <h1> Mas informacion de la Compañia</h1>
+                    <h1> Más información de la Compañía</h1>
+
                     <p> EnterARTE ofrece a sus usuarios un abanico infinito de opciones para que el visitante se lleve la mejor de las experiencias.</p>
                     <a class="link-footer" href="./terms.html">Términos y condiciones</a><br><br>
-                    <a class="link-footer" href="./politic.html">Política y privacidad</a><br><br>
+                    <a class="link-footer" href="./politic.html">Política de privacidad</a><br><br>
                     <a class="link-footer" href="./faq.html">Preguntas frecuentes</a><br>
                 </div>
 
                 <div class="column2">
                     <h1> Redes Sociales</h1>
                     <div class="row">
+
                         <a class="link-footer" href="#"><img src="../img/face.jpg">
                         </a>
 
@@ -174,6 +179,7 @@
                     <div class="row2">
                         <a class="link-footer" href="#"> <img src="../img/correo.jpg">
                         </a>
+
                     </div>
                 </div>
 
@@ -184,5 +190,6 @@
         </div>
     </footer>
 </body>
-
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+<script src="../js/navUser.js"></script>
 </html>

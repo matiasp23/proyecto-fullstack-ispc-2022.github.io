@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>ENTERarte - Todo lo que busques está aquí</title>
+    <title>ENTERarte</title>
 
+    <!-- Icono en la pestaña -->
+    <link rel="shortcut icon" href="./img/Logo Enter Arte Solo PNG.png" />
     <!-- Bootstrap core CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
@@ -36,7 +38,8 @@
             <label for="check" class="checkbtn">
                 <img src="./img/navbar.png" id="navbar-img" alt="">
             </label>
-            <label class="logo"><span style="font-weight: normal;">ENTER</span>arte</label>
+            <label class="logo"><img class="logo-img" src="./img/Logo Enter Arte Solo PNG.png" alt=""><span style="font-weight: normal;">ENTER</span>arte</label>
+
             <ul>
                 <li><a href="home.html">Inicio</a></li>
 
@@ -84,13 +87,15 @@
         <!-- FOTO PRINCIPAL -->
         <section class="jumbotron text-center principal">
             <div class="m-5">
-                <h1></h1>
+                <h1 class="bienvenido-home">¡BIENVENID@S!</h1>
+                <h2 class="bienvenido-sub-home">Todos los eventos que buscás en un sólo lugar</h2>
             </div>
         </section>
 
         <h1 style="display: none;">ENTERarte</h1>
 
     </main>
+
     <section class="section">
 
         <!--DIV AGENDA-->
@@ -179,12 +184,9 @@
             </div>
         </div>
 
-        <!--DIV PUBLICIDAD-->
 
-        <div class="divbootstrap">
-            <!-- <h2 id="Titulo_Anuncio">Anuncios Publicitacios</h2> -->
 
-            <div class="card">
+            <div class="cardUno">
                 <img src="img/Jarrones-en-ceramica.png" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">TeBaS (tu cerámica)</h5>
@@ -193,16 +195,13 @@
                 </div>
             </div>
 
-            <div class="cardUno">
-                <img src="img/Ghost.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Curso de Cerámica</h5>
-                    <p class="card-text">Aprende el milenario arte de la alfarería . . . Balato Balato</p>
-                    <a href="#" class="btn btn-primary"> Recibir Información </a>
-                </div>
-            </div>
-        </div>
+        <!--DIV PUBLICIDAD-->
 
+
+        <div class="divbootstrap">          
+            <article id="results"></article>
+        </div>
+        
     </section>
 
     <!-- FOOTER -->
@@ -212,11 +211,11 @@
 
 
                 <div class="column1">
-                    <h1> Mas informacion de la Compañia</h1>
+                    <h1> Más información de la Compañía</h1>
 
                     <p> EnterARTE ofrece a sus usuarios un abanico infinito de opciones para que el visitante se lleve la mejor de las experiencias.</p>
                     <a class="link-footer" href="pages/terms.html">Términos y condiciones</a><br><br>
-                    <a class="link-footer" href="pages/politic.html">Política y privacidad</a><br><br>
+                    <a class="link-footer" href="pages/politic.html">Política de privacidad</a><br><br>
                     <a class="link-footer" href="pages/faq.html">Preguntas frecuentes</a><br>
                 </div>
 
@@ -275,6 +274,8 @@
     <script src="js/carrito.js"></script>
     <script src="js/search.js"></script>
     <script src="js/calendario.js"></script>
+    <script src="js/publis.js"></script>
+    <script src="js/publi.jsonp"></script>
 
 </body>
 
