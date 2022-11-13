@@ -12,7 +12,8 @@ El sitio será un producto diseñado para trabajar en entornos WEB, lo que permi
 
 ## Despliegue 📦
 
-El sitio web está en deploy en el siguiente link: [ENTERarte](https://matiasp23.github.io/proyecto-fullstack-ispc-2022.github.io/MVC/view/home.html)   
+El sitio web está en deploy en el siguiente link: [ENTERarte](https://matiasp23.github.io/proyecto-fullstack-ispc-2022.github.io/front/view/home.html)   
+
 El sitio web de nuestra organización hecho en Wordpress: [ENTERspace](http://enterspace.rf.gd/)  
 
 ## Construido con 🛠️
@@ -39,4 +40,3 @@ La demo (en proceso).
 * **Germán Villalba** - [Gerx2690](https://github.com/Gerx2690)
 * **Maria Ornela Ghezzi** - [ornela639251](https://github.com/ornela639251)
 
-También pueden mirar la lista de todos los [contribuyentes](https://github.com/matiasp23/proyecto-fullstack-ispc-2022/graphs/contributors) quíenes han participado en este proyecto.

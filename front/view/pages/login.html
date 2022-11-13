@@ -6,10 +6,16 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <title>ENTERarte - Todo lo que busques está aquí</title>
+
+    <title>ENTERarte</title>
+
+    <!-- Icono en la pestaña -->
+    <link rel="shortcut icon" href="../img/Logo Enter Arte Solo PNG.png" />
 
     <!-- Bootstrap core CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--SweetAlert-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.6.7/dist/sweetalert2.all.min.js"></script>
 
     <!--CSS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,14 +40,16 @@
             <label for="check" class="checkbtn">
                 <img src="../img/navbar.png" id="navbar-img" alt="">
             </label>
-            <label class="logo"><span style="font-weight: normal;">ENTER</span>arte</label>
-            <ul>
+          
+            <label class="logo"><img class="logo-img" src="../img/Logo Enter Arte Solo PNG.png" alt=""><span style="font-weight: normal;">ENTER</span>arte</label>
+            <ul id="app">
                 <li><a href="../home.html">Inicio</a></li>
                 <li><a href="event.html">Eventos</a></li>
                 <li><a href="post.html">Publicar</a></li>
                 <li><a href="about.html">Quienes somos</a></li>
                 <li><a href="profileUser.html">Mi Cuenta</a></li>
-                <li><a href="login.html">Login</a></li>
+                <li><a v-bind:href="url">{{ nombre }}</a></li>
+              
                 <ul class="navbar-right">
                     <!--PC-->
                     <li id="pc">
@@ -93,17 +101,17 @@
         <div class="contenedorLoginRegister">
             <form action="" class="formularioLogin">
                 <h2>Iniciar Sesión</h2>
-                <input type="text" placeholder="Correo Electronico">
-                <input type="password" placeholder="Contraseña">
-                <button>Entrar</button>
+                <input type="text" id="usuarioExistente" placeholder="Usuario">
+                <input type="password" id="contraseñaExistente"placeholder="Contraseña">
+                <button id="login">Entrar</button>
             </form>
             <form action="" class="formularioRegister">
                 <h2>Regístrarse</h2>
-                <input type="text" placeholder="Nombre Completo">
-                <input type="text" placeholder="Correo Electronico">
-                <input type="text" placeholder="Usuario">
-                <input type="password" placeholder="Contraseña">
-                <button>Registrarse</button>
+                <input type="text" id="nombre" placeholder="Nombre Completo" required>
+                <input type="text" id="correo" placeholder="Correo Electronico" required>
+                <input type="text" id="usuarioN" placeholder="Usuario" required maxlength="5">
+                <input type="password" id="contraseñaN" placeholder="Contraseña" required>
+                <button id="nuevoUsuario">Registrarse</button>
             </form>
         </div>
 
@@ -117,16 +125,18 @@
 
 
                 <div class="column1">
-                    <h1> Mas informacion de la Compañia</h1>
+                    <h1> Más información de la Compañía</h1>
+
                     <p> EnterARTE ofrece a sus usuarios un abanico infinito de opciones para que el visitante se lleve la mejor de las experiencias.</p>
                     <a class="link-footer" href="./terms.html">Términos y condiciones</a><br><br>
-                    <a class="link-footer" href="./politic.html">Política y privacidad</a><br><br>
+                    <a class="link-footer" href="./politic.html">Política de privacidad</a><br><br>
                     <a class="link-footer" href="./faq.html">Preguntas frecuentes</a><br>
                 </div>
 
                 <div class="column2">
                     <h1> Redes Sociales</h1>
                     <div class="row">
+                      
                         <a class="link-footer" href="#"><img src="../img/face.jpg">
                         </a>
 
@@ -159,6 +169,7 @@
                     <div class="row2">
                         <a class="link-footer" href="#"> <img src="../img/correo.jpg">
                         </a>
+
                     </div>
                 </div>
 
@@ -169,13 +180,16 @@
         </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
     <script src="../js/jquery-3.4.1.min.js"></script>
-    <script src="../js/bootstrap.bundle.min.js"></script>
     <script src="../js/init.js"></script>
+    <script src="../js/navUser.js"></script>
+    <script src="../js/newUser.js"></script>
+    <script src="../js/login.js"></script>
     <script src="../js/category-info.js"></script>
     <script src="../js/carrito.js"></script>
     <script src="../js/search.js"></script>
-    <script src="../js/login.js"></script>
+
 </body>
 
 </html>

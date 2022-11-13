@@ -15,9 +15,10 @@
 }
 
 .sectionInfo {
+    margin-right: -40%;
+    margin-left: -40%;
     padding-top: 11vh;
     padding-bottom: 11vh;
-    background-color: rgba(226, 78, 66, .4);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,6 +37,8 @@
     font-size: 1.5rem;
     border-radius: 5px;
     padding: 1%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 143, 149, 0.6110819327731092) 0%);
+
 }
 
 .listInfo ul li {
@@ -48,5 +51,19 @@
 @media (max-width: 960px) {
     .sectionInfo {
         flex-direction: column;
+        padding-bottom: 20vh;
+    }
+}
+
+@media (max-width: 599px) {
+    .sectionInfo {
+        flex-direction: column;
+    }
+    .imgInfo img {
+        height: auto;
+        width: 75%;
+        margin-left: 50px;
+        border-radius: 15px;
+
     }
 }
