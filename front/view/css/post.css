@@ -71,3 +71,11 @@
     cursor: pointer;
     outline: none;
 }
+
+
+.titulo-clase{
+    color: black;
+}
+.confirmButton-clase{
+    color:#EB6E80;
+}

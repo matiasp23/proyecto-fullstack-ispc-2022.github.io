@@ -1,13 +1,30 @@
+$(document).ready(
+
+    $.ajax({
+      url:"../js/json.json", 
+
+    success: function (info){
+      var data = info.response
+      misEventos(data)
+      
+      console.log(data);
+
+    }
+
+})
+
+)
+
+
+
 var evento=[];
 
-fetch("../js/json.json")
-    .then(res => res.json()) // el método .json() analiza la respuesta JSON en un objeto literal JS
-    .then(data => misEventos(data));
 
 /*funcion para agregar un objeto evento al Json*/
 function agregarEvento(xnombre,xfecha,xgenero,xcategoria,xprovincia,xlocalidad,xcalle,xnumero,xredessociales,xdescripcionevento){
     
     var nuevoEvento=
+    
     {
         nombre : xnombre,
         fecha : xfecha,
@@ -20,54 +37,56 @@ function agregarEvento(xnombre,xfecha,xgenero,xcategoria,xprovincia,xlocalidad,x
         redes : xredessociales,
         descripcion : xdescripcionevento
     };
-    evento.push(JSON.stringify(nuevoEvento));
+    
+    /*evento.push(JSON.stringify(nuevoEvento));*/
     /*evento.push(nuevoEvento);*/
-    localStorage.setItem("usuario", JSON.stringify(evento));
-    console.log(evento);
+    localStorage.setItem("eventos", JSON.stringify(nuevoEvento));
     
-    
-};
 
 
-function misEventos(data){
+    /*var stringArreglo = localStorage.getItem("eventos");
+    var arreglo =JSON.parse(stringArreglo);
+    localStorage.setItem("eventos", arreglo)*/
+    }
+    
+
+
+
+function misEventos(event){
 
     var app = new Vue({
         el: "#app",
-        data: {eventos:[]} })   
-}
-app.eventos.push(evento)
-let getitem = JSON.parse(localStorage.getItem("usuario"))
-console.log(localStorage.getItem("usuario"));
+        data: {eventos:[],
+                evento1:[],
+                 event:[]}
+        
+    }) 
+    
+    /*app.eventos.push(event)*/
 
+    for (i=0; i <= event.length-1; i++){
+         app.eventos.push(event[i]);
+        
+      }
 
-/*function crearEvento(){
+    if (localStorage.getItem("eventos")!=0){
+        app.evento1= app.evento1 + JSON.parse(localStorage.getItem("eventos"));
+
+        
+    }
    
-    document.getElementById("nuevo-evento").addEventListener("click", nuevoEvento,false);
-}
-console.log("hola")
-
-function nuevoEvento(event){
-    event.preventDefault();
-    var nombre=document.getElementById("Nombre del Evento").value;
-    var fechaevento=document.getElementByplaceholder("Fecha").value;
-    var generoevento=document.getElementByplaceholder("Genero").value;
-    var categoriaevento=document.getElementByplaceholder("Categoria").value;
-    /*var imgevento=document.getElementByplaceholder("foto").value;
-    var provinciaevento=document.getElementByplaceholder("Provincia").value;
-    var localidadevento=document.getElementByplaceholder("Localidad").value;
-    var calleevento=document.getElementByplaceholder("Calle").value;
-    var numeroevento=document.getElementByplaceholder("Numero").value;
-    var redesevento=document.getElementByplaceholder("Redes Sociales").value;
-    var descripcion=document.getElementByplaceholder("Descripcion del evento").value;
-
-    var eventoNuevo={ nombredeeevento:nombre, fecha:fechaevento,genero:generoevento,
-                    categoria:categoriaevento,img:imgevento,provincia:provinciaevento,
-                    localidad:localidadevento,calle:calleevento,numero:numeroevento,
-                redessociales:redesevento,descripcionevento:descripcion};
+    /*app.event= Object.assign(app.evento1);
     
-    Eventos.push(eventoNuevo);
-    
- 
+    app.eventos=app.eventos+app.event
+
+    console.log(app.event)
+    console.log(app.evento1)
+    console.log(app.eventos)*/
 }
 
-console.log(Eventos);*/
+console.log(localStorage.getItem("eventos"));
+
+
+
+
+
