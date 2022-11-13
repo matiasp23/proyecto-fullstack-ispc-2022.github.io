@@ -38,6 +38,7 @@
     border-radius: 5px;
     padding: 1%;
     background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 143, 149, 0.6110819327731092) 0%);
+
 }
 
 .listInfo ul li {
@@ -63,5 +64,6 @@
         width: 75%;
         margin-left: 50px;
         border-radius: 15px;
+
     }
 }
