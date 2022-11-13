@@ -27,7 +27,7 @@ Metodologías ágiles.
 
 Pueden encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/matiasp23/proyecto-fullstack-ispc-2022/wiki)  
 Documentación de reuniones.  
-La demo (en proceso).  
+La demo.  
 
 ## Autores ✒️
 
