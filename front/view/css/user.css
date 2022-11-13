@@ -37,11 +37,9 @@
     text-align: center;
     font-size: 8vh;
     color: rgb(0, 0, 0);
-    border-bottom: 3px solid #EB6E80;  
+    border-bottom: 3px solid #EB6E80;
     font-family: 'Poppins';
-         
 }
-
 
 .infoUser {
     margin-left: 20px;
@@ -89,11 +87,14 @@
     font-family: 'Poppins';
     font-size: 16px;
     outline: none;
-    background-color:#008F95;
-  }
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+}
 
-@media (max-width: 760px){
-    .contenedor{
+@media (max-width: 760px) {
+    .contenedor {
         flex-direction: column;
     }
     .infoUser {
