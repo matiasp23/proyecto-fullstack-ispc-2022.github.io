@@ -1,0 +1,155 @@
+/*Colores
+#E24E42 Papaya
+#E9B000 Mustard
+#EB6E80 Blush
+#008F95 aqua
+*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+section{
+    padding-top:12vh;
+}
+.contenedorPago{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 580px;
+    left: 10px;
+    margin: auto;
+    margin-bottom: 10vh;
+    box-shadow: 1px 2px 5px #0003;
+    transition:left 500ms cubic-bezier(0.175, 0.885, 0.320, 1.275);
+}
+.contenedorPago{
+    width: 100%;
+    padding: 80px 20px;
+    background:#fff;
+    border-radius: 20px;
+}
+.tituloMedios{
+    margin-bottom: 5%;
+}
+.botoneraPago {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5%;
+    flex-wrap: wrap;
+}
+.pago {
+    height: 10vh;
+    width: auto;
+    padding-left: 3vh;
+    padding-right: 3vh;
+    margin-bottom: 3vh;
+    font-size: 16px;
+    background-color: white;
+    box-shadow: 1px 2px 5px #0003;
+    border-color: #EB6E80;
+    color:#EB6E80
+}
+.pago:hover {
+    background-color: #008F95;
+    border-color: #008F95;
+    color: white;
+}
+.formularioPago{
+    display: flex;
+    justify-content: flex-start;
+
+}
+.formularioPago form input,
+.formularioPago form textarea{
+    width: 60%;
+    margin-top: 20px;
+    padding:10px;
+    border: none;
+    background: #f2f2f2;
+    font-size: 16px;
+    outline:none;
+}
+.formularioPago form button{
+   padding:10px 40px;
+   margin-top: 40px;
+   border: none;
+   font-size: 14px;
+   background: #EB6E80;
+   color: white;
+   cursor: pointer;
+   outline: none;
+}
+.formularioPago form button:hover{
+    background: #008F95;
+    color: white;
+    cursor: pointer;
+    outline: none;
+ }
+ .labels {
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    padding: 5px;
+    vertical-align: center;
+    margin-top: 10px;
+  }
+  
+  .centerTab {
+    display: flex;
+    text-align: left;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: baseline;
+  }
+  
+  .input-field {
+    height: 20px;
+    width: 280px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+  }
+  
+  .userRatings,
+  input[type="checkbox"] {
+    float: left;
+    margin-right: 5px;
+    margin-top: 5px;
+  }
+  .radio, .checkbox {
+    position: relative;
+    right: 30px;
+    margin-left: 0px;
+    display: block;
+    padding-bottom: 10px;
+  }
+  .submitButton {
+    margin-top: 15%;
+  }
+  .submitBtn {
+    font-size: 14px;
+    padding: 10px 40px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color:black;
+  }
+  .submitBtn:hover {
+    padding: 12px 42px;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+  }

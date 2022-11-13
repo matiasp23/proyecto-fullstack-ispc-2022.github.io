@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medios de pago</title>
+
+    <!--CSS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/pago.css">
+    <link rel="stylesheet" href="../css/footer.css">
+</head>
+
+<body>
+    <!--HEADER-->
+    <header>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+                </label>
+            <label class="logo"><span style="font-weight: normal;">ENTER</span>arte</label>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./event.html">Eventos</a></li>
+                <li><a href="./post.html">Publicar</a></li>
+                <li><a href="./about.html">Quienes somos</a></li>
+                <li><a href="./profileUser.html">Mi Cuenta</a></li>
+                <ul class="navbar-right">
+                    <!--PC-->
+                    <!-- <li id="pc"><a href="./cart.html" id="cart"><i class="fa fa-shopping-cart"></i> Carrito <span class="badge"></span></a></li> -->
+                    <!--MOVIL-->
+                    <li id="movil"><a href="./cart.html"><i class="fa fa-shopping-cart"></i> Carrito <span class="badge"></span></a></li>
+                    <!--</ul>-->
+                </ul>
+                <li id="app"><a v-bind:href="url">{{ nombre }}</a></li>
+            </ul>
+        </nav>
+
+        <!-- <div class="conteiner">
+            <div class="shopping-cart">
+                <div class="shopping-cart-header">
+                    <i class="fa fa-shopping-cart cart-icon"></i><span class="badge"></span>
+                    <div class="shopping-cart-total">
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </header>
+    <!--SECTION-->
+    <section>
+        <div class ="contenedorPago">
+            <h2 class="tituloMedios">Medios de pago</h2>
+            <!--<div class="botoneraPago">
+                <button type="button" class="pago efectivo">Efectivo</button>
+                <button type="button" class="pago debito">Tarjeta de debito</button>
+                <button type="button" class="pago credito">Tarjeta de credito</button>
+                <button type="button" class="pago mp">Mercado Pago</button>
+            </div>-->
+            <div class="rowTab">
+                <div class="centerTab">
+                  <ul>
+                    <li class="radio"><label>Tarjeta debito<input name="radio-buttons" value="1"  type="radio" class="userRatings" checked></label></li>
+                    <li class="radio"><label>Tarjeta credito<input name="radio-buttons" value="2"  type="radio" class="userRatings" ></label></li>
+                    <li class="radio"><label>Mercado pago<input name="radio-buttons" value="3"  type="radio" class="userRatings" ></label></li>    
+                </ul>
+                </div>  
+            </div>
+            <div class="formularioPago">
+                <form action="">
+                    <input type="text" placeholder="Cupon de descuento">
+                    <button>Validar</button>
+                </form>
+            </div>
+            <div class="submitButton">
+                <button type="submit" class="submitBtn">Pagar</button>
+            </div>
+        </div>
+    </section>
+    <!--FOOTER-->
+    <footer>
+        <div class="container-footer-all">
+            <div class="container-body">
+
+
+                <div class="column1">
+                    <h1> Mas informacion de la Compañia</h1>
+                    <p> EnterARTE ofrece a sus usuarios un abanico infinito de opciones para que el visitante se lleve la mejor de las experiencias.
+
+                    </p>
+                </div>
+
+                <div class="column2">
+                    <H1> Redes Sociales</H1>
+                    <div class="row">
+                        <img src="../img/face.jpg">
+                        <label> Facebook </label>
+                    </div>
+                    <div class="row">
+                        <img src="../img/insta.jpg">
+                        <label> Instagram </label>
+                    </div>
+                    <div class="row">
+                        <img src="../img/twitter.jpg">
+                        <label> Twitter </label>
+                    </div>
+
+                </div>
+
+
+                <div class="column3">
+
+                    <h1> Información Contactos</h1>
+                    <div class="row2">
+                        <img src="../img/casa.jpg">
+                        <label> Contamos con los siguientes medios de comunicación:</label>
+                    </div>
+
+                    <div class="row2">
+                        <img src="../img/whatsapp.jpg">
+                        <label> Cel. 2494-454541 </label>
+                    </div>
+
+                    <div class="row2">
+                        <img src="../img/correo.jpg">
+                        <label> correo electronico: enterarte@hotmail.com </label>
+                    </div>
+                </div>
+
+            </div>
+            <div class="container-footer">
+                <div class="copyright"> © 2022 EnterArte, Inc.</div>
+            </div>
+        </div>
+        </div>
+    </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+<script src="../js/navUser.js"></script>
+</html>
