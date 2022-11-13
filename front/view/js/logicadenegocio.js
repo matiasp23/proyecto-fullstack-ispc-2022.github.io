@@ -1,7 +1,7 @@
 $(document).ready(
 
     $.ajax({
-      url:"../js/json.json", 
+       url:"../js/event.json",
 
     success: function (info){
       var data = info.response
@@ -64,7 +64,7 @@ function misEventos(event){
     
     /*app.eventos.push(event)*/
 
-    for (i=0; i <= event.length-1; i++){
+    for (i=0; i<= event.length-1; i++){
          app.eventos.push(event[i]);
         
       }

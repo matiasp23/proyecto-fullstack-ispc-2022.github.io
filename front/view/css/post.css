@@ -73,9 +73,10 @@
 }
 
 
-.titulo-clase{
-    color: black;
+.titulo{
+    color:black;
 }
-.confirmButton-clase{
-    color:#EB6E80;
+
+.popup{
+    border-radius: 0;
 }
