@@ -1,7 +1,7 @@
 $(document).ready(
 
     $.ajax({
-        url: "../js/json.json",
+        url:"../js/evento.json",
 
         success: function(info) {
             var data = info.response
