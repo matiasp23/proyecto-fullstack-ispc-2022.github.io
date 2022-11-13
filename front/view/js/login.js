@@ -8,7 +8,7 @@ var formularioLogin = document.querySelector(".formularioLogin")
 var formularioRegister = document.querySelector(".formularioRegister")
 var cajaTraseraLogin = document.querySelector(".cajaTraseraLogin")
 var cajaTraseraRegister = document.querySelector(".cajaTraseraRegister")
-
+let usuarioLogueado
 function anchoPagina(){
     if(window.innerWidth > 850){
         cajaTraseraLogin.style.display = "block";
@@ -55,3 +55,114 @@ function register(){
         cajaTraseraLogin.style.opacity = "1";
     }
 }
+/*baseDeDatos = localStorage.getItem("sistema-de-login")
+
+if(!baseDeDatos){
+    cargarDatosIniciales()
+}
+function cargarDatosIniciales(){
+    baseDeDatos = {
+        1:{
+          email:"tay@gmail.com",
+          contraseña: "abc",
+          nombre:"Tay Villarreal",
+          usuario:"Tay"
+        },
+        2:{
+           email:"geo@gmail.com",
+           contraseña: "abc",
+           nombre:"Geo Villarreal",
+           usuario:"Geo"
+        },
+        3:{
+           email:"fran@gmail.com",
+           contraseña: "abc",
+           nombre:"Fran Villarreal",
+           usuario:"Fran"
+        }
+   }
+}
+document.getElementById("login").addEventListener("click", login);
+function login(){
+      let usuario = document.getElementById("usuario").value
+      let contraseña = document.getElementById("contraseña").value
+      if(!usuario){
+          alert("No hay usuario")
+      }
+      if(!contraseña){
+        alert("No hay contraseña")
+    }
+    let datos = baseDeDatos[usuario]
+    if(!datos){
+        alert("El usuario no existe");
+    }
+    if (datos.contraseña != contraseña) {
+        alert("Contraseña incorrecta");
+    }
+    if(usuario === usuario & contraseña === contraseña){
+        alert(`Bienvenido`+{usuario})
+    }
+    usuarioLogueado = datos
+}   */
+//Register
+var usuariosLogueados = [];
+
+function nuevoUsuario(nombreCompletoUs,correoUs,usuarioUs,contraseñaUs){
+    var newUser ={
+         nombre: nombreCompletoUs,
+         correo: correoUs,
+         usuario: usuarioUs,
+         contraseña: contraseñaUs
+    };
+    console.log(newUser)
+    usuariosLogueados.push(newUser)
+    localStorageUserList(usuariosLogueados)
+    console.log(usuariosLogueados)
+    alert("Ahora inicie sesion con su usuario")
+}
+console.log(localStorage.getItem("localListUser"))
+console.log(localStorage.getItem("usuarioLog"))
+function getUser (){
+    var storeList= localStorage.getItem("localListUser");
+    console.log(storeList);
+    if(storeList == null){
+        usuariosLogueados = [];
+    }else{
+        usuariosLogueados= JSON.parse(storeList);
+    }
+    return usuariosLogueados
+}
+function localStorageUserList(usuariosLogueados){
+    localStorage.setItem("localListUser", JSON.stringify(usuariosLogueados));
+}
+//Login
+
+function usuarioExistente(usuarioEx, contraseñaEx){
+    var usuario={
+    usuarioL : usuarioEx,
+    contraseñaL: contraseñaEx
+    }
+    login(usuario)
+
+    console.log(usuario)
+    alert("usuario")
+}
+function login(usuario){
+    usuariosLogueados = JSON.parse(localStorage.getItem("localListUser"))
+    for (i=0; i <= usuariosLogueados.length-1; i++){
+        if(usuariosLogueados != null) {
+          if(usuariosLogueados[i].usuario === usuario.usuarioL & usuariosLogueados[i].contraseña === usuario.contraseñaL){
+              localStorage.setItem("usuarioLog", JSON.stringify(usuario))
+              window.location.href = '../home.html';
+              alert("Bienvenid@ "+(usuario.usuarioL))
+          }else{
+              alert("usuario o contraseña incorrecto")
+          }
+        } else {
+            alert("no hay usuarios registrados")
+        }
+    }
+}
+
+
+
