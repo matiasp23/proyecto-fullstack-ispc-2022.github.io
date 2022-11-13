@@ -54,6 +54,7 @@ function register(){
         cajaTraseraLogin.style.display = "none"
         cajaTraseraLogin.style.opacity = "1";
     }
+
 }
 //Register
 var usuariosLogueados = [];
@@ -114,4 +115,5 @@ function login(usuario){
         }
     }
 }
+
 
