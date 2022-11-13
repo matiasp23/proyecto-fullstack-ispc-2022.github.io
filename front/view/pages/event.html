@@ -43,7 +43,7 @@
                 <li><a href="post.html">Publicar</a></li>
                 <li><a href="about.html">Quienes somos</a></li>
                 <li><a href="profileUser.html">Mi Cuenta</a></li>
-                <li><a href="login.html">Login</a></li>
+                <li id="app"><a v-bind:href="url">{{ nombre }}</a></li>
                 <ul class="navbar-right">
                     <!--PC-->
                     <li id="pc">
@@ -117,23 +117,6 @@
                 <div class='btn btn_comprar'>Comprar</div>
                 <div class='btn btn_agregar' style="left:10px;">Agregar al Carrito</div>
             </div>
-
-            <div class='product' category="musica">
-                <img src='../img/event1.jpeg'>
-                <h2 class='header'>Musica 1</h2>
-                <p class='description'>Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
-                <p class='price'> 523,-</p>
-                <div class='quickview' style="top:265px;">
-                    <a href="cartInfo.html">Info</a>
-                </div>
-                <div class='btn btn_comprar'>Comprar</div>
-                <div class='btn btn_agregar' style="left:10px;">Agregar al Carrito</div>
-            </div>
-            <div class='product' category="artesvisuales">
-                <img src='../img/event2.jpeg'>
-                <h2 class='header'>Artes Visuales 1</h2>
-                <p class='description'>Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
-                <p class='price'> 223,-</p>
                 <div class='quickview' style="top:265px;">
                     <a href="cartInfo.html">Info</a>
                 </div>
@@ -145,7 +128,6 @@
                 <h2 class='header'>Infantiles 1</h2>
                 <p class='description' id="celulares">Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
                 <p class='price'> 723,-</p>
-                <div class='quickview' style="top:265px;">
                     <a href="cartInfo.html">Info</a>
                 </div>
                 <div class='btn btn_comprar'>Comprar</div>
@@ -374,7 +356,8 @@
             </div>
         </div>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+    <script src="../js/navUser.js"></script>
     <script src="../js/jquery-3.4.1.min.js "></script>
     <script src="../js/botonera.js"></script>
     <!-- Bootstrap core JS -->

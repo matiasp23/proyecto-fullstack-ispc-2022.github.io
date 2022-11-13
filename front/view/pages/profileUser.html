@@ -4,10 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ENTERarte</title>
-
-    <!-- Icono en la pestaña -->
-    <link rel="shortcut icon" href="../img/Logo Enter Arte Solo PNG.png" />
+    <title>ENTERarte - Todo lo que busques está aquí</title>
 
     <!--CSS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,14 +30,14 @@
             <label for="check" class="checkbtn">
                 <img src="../img/navbar.png" id="navbar-img" alt="">
             </label>
-            <label class="logo"><img class="logo-img-user" src="../img/Logo Enter Arte Solo PNG.png" alt=""><span style="font-weight: normal;">ENTER</span>arte</label>
+            <label class="logo"><span style="font-weight: normal;">ENTER</span>arte</label>
             <ul>
                 <li><a href="../home.html">Inicio</a></li>
                 <li><a href="event.html">Eventos</a></li>
                 <li><a href="post.html">Publicar</a></li>
                 <li><a href="about.html">Quienes somos</a></li>
                 <li><a href="profileUser.html">Mi Cuenta</a></li>
-                <li><a href="login.html">Login</a></li>
+                <li id="app"><a v-bind:href="url">{{ nombre }}</a></li>
                 <ul class="navbar-right">
                     <!--PC-->
                     <li id="pc">
@@ -75,24 +72,18 @@
     </header>
     <br> <br>
     <!--SECTION-->
-    <!--SECTION-->
     <section>
         <div class="contenedor">
-
             <h1 class="titleUser">Mi Usuario</h1>
-
             <div class="infoUser">
                 <div class="user">
                     <img src="../img/user.png" alt="">
-
-                    <form>
-                        <p> <input type="text" class="sinBorde" value="Nombre" placeholder="Nombre" required id="nombre" disabled> </p>
-                        <p> <input type="text" class="sinBorde" value="Apellido" placeholder="Apellido" required id="apellido" disabled> </p>
-                        <p> <input type="text" class="sinBorde" value="Email" placeholder="Email" required id="email" disabled> </p>
-                        <p> <input type="text" class="sinBorde" value="Fecha de Nacimiento" placeholder="Fecha de Nacimiento" required id="fechanac" disabled> </p>
-                        <p> <input type="text" class="sinBorde" value="Usuario" placeholder="Usuario" required id="usuario" disabled> </p>
-                        <button type="button" id="editar" onclick="FbotonOn(this) ;habilitar()">Editar</button>
-                    </form>
+                    <p>Nombre</p>
+                    <p>Apellido</p>
+                    <p>Email</p>
+                    <p>Fecha de Nacimiento</p>
+                    <p>Usuario</p>
+                    <button>Editar</button>
                 </div>
             </div>
         </div>
@@ -104,18 +95,16 @@
 
 
                 <div class="column1">
-                    <h1> Más información de la Compañía</h1>
-
+                    <h1> Mas informacion de la Compañia</h1>
                     <p> EnterARTE ofrece a sus usuarios un abanico infinito de opciones para que el visitante se lleve la mejor de las experiencias.</p>
                     <a class="link-footer" href="./terms.html">Términos y condiciones</a><br><br>
-                    <a class="link-footer" href="./politic.html">Política de privacidad</a><br><br>
+                    <a class="link-footer" href="./politic.html">Política y privacidad</a><br><br>
                     <a class="link-footer" href="./faq.html">Preguntas frecuentes</a><br>
                 </div>
 
                 <div class="column2">
                     <h1> Redes Sociales</h1>
                     <div class="row">
-
                         <a class="link-footer" href="#"><img src="../img/face.jpg">
                         </a>
 
@@ -148,7 +137,6 @@
                     <div class="row2">
                         <a class="link-footer" href="#"> <img src="../img/correo.jpg">
                         </a>
-
                     </div>
                 </div>
 
@@ -158,10 +146,7 @@
             </div>
         </div>
     </footer>
-
-    <script src="../js/jquery-3.4.1.min.js "></script>
-    <script src="../js/user.js"></script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </body>
-
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+<script src="../js/navUser.js"></script>
 </html>

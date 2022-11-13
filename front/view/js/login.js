@@ -55,3 +55,63 @@ function register(){
         cajaTraseraLogin.style.opacity = "1";
     }
 }
+//Register
+var usuariosLogueados = [];
+
+function nuevoUsuario(nombreCompletoUs,correoUs,usuarioUs,contraseñaUs){
+    var newUser ={
+         nombre: nombreCompletoUs,
+         correo: correoUs,
+         usuario: usuarioUs,
+         contraseña: contraseñaUs
+    };
+    console.log(newUser)
+    usuariosLogueados.push(newUser)
+    localStorageUserList(usuariosLogueados)
+    console.log(usuariosLogueados)
+    alert("Ahora inicie sesion con su usuario")
+}
+console.log(localStorage.getItem("localListUser"))
+console.log(localStorage.getItem("usuarioLog"))
+function getUser (){
+    var storeList= localStorage.getItem("localListUser");
+    console.log(storeList);
+    if(storeList == null){
+        usuariosLogueados = [];
+    }else{
+        usuariosLogueados= JSON.parse(storeList);
+    }
+    return usuariosLogueados
+}
+function localStorageUserList(usuariosLogueados){
+    localStorage.setItem("localListUser", JSON.stringify(usuariosLogueados));
+}
+//Login
+
+function usuarioExistente(usuarioEx, contraseñaEx){
+    var usuario={
+    usuarioL : usuarioEx,
+    contraseñaL: contraseñaEx
+    }
+    login(usuario)
+
+    console.log(usuario)
+    alert("usuario")
+}
+function login(usuario){
+    usuariosLogueados = JSON.parse(localStorage.getItem("localListUser"))
+    for (i=0; i <= usuariosLogueados.length-1; i++){
+        if(usuariosLogueados != null) {
+          if(usuariosLogueados[i].usuario === usuario.usuarioL & usuariosLogueados[i].contraseña === usuario.contraseñaL){
+              localStorage.setItem("usuarioLog", JSON.stringify(usuario))
+              window.location.href = '../home.html';
+              alert("Bienvenid@ "+(usuario.usuarioL))
+          }else{
+              alert("usuario o contraseña incorrecto")
+          }
+        } else {
+            alert("no hay usuarios registrados")
+        }
+    }
+}
+
