@@ -37,7 +37,7 @@
             <label for="check" class="checkbtn">
                 <img src="../img/navbar.png" id="navbar-img" alt="">
             </label>
-          
+
             <label class="logo"><img class="logo-img" src="../img/Logo Enter Arte Solo PNG.png" alt=""><span style="font-weight: normal;">ENTER</span>arte</label>
 
             <ul>
@@ -88,7 +88,6 @@
 
     <section class="sectionEvent" id="eventos">
 
-
         <div class="botonera">
             <button type="button" class="boton teatro" category="teatro">Teatro</button>
             <button type="button" class="boton musica" category="musica">Musica</button>
@@ -105,12 +104,11 @@
             <br>
             <h2 style="font-size: 2rem; font-family: sans-serif;">PRÓXIMOS</h2>
         </div>
-
         <div class='containerCarrito' id="app">
             <br><br><br><br>
 
             <!--EVENTOS-->
-            <div  v-for="evento in eventos" class='product' category="teatro">
+            <!-- <div v-for="evento in eventos" class='product' category="teatro">
                 <img v-bind:src="evento.img">
                 <h2 class='header'>{{evento.nombre}}</h2>
                 <p class='description'>{{evento.descripcion}}</p>
@@ -120,7 +118,7 @@
                 </div>
                 <div class='btn btn_comprar'>Comprar</div>
                 <div class='btn btn_agregar' style="left:10px;">Agregar al Carrito</div>
-            </div>
+            </div> -->
 
             <div class='product' category="musica">
                 <img src='../img/event1.jpeg'>
@@ -157,10 +155,7 @@
                 <div class='btn btn_comprar'>Comprar</div>
                 <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div>
             </div>
-            <hr>
-
-
-            SEMANALES 
+            <hr> SEMANALES
 
             <h2 style="font-size: 2rem; font-family: sans-serif; color: black; ">SEMANALES</h2>
             <div class='product' category="teatro">
@@ -208,10 +203,7 @@
                 <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div>
             </div>
 
-            <hr>
-
-
-             MENSUALES 
+            <hr> MENSUALES
 
             <h2 style="font-size: 2rem; font-family: sans-serif; color:black; ">MENSUALES</h2>
             <div class='product' category="teatro">
@@ -259,58 +251,55 @@
                 <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div>
             </div>
 
-            <hr>
-
-
-             ESPACIOS CULTURALES 
+            <hr> ESPACIOS CULTURALES
 
             <h2 style="font-size: 2rem; font-family: sans-serif; color:black ">ESPACIOS CULTURALES</h2>
             <div class='product' category="teatro">
                 <img src='../img/event2.jpeg'>
                 <h2 class='header'>Teatro 4</h2>
                 <p class='description'>Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
-                 <p class='price' style="margin-top: 45px; "> 231,</p> 
+                <p class='price' style="margin-top: 45px; "> 231,</p>
                 <div class='quickview' style="top:265px;">
                     <a href="cartInfo.html">Info</a>
                 </div>
-                 <div class='btn btn_comprar'>Comprar</div>
-            <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div>
+                <div class='btn btn_comprar'>Comprar</div>
+                <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div>
 
             </div>
             <div class='product' category="musica">
                 <img src='../img/event3.jpeg'>
                 <h2 class='header'>Musica 4</h2>
                 <p class='description'>Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
-                 <p class='price' style="margin-top: 45px; "> 231,</p> 
+                <p class='price' style="margin-top: 45px; "> 231,</p>
                 <div class='quickview' style="top:265px;">
                     <a href="cartInfo.html">Info</a>
                 </div>
-                 <div class='btn btn_comprar'>Comprar</div>
-            <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div> 
+                <div class='btn btn_comprar'>Comprar</div>
+                <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div>
 
             </div>
             <div class='product' category="artesvisuales">
                 <img src='../img/event4.jpeg'>
                 <h2 class='header'>Artes visuales 4</h2>
                 <p class='description'>Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
-                 <p class='price' style="margin-top: 45px; "> 231,</p> 
+                <p class='price' style="margin-top: 45px; "> 231,</p>
                 <div class='quickview' style="top:265px;">
                     <a href="cartInfo.html">Info</a>
                 </div>
-                 <div class='btn btn_comprar'>Comprar</div> 
-                 <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div> 
+                <div class='btn btn_comprar'>Comprar</div>
+                <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div>
             </div>
             <div class='product' category="infantiles">
                 <img src='../img/event5.jpeg'>
                 <h2 class='header'>Infantiles 4</h2>
                 <p class='description' id="electrodomesticos ">Nullam posuere turpis vel lacinia luctus. Donec in efficitur neque. Curabitur consectetur non ipsum in eleifend. </p>
-                 <p class='price' style="margin-top: 45px; "> 231,</p> 
+                <p class='price' style="margin-top: 45px; "> 231,</p>
                 <div class='quickview' style="top:265px;">
                     <a href="cartInfo.html">Info</a>
                 </div>
-                 <div class='btn btn_comprar'>Comprar</div>
+                <div class='btn btn_comprar'>Comprar</div>
 
-            <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div> -->
+                <div class='btn btn_agregar' style="left:10px; ">Agregar al Carrito</div> -->
             </div>
             <hr>
         </div>
@@ -347,7 +336,7 @@
                 <div class="column2">
                     <h1> Redes Sociales</h1>
                     <div class="row">
-                      
+
                         <a class="link-footer" href="#"><img src="../img/face.jpg">
                         </a>
 
@@ -402,10 +391,7 @@
     <script src="../js/search.js "></script>
     <script src="../js/logicadenegocio.js"></script>
     <script src="../js/logica.js"></script>
-  
-</body>
 
-</html>
 </body>
 
 </html>

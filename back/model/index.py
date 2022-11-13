@@ -1,6 +1,7 @@
 import mysql.connector
 from mysql.connector import Error
 
+
 # Registro de usuarios con clases
 class Init():
 
